@@ -1,0 +1,375 @@
+Entry,Intro1,,,,,,,Evelyn,EvelynDesk
+Intro1,Intro2,,"(Evelyn waves at you.)  It is a pleasure to see you, PlayerName.",DialogLoveGreater(5),,,,,EvelynDeskHappy
+Intro1,Intro2,,"(Evelyn looks at you.)  There you are, young lady.","DialogLoveBetween(-4, 4)",,,,,
+Intro1,Intro2,,(Evelyn looks at you and frowns.)  It's you?  Let's do this quickly.,DialogLoveLower(-5),,,,,EvelynDeskAngry
+Intro2,Intro3,,"Please come closer, our biweekly meeting is required.",DialogDominationGreater(-5),,,,,
+Intro2,Intro3,,"Come here, our biweekly is required.",DialogDominationLower(-6),,,,,
+Intro3,Intro4,,,,,,,,TeacherEvelynDesk
+Intro4,IntroNormal1,,A thorough analysis of your work is once again required.,"DialogCurrentDS(""Evelyn"", """")",,,,,
+Intro4,IntroDom1,,"(She lowers her voice.)  Miss PlayerName, I trust that you remember our agreement.","DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,EvelynDeskShush
+Intro4,IntroSub1,,"(She lowers her voice.)  My submissive girl, I trust that you remember our agreement.","DialogCurrentDS(""Evelyn"", ""Dom"")",,,,,EvelynDeskShush
+IntroNormal1,Intro5,,(She keeps her voice low.)  Let's not talk about that chaste day I had to endure.,"LogQuery(""Evelyn"", ""OfficeBeltDay"")",,,,,EvelynDeskShush
+IntroNormal1,Intro5,,Our college has high standards that we must comply to.,"!LogQuery(""Evelyn"", ""OfficeBeltDay"")",,,,,
+IntroDom1,IntroDom2,,"I am your submissive outside of college, but on these grounds, I am your director.",,,,,,
+IntroDom2,Intro5,,Being professional is of the upmost importance for our careers.,,,,,,
+IntroSub1,IntroSub2,,"You fully submit to me outside of college, but on these grounds, I am your director and nothing else.",,,,,,
+IntroSub2,Intro5,,Being professional is of the upmost importance for our careers.,,,,,,
+Intro5,Intro6,,(She turns to her computer screen.),,,,,,EvelynComputer
+Intro6,Intro7,,We shall monitor our students' progress.,,,,,,
+Intro7,Intro8,,(She makes a wide smile.)  You are doing a tremendous job.  Congratulations.,"DialogGradesDeltaBetween(""18"", ""10000"")",,2,,,
+Intro7,Intro8,,(She smiles.)  You seem to be doing a fine job working with our pupils.,"DialogGradesDeltaBetween(""9"", ""17"")",,1,,,
+Intro7,Punish1,,(She looks at the screen carefully.)  This little progress is disappointing.,"DialogGradesDeltaBetween(""2"", ""8"")",,,,,
+Intro7,Punish1,,"(She frowns.)  You are doing a poor job, young lady.","DialogGradesDeltaBetween(""-5"", ""1"")",,-1,,,
+Intro7,Expel1,,"(She gets angry.)  Young lady, you are doing an awful job.","DialogGradesDeltaBetween(""-10000"", ""-6"")",,-3,,,
+Intro8,Intro9,,"With such results, we shall certainly renew your contract for the next semester.",,,,,,EvelynDeskHappy
+Intro9,Collar1,,Let's conclude this review.  I have a very special item to show you.,,,,,,
+Punish1,Punish2,,Hiring you might have been a mistake on my part.,,,,,,EvelynDeskAngry
+Punish2,Punish3,,"To motivate you, and for our students' future, a punishment is required.",,,,,,
+Punish3,,,"Young lady, you shall be spanked.","!LogQuery(""Evelyn"", ""TeacherSpanked"")",,,,,
+Punish3,,,"Once again, you shall be spanked.","LogQuery(""Evelyn"", ""TeacherSpanked"")",,,,,
+Punish3,Punish4,Alright.,(She nods and cracks her knuckles.),,,,,,
+Punish3,Punish4,You can't be serious!,I am very serious.  (She cracks her knuckles.),,,-1,1,,
+Punish3,Punish4,Yes Director.,(She smirks and cracks her knuckles.),,,,-1,,
+Punish3,Punish4,I understand your methods.,(She smiles and cracks her knuckles.),,,1,,,
+Punish3,LeaveJob,"If you try to touch me, I will quit.  (Leave your job.)",(She takes a long deep breath.)  We shall end your career then.,,,-3,,,
+Punish3,Punish23,"You won't touch me, my submissive.",(She gulps and lowers her voice again.)  Yes Miss.  Sorry Miss.,"DialogCurrentDS(""Evelyn"", ""Sub"")",,-2,1,,EvelynDeskShush
+Punish3,Punish23,Should I publish the images of your belt day?,"(Her eyes widen and she lowers her voice.)  Fine, we shall postpone this spanking.","LogQuery(""Evelyn"", ""OfficeBeltDay"")",,-3,1,,EvelynDeskShush
+Punish4,Punish5,,This punishment shall be a lesson for you.,"!LogQuery(""Evelyn"", ""TeacherSpanked"")",,,,,
+Punish4,Punish5,,It seems that frequent spankings might be mandatory for you.,"LogQuery(""Evelyn"", ""TeacherSpanked"")",,,,,
+Punish5,Punish6,,"Bend over and put your palms on the desk, young lady.",,,,,,
+Punish6,Punish7,I don't like it.,(She grumbles as you reluctantly put your palms on her desk.),,,-1,,,
+Punish6,Punish7,Alright.,(You put your palms on her desk.),,,,,,
+Punish6,Punish7,Yes Director.,(She smirks as you quickly put your palms on her desk.),,,,-1,,
+Punish6,Punish7,With pleasure.,(She smiles as you rapidly put your palms on her desk.),,,1,,,
+Punish6,Punish7,Is it really necessary?,(She frowns as you reluctantly put your palms on her desk.),,,,1,,
+Punish6,Punish23,"My girl, you will not spank me.",(She gulps and lowers her voice again.)  Yes Miss.  Sorry Miss.,"DialogCurrentDS(""Evelyn"", ""Sub"")",,-2,1,,EvelynDeskShush
+Punish7,Punish8,,,,,,,,TeacherDeskPrepareSpank
+Punish8,Punish9,,I shall not leave marks but ensure that you remember your lesson.,,,,,,
+Punish9,Punish10,,,,,,,,TeacherDeskSpankAim
+Punish10,Punish11,,"Take a deep breath, young lady.",,,,,,
+Punish11,Punish12,,(She aims carefully and spanks your butt hard.),,,,,,
+Punish12,Punish13,,,,"LogAdd(""Evelyn"", ""TeacherSpanked"")",,,,TeacherDeskSpankHit
+Punish13,Punish14,,"Pain and humiliation are key here, not violence.",,,,,,TeacherDeskSpankAim
+Punish14,Punish15,,Good spanking should be more mental than physical.,,,,,,TeacherDeskSpankHit
+Punish15,Punish16,,Remember that your career depends on your performance.,,,,,,TeacherDeskSpankAim
+Punish16,Punish17,,And remember that your job depends on me.,,,,,,TeacherDeskSpankHit
+Punish17,Punish18,,"(She whispers.)  This spanking shall be repeated at home, with full force.","DialogCurrentDS(""Evelyn"", ""Dom"")",,,,,TeacherDeskSpankAim
+Punish17,Punish18,,Stricter labor shall save your butt at our next meeting.,"!DialogCurrentDS(""Evelyn"", ""Dom"")",,,,,TeacherDeskSpankAim
+Punish18,Punish19,,"(She spanks you a few more times, with a grin on her face.)",,,,,,TeacherDeskSpankHit
+Punish19,Punish20,,(She stops and takes a deep breath.),,,,,,TeacherDeskSpankAim
+Punish20,Punish21,,I hope that lesson was clear and understood.,,,,,,TeacherDeskPrepareSpank
+Punish21,Punish22,,You require harder work to improve our students' grades.,,,,,,
+Punish22,Punish23,,(She returns to her desk.) ,,,,,,EvelynDeskAngry
+Punish23,Collar1,,This punishment is over.  I have another tool for your arsenal.,,,,,,
+Expel1,Fired1,,You have been warned previously about being expelled.  Things did not improve.,"LogQuery(""College"", ""LastWarning"")",,,,,
+Expel1,Expel2,,I have serious doubts about keeping you on our staff.,"!LogQuery(""College"", ""LastWarning"")",,,,,EvelynDeskAngry
+Expel2,Expel3,,You do not have what it takes to be a proper teacher.,,,,,,
+Expel3,,,Do you wish to give up and quit your job?,,,,,,
+Expel3,Expel4,I want to keep my job,(She looks at the computer once again.),,,,,,EvelynComputer
+Expel3,Expel4,I want to become a good teacher.,(She nods and looks at the computer once again.),,,1,,,EvelynComputer
+Expel3,LeaveJob,I want to quit.  (Leave your job.),"(She sighs and nods.)  Teaching was never in your blood, young lady.",,,-3,-1,,
+Expel3,Expel7,"That's enough, my girl.  I'm keeping this job.",(She gulps and lowers her voice again.)  Yes Miss.  Sorry Miss.,"DialogCurrentDS(""Evelyn"", ""Sub"")",,-2,1,,EvelynDeskShush
+Expel3,Expel4,"Mistress, could you help me keep my job?",(She gives you a stern look and checks her computer again.),"DialogCurrentDS(""Evelyn"", ""Dom"")",,-1,-1,,EvelynComputer
+Expel3,Expel7,Should I publish the images of your belt day?,"(Her eyes widen and she lowers her voice.)  Fine, we shall postpone that review.","LogQuery(""Evelyn"", ""OfficeBeltDay"")",,-3,1,,EvelynDeskShush
+Expel4,Expel5,,I shall give you one last chance.,,"LogAdd(""College"", ""LastWarning"")",,,,
+Expel5,Expel6,,"If our students' grades do not improve, you shall be expelled.",,,,,,
+Expel6,,,Do you understand?,,,,,,EvelynDeskAngry
+Expel6,Expel7,I understand.,Very well.  I do hope this is correct.,,,,,,
+Expel6,Expel7,"Yes, Director.  I understand very well.","Very good, young lady.",,,,-1,,
+Expel6,Expel7,"Don't worry, the grades will improve.",(She nods.)  I shall remember these words.,,,,1,,
+Expel6,LeaveJob,Fuck this work.  (Leave your job.),(She frowns at you.)  This is the final nail in the coffin.,,,-4,,,
+Expel7,Collar1,,This discussion is over.  I have another tool for your arsenal.,,,,,,
+Fired1,Fired2,,"Young lady, your teaching record gives us two choices.",,,,,,
+Fired2,,,Should I fire you or would you like to quit on your own?,,,,,,
+Fired2,LeaveJob,"You can fire me, I don't care.","(She sighs and nods.)  Teaching was never in your blood, young lady.",,,-3,1,,
+Fired2,LeaveJob,"Fine, I will quit.","(She sighs and nods.)  Teaching was never in your blood, young lady.",,,-3,-1,,
+Fired2,LeaveJob,I'm sure there's a third option!,"(She shakes her head from left to right.)  Teaching is not in your blood, young lady.",,,-1,,,
+Fired2,Expel7,"That's enough, my girl.  I'm keeping this job.",(She gulps and lowers her voice again.)  Yes Miss.  Sorry Miss.,"DialogCurrentDS(""Evelyn"", ""Sub"")",,-2,1,,EvelynDeskShush
+Fired2,LeaveJob,"Mistress, could you help me keep my job?","(She shakes her head from left to right.)  Teaching is not in your blood, my slave.","DialogCurrentDS(""Evelyn"", ""Dom"")",,-1,-1,,
+Fired2,Expel7,Should I publish the images of your belt day?,"(Her eyes widen and she lowers her voice.)  Fine, we shall postpone that review.","LogQuery(""Evelyn"", ""OfficeBeltDay"")",,-3,1,,EvelynDeskShush
+LeaveJob,,,,,"DialogLoad(""CollegeLeave"")",,,,
+Collar1,Collar2,,,,,,,,EvelynDeskDisplayShockCollar
+Collar2,Collar3,,(She puts a sturdy rubber collar on her desk.),,,,,,
+Collar3,,,Have you witnessed a similar collar before?,,,,,,
+Collar3,Collar4,"I don't understand, Director.","It seems you require lots of details, young lady.",,,,-1,,
+Collar3,Collar4,"Yes, I've trained dogs before.",Training a dog or a student can be oddly similar.,,,,1,,
+Collar3,Collar4,It seems like a great teaching tool.,(She nods.)  It can be great when used properly.,,,1,,,
+Collar3,Collar4,This can't be school material.,(She sighs.)  It can be and it is.,,,-1,,,
+Collar3,Collar4,It's a perfect fit for your slave neck.,"(She blushes and whispers.)  Miss, please keep a low voice, we require discretion.","DialogCurrentDS(""Evelyn"", ""Sub"")",,-1,2,,
+Collar3,Collar4,"I love all your collars, Mistress.","(She frowns and whispers.)  Submissive, keep a low voice, we require discretion.","DialogCurrentDS(""Evelyn"", ""Dom"")",,-1,-2,,
+Collar4,Collar5,,That collar can be used to train our girls and make them more obedient.,,,,,,
+Collar5,Collar6,,,,,,,,DeskShockCollar
+Collar6,Collar7A,,It can adjust perfectly to any neck size and lock securely around it.,,,,,,
+Collar7A,Collar7B,,External modules can be attached.  This one comes with a shock battery.,,,,,,
+Collar7B,Collar7C,,The blinking red light indicates that the module is operational.,,,,,,DeskShockCollarBlink
+Collar7C,Collar7D,,"The accessory is waterproof, a similar technology to a police ankle monitor",,,,,,DeskShockCollar
+Collar7D,Collar8,,You shall be able to access the shock functionalities from your phone.,,,,,,
+Collar8,Collar9,,It can deliver strong discharges but cannot cause any permanent damage.,,,,,,DeskShockCollarBlink
+Collar9,,,How do you feel about using it on your most troublesome students?,,,,,,DeskShockCollar
+Collar9,Collar10,It might be a good idea.,(She smiles at you.)  Absolutely.,,,1,,,
+Collar9,Collar10,It's too violent for me.,It is not for the faint of heart.,,,,-1,,
+Collar9,Collar10,(Examine the collar.),(You stare at the shocking collar as she talks.),,,,,,
+Collar9,Collar10,I don't like it.,Review the product before judging it.,,,-1,,,
+Collar9,Collar10,I know exactly who will wear that collar.,It sounds like you already have a plan.,,,,1,,
+Collar10,Collar11,,I shall train you today on how to use it safely.,,,,,,EvelynDeskDisplayShockCollar
+Collar11,,,A full demonstration is required.,,,,,,
+Collar11,EvelynCollar1,"Submissive, you will be adorable with that collar.","(She blushes and nods.)  Yes, Miss.  I shall demonstrate it on myself.","DialogCurrentDS(""Evelyn"", ""Sub"")",,1,,,
+Collar11,EvelynCollar1,You could wear it to show me.,"(She nods slowly.)  Fine, I am willing to demonstrate it on myself.",DialogDominationGreater(-3),,,1,,
+Collar11,TeacherCollar1,You could wear it to show me.,"(She shakes her head from left to right.)  Young lady, we shall demonstrate on yourself.",DialogDominationLower(-4),,,1,,
+Collar11,TeacherCollar1,"I could wear it, but don't lock it.",The locking mechanism is part of the demonstration.,,,,,,
+Collar11,TeacherCollar1,"(Blush.)  Please demonstrate on me, Director.","You shall make a fine model, young lady.",,,,-1,,
+Collar11,Outro1,"I'm fine, we can skip the demonstration.",(She nods in agreement.)  Please take a few collars before you vacate.,DialogDominationGreater(1),,-1,1,,
+Collar11,Outro1,"My girl, I know collars.  We can skip it.","(She bows her head.)  Yes Miss, please take a few collars before you vacate.","DialogCurrentDS(""Evelyn"", ""Sub"")",,-1,1,,
+EvelynCollar1,EvelynCollar2,,,,,,,,TeacherPresentShockCollarEvelynStand
+EvelynCollar2,EvelynCollar3,,(She gets up nervously as you pick the sturdy rubber collar.),,,,,,
+EvelynCollar3,EvelynCollar4,,"Today, you shall learn how to control our pupils using electrical discharges.",,,,,,
+EvelynCollar4,EvelynCollar5,,The first step is to fasten and lock the collar properly.,,,,,,
+EvelynCollar5,,,Please ensure that it is not too slack or tight.,,,,,,
+EvelynCollar5,EvelynCollar6,(Lock the collar loosely.),(She sighs as you lock the collar loosely.),,,-1,-1,,
+EvelynCollar5,EvelynCollar6,(Lock the collar securely.),"(She nods as you lock the collar securely, following her instructions.)",,,1,,,
+EvelynCollar5,EvelynCollar6,(Lock the collar tightly.),(She gulps as you lock the collar tightly.),,,-1,1,,
+EvelynCollar6,EvelynCollar7,,,,,,,,EvelynStandShockCollarZoom
+EvelynCollar7,EvelynCollar8,,(You carefully adjust the collar around her neck.),,"InventoryAdd(""ShockCollar"")",,,,
+EvelynCollar8,EvelynCollar9,,"By using this collar properly, you can train a pupil to become very obedient.",,,,,,
+EvelynCollar9,EvelynCollar10,,Please open your phone.  We shall install an application for it.,,,,,,
+EvelynCollar9,EvelynCollar10,InventoryDialogPhone,(You take a quick picture when you get your phone.)  ,,PictureAdd(),,,,
+EvelynCollar10,EvelynCollar11,,,,,,,,TeacherPhoneEvelynStandShockCollarTalk
+EvelynCollar11,EvelynCollar12,,(You install the shock collar software on your phone.),,,,,,
+EvelynCollar12,EvelynCollar13,,"From your screen, you can control the frequency and intensity of the discharges.",,,,,,
+EvelynCollar13,EvelynCollar14,,"Do not be scared, the device cannot cause any permanent damage.",,,,,,
+EvelynCollar14,,,You can run a small test to make sure it works.,,,,,,
+EvelynCollar14,EvelynCollar15,(Send a weak shock.),(She barely reacts as you send a test shock on her neck.),,,,-1,,
+EvelynCollar14,EvelynCollar15,(Send a regular shock.),(She jumps as you send a regular shock on her neck.),,,-1,,,TeacherPhoneEvelynStandShockCollarShock
+EvelynCollar14,EvelynCollar15,(Send a strong shock.),(She cringes as you send a strong shock on her neck.),,,-1,1,,TeacherPhoneEvelynStandShockCollarShock
+EvelynCollar14,EvelynCollar15,I don't want to hurt you.,You're kind but you shall require more courage with our students.,,,1,-1,,
+EvelynCollar14,EvelynCollar15,I understand.  No need to test it.,"Very good, it has been tested before.",,,,1,,
+EvelynCollar14,EvelynCollar15,InventoryDialogShockCollar,(She jumps as you send a regular shock on her neck.),,,-1,,,TeacherPhoneEvelynStandShockCollarShock
+EvelynCollar15,EvelynCollar16,,I would advise beginning with lower shocks and increase as needed.,,,,,,
+EvelynCollar16,EvelynCollar17,,"To train properly, shock only when the pupil does not cooperate.",,"LogAdd(""Evelyn"", ""EvelynCollarTraining"")",,,,EvelynStandShockCollarZoom
+EvelynCollar17,EvelynCollar18,,The thought of being shocked shall slowly become enough to trigger obedience.,,,,,,
+EvelynCollar17,EvelynCollar18,InventoryDialogShockCollar,(She jumps as you send a random discharge.),"!DialogCurrentDS(""Evelyn"", ""Dom"")",,-1,1,,EvelynStandShockCollarZoomCringe
+EvelynCollar18,EvelynCollar19,,The final goal is that our students do not require the collar at all.,,,,,,
+EvelynCollar19,EvelynCollar20,,You can measure your success by how little it is required.,,,,,,EvelynStandShockCollarZoom
+EvelynCollar20,,,Do you have any inquiries?,,,,,,
+EvelynCollar20,EvelynCollar21,No.  I'm eager to use it.,This is music to my ears.  We shall conclude this demonstration.,,,,1,,
+EvelynCollar20,EvelynCollar21,I'm fine.  Thanks for the demonstration.,(She nods and smiles.)  We shall conclude.,,,1,,,
+EvelynCollar20,EvelynCollar21,I'm good but I don't think I will use it.,I hope you shall reconsider later.  We shall conclude this demonstration.,,,-1,-1,,
+EvelynCollar20,EvelynCollarShock1,I do!  How does it feel?  (Shock her.),(She clenches her fist as you send an unexpected discharge.),"!DialogCurrentDS(""Evelyn"", ""Dom"")",,-1,1,,EvelynStandShockCollarZoomCringe
+EvelynCollar20,EvelynCollarNaked1,One question.  Why are you still clothed?,"(She blushes and shivers, not expecting that question.)  Pardon?","!DialogCurrentDS(""Evelyn"", ""Dom"")",,-1,1,,
+EvelynCollar20,EvelynCollarShock1,InventoryDialogShockCollar,(She clenches her fist as you send an unexpected discharge.),"!DialogCurrentDS(""Evelyn"", ""Dom"")",,-1,1,,EvelynStandShockCollarZoomCringe
+EvelynCollar21,Outro1,,(You unlock the collar and put it back as she returns to her desk.),,,,,,
+EvelynCollarShock1,EvelynCollarShock2,,(She gulps and tries to regain her focus after this surprise torture.),,,,,,
+EvelynCollarShock2,EvelynCollarShock3,,My apologies.  The random nature of that shock took me by surprise.,,,,,,EvelynStandShockCollarZoom
+EvelynCollarShock3,,,"PlayerName, this demonstration is over.","!DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+EvelynCollarShock3,,,"Miss PlayerName, is the demonstration over?","DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+EvelynCollarShock3,EvelynCollar21,"Yes, that's enough, for now.","(She gulps and nods.)  Very well, we shall conclude.",,,,1,,
+EvelynCollarShock3,EvelynCollar21,"Yeah, I need to go to detention.",(She nods in agreement.)  Our pupils are your priority.,,,,,,
+EvelynCollarShock3,EvelynCollar21,"Of course, I should hurry back.",(She nods rapidly.)  Be hasty but do not run in the halls.,,,,-1,,
+EvelynCollarShock3,EvelynCollarNaked1,It's far from over.  Strip!,(She jumps as you yell at her.)  Pardon?,,,-1,2,,
+EvelynCollarShock3,EvelynCollarNaked1,You should get naked to finish the demonstration.,(She seems surprised by your comment.)  Pardon?,,,,1,,
+EvelynCollarShock3,EvelynCollarNaked1,"My girl, I have a naughty plan.  Get naked.","(She looks at you curiously.)  Miss, are you serious?","DialogCurrentDS(""Evelyn"", ""Sub"")",,1,,,
+EvelynCollarNaked1,EvelynCollarNaked2,,,,,,,Teacher,TeacherPhoneEvelynStandShockCollarTalk
+EvelynCollarNaked2,EvelynCollarNaked3,,I want to see how obedient this collar can make you.,,,,,,
+EvelynCollarNaked3,EvelynCollarNaked4,,I will make you do something you would never dare.,,"LogAdd(""Evelyn"", ""EvelynNakedCollarTraining"")",,,,
+EvelynCollarNaked3,EvelynCollarNaked4,InventoryDialogShockCollar,(You send little shocks to her collar as you speak.),,,,,,TeacherPhoneEvelynStandShockCollarShock
+EvelynCollarNaked4,EvelynCollarNaked5,,"Don't worry, it will remain between us.  Now get naked.",,,,,,
+EvelynCollarNaked5,EvelynCollarNaked6,,(She takes a deep breath and nods.),,,,,Evelyn,EvelynStandShockCollarZoom
+EvelynCollarNaked6,EvelynCollarNaked7,,"Since I adore your presence, I shall comply.  (She smiles and undresses.)",DialogLoveGreater(15),,,,,
+EvelynCollarNaked6,EvelynCollarNaked7,,"Fine, I can comply for your eyes only.  (She winks and undresses.)","DialogLoveBetween(5, 14)",,,,,
+EvelynCollarNaked6,EvelynCollarNaked7,,This experiment is not proper.  We shall be hasty.  (She sighs and undresses.),"DialogLoveBetween(-4, 4)",,,,,
+EvelynCollarNaked6,EvelynCollarNaked7,,"Every week, I regret hiring you more.  (She frowns and undresses.)",DialogLoveLower(-5),,,,,
+EvelynCollarNaked7,EvelynCollarNaked8,,,,,,,,EvelynStandNakedShockCollarShy
+EvelynCollarNaked8,EvelynCollarNaked9,,(She puts her clothes away nervously.),,,,,,
+EvelynCollarNaked8,EvelynCollarNaked9,InventoryDialogPhone,(You take a picture as she despises you with her eyes.),,PictureAdd(),-1,,,
+EvelynCollarNaked9,EvelynCollarNaked11,,This is truly out of protocol.  You are abusing your power.,,,,,,
+EvelynCollarNaked9,EvelynCollarNaked11,InventoryDialogShockCollar,"(You shock her after that comment.)  Ow!  Sorry, my apologies.",,,,1,,EvelynStandNakedShockCollarShock
+EvelynCollarNaked11,,,Is your devious experiment over now?,,,,,,EvelynStandNakedShockCollarShy
+EvelynCollarNaked11,EvelynCollarNaked12,It's over.  Dress back up.,(She nods and grabs her clothes again.),,,,,,
+EvelynCollarNaked11,EvelynCollarNaked12,You're pretty like that but you can dress back.,(She blushes and grabs her clothes again.),,,1,,,
+EvelynCollarNaked11,EvelynCollarNaked12,"Yes, you're not hot enough.  Dress back up.",(She grumbles and grabs her clothes again.),,,-1,,,
+EvelynCollarNaked11,EvelynCollarTouch1,"Bitch, can you cum with that collar?",How dare you?  (She seems offended by that comment.),,,-1,,,
+EvelynCollarNaked11,EvelynCollarTouch1,You could get these sexy fingers to work.,(She blushes but produces a little smile after that comment.),,,1,,,
+EvelynCollarNaked11,EvelynCollarTouch1,There's one last thing.  You should touch yourself.,You cannot be serious.  (She shivers after your comment.),,,,,,
+EvelynCollarNaked12,EvelynCollarNaked13,,It seems you have learned plenty about electrical obedience.,,,,,Evelyn,EvelynStandShockCollarZoom
+EvelynCollarNaked13,Outro1,,This concludes the training.  (You unlock her.),,,,,,
+EvelynCollarTouch1,EvelynCollarTouch2,,,,,,,,EvelynDeskNakedShockCollarShy
+EvelynCollarTouch2,EvelynCollarTouch3,,"(She sits naked on her desk, facing you.)",,,,,,
+EvelynCollarTouch2,EvelynCollarTouch3,InventoryDialogPhone,(You make sure to save plenty of pictures.),,PictureAdd(),,,,
+EvelynCollarTouch3,EvelynCollarTouch4,,(She takes a deep breath and shakes her head from left to right.),"!DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+EvelynCollarTouch3,EvelynCollarTouch6,,"Miss PlayerName, if it pleases you, your submissive will obey.","DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+EvelynCollarTouch4,EvelynCollarTouch5,,"Sorry, I must refuse.  It is not proper on college ground.",,,,,,
+EvelynCollarTouch5,,,(How will you try to convince her?),,,,,,
+EvelynCollarTouch5,EvelynCollarTouch6,(Be friendly and flirty to convince her.),(You flirt with her to convince her.  She smiles and quickly starts to touch herself.),DialogLoveGreater(13),,1,,,
+EvelynCollarTouch5,EvelynCollarNaked12,(Be friendly and flirty to convince her.),"(You flirt with her to convince her, but time goes by and it fails.  She dresses back up.)",DialogLoveLower(12),,1,,,
+EvelynCollarTouch5,EvelynCollarTouch6,(Be stern and strict to convince her.),(You dominate her to convince her.  She bows her head and starts to touch herself.),DialogDominationGreater(5),,,1,,
+EvelynCollarTouch5,EvelynCollarNaked12,(Be stern and strict to convince her.),"(You dominate her to convince her, but time goes by and it fails.  She dresses back up.)",DialogDominationLower(4),,,1,,
+EvelynCollarTouch5,EvelynCollarNaked12,(Use the shock collar violently.),"(You shock her violently to convince her, but time goes by and it fails.  She dresses back up.)",,,-1,1,,
+EvelynCollarTouch5,EvelynCollarTouch6,(Use the shock collar progressively.),(You shock her progressively to convince her.  It works as she starts to touch herself.),,,1,1,,
+EvelynCollarTouch5,EvelynCollarNaked12,(Use the shock collar weakly.),"(You shock her weakly to convince her, but time goes by and it fails.  She dresses back up.)",,,,-1,,
+EvelynCollarTouch5,EvelynCollarNaked12,(Give up on your plan.),"(You give up quickly, looking disappointed.  She dresses back up.)",,,-1,-2,,
+EvelynCollarTouch6,EvelynCollarTouch7,,,,,,,,EvelynDeskNakedShockCollarMasturbate
+EvelynCollarTouch7,EvelynCollarTouch8,,(She moans softly as she masturbates slowly on her desk.),,,,,,
+EvelynCollarTouch7,EvelynCollarTouch8,InventoryDialogPhone,(She focuses on herself as you save a few pictures.),,PictureAdd(),,,,
+EvelynCollarTouch8,EvelynCollarTouch9,,(She seems very embarrassed of the situation but continues to work.),,,,,,
+EvelynCollarTouch9,EvelynCollarTouch10,,"(The clock ticks as she gets close, breathing faster and faster.)",,,,,,
+EvelynCollarTouch10,EvelynCollarTouch11,,(She's quite uneasy and humiliated.  Maybe she won't get that orgasm.),,,,,,
+EvelynCollarTouch10,EvelynCollarOrgasm1,InventoryDialogShockCollar,(You deliver the perfect shock as she was about to give up.),,,,1,,
+EvelynCollarTouch11,EvelynCollarTouchEnd1,,(She stops and looks at you.)  Sorry it did not work.,,"LogDelete(""Evelyn"", ""EvelynNakedCollarTrainingOrgasm"")",,,,EvelynDeskNakedShockCollarShy
+EvelynCollarOrgasm1,EvelynCollarOrgasm2,,,,,,,,EvelynDeskNakedShockCollarOrgasm
+EvelynCollarOrgasm2,EvelynCollarOrgasm3,,"(She gets a powerful orgasm, partly caused by the electrical current.)",,"LogAdd(""Evelyn"", ""EvelynNakedCollarTrainingOrgasm"")",1,,,
+EvelynCollarOrgasm2,EvelynCollarOrgasm3,InventoryDialogPhone,(You make sure to save that orgasm in your library.),,PictureAdd(),,,,
+EvelynCollarOrgasm3,EvelynCollarOrgasm4,,"(She trembles for a long while, looking both shocked and in bliss.)",,,1,,,
+EvelynCollarOrgasm4,EvelynCollarOrgasm5,,That...  That...  That was truly amazing.  I am in awe.,,,1,,,
+EvelynCollarOrgasm5,EvelynCollarTouchEnd1,,You have used the collar masterfully.  I have nothing to teach you anymore.,,,,,,EvelynDeskNakedShockCollarShy
+EvelynCollarTouchEnd1,EvelynCollarNaked12,,"We are late, I should dress back up.  (She reaches for her clothes.)",,,,,,
+EvelynCollarTouchEnd1,EvelynCollarChastity1,InventoryDialogChastityBelt,"(As she picks her clothes, you swiftly grab a chastity belt for her.)",,,,,,
+EvelynCollarChastity1,EvelynCollarChastity2,,,,,,,,EvelynStandNakedShockCollarBeltAngry
+EvelynCollarChastity2,EvelynCollarChastity3,,(She jumps as the belt locks around her hips with a loud click.),,"LogAdd(""Evelyn"", ""EvelynNakedCollarTrainingChastity"")",,,,
+EvelynCollarChastity2,EvelynCollarChastity3,InventoryDialogPhone,(You capture her surprise and anger on your phone.),,PictureAdd(),,,,
+EvelynCollarChastity3,EvelynCollarChastity4,,Young lady!  The chastity training was completed weeks ago.  Unlock it now!,"!DialogCurrentDS(""Evelyn"", ""Sub"")",,-1,2,,
+EvelynCollarChastity3,EvelynCollarChastity4,,Miss PlayerName!  The chastity training was completed weeks ago.,"DialogCurrentDS(""Evelyn"", ""Sub"")",,-1,2,,
+EvelynCollarChastity4,EvelynCollarChastity5,,"Since you did not get that orgasm for me, I'm making sure you won't get it for yourself.","!LogQuery(""Evelyn"", ""EvelynNakedCollarTrainingOrgasm"")",,,,Teacher,
+EvelynCollarChastity4,EvelynCollarChastity5,,You already gave me your orgasm.  You're not allowed to get another one.,"LogQuery(""Evelyn"", ""EvelynNakedCollarTrainingOrgasm"")",,,,Teacher,
+EvelynCollarChastity5,EvelynCollarChastity6,,"If you're a good director, you will be unlocked at the end of day.","!DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+EvelynCollarChastity5,EvelynCollarChastity6,,"My submissive, if you're a good girl, you will be unlocked at the end of day.","DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+EvelynCollarChastity6,EvelynCollarNaked12,,"We must hurry, dress back up.  (She grabs her clothes again.)",,,,,,
+EvelynCollarChastity6,EvelynCollarNaked12,InventoryDialogShockCollar,(You send her a few random shocks as she dresses back up.),,,,,,
+TeacherCollar1,TeacherCollar2,,,,,,,,TeacherStandEvelynPresentShockCollar
+TeacherCollar2,TeacherCollar3,,(She picks up the collar and presents it to you.),,,,,,
+TeacherCollar3,TeacherCollar4,,"Today, you shall experience and learn on electricity training.",,,,,,
+TeacherCollar4,,,Please present your neck.,DialogDominationGreater(-5),,,,,
+TeacherCollar4,,,"Young lady, present your neck.",DialogDominationLower(-6),,,,,
+TeacherCollar4,TeacherCollar5,Are you sure this is a good idea?,"(She frowns.)  This demonstration is required, young lady.",,,-1,-1,,
+TeacherCollar4,TeacherCollar5,"My pleasure, Director Evelyn.","(She grins.)  I see that you enjoy this demonstration, young lady.",,,1,-1,,
+TeacherCollar4,TeacherCollar5,Yes!  I'm eager to learn.,(She smiles.)  Your students shall be trained well.,,,1,1,,
+TeacherCollar4,TeacherCollar5,We should get Yuki to demonstrate.,(She sighs.)  We do not have time to summon Yuki.,,,-1,1,,
+TeacherCollar5,TeacherCollar6,,,,,,,,TeacherShockCollarEvelynNearDeskStandTalk
+TeacherCollar6,TeacherCollar7,,(She adjusts the collar around your neck and locks it.),,,,,,
+TeacherCollar7,TeacherCollar8,,"By using this collar properly, you can train a pupil to become very obedient.",,,,,,
+TeacherCollar8,TeacherCollar9,,I shall install a small application on your phone to control it.,,,,,,
+TeacherCollar9,TeacherCollar10,,,,,,,,TeacherShockCollarEvelynPhoneNearDeskStandTalk
+TeacherCollar10,TeacherCollar11,,(She grabs your phone and quickly installs some software on it.),,,,,,
+TeacherCollar11,TeacherCollar12,,"Using the application, I can control the intensity and the duration of the electric discharge.",,"LogAdd(""Evelyn"", ""TeacherCollarTraining"")",,,,
+TeacherCollar12,TeacherCollar13,,(She slowly slides her finger onto the screen.),,,,,,
+TeacherCollar13,TeacherCollar14,,,,,,,,TeacherShockCollarOfficeZoom
+TeacherCollar14,TeacherCollar15,,(You can feel a light but annoying jolt on your neck.),,,,,,
+TeacherCollar14,TeacherCollar15,InventoryDialogPhone,(She cannot resist and uses your own phone to save a photo.),,"PictureAdd(""Teacher"")",,,,
+TeacherCollar15,TeacherCollar16,,I trust that you can sense a strong tingling on your skin.,,,,,,
+TeacherCollar16,,,How does it feel?,,,,,,
+TeacherCollar16,TeacherCollar17,I can barely feel it.,A stronger demonstration might be required for you.,,,,1,,
+TeacherCollar16,TeacherCollar17,"It's painful, but I like it.",You are a good test subject.,,,1,-1,,
+TeacherCollar16,TeacherCollar17,It hurts so much!,"This demonstration shall be hard for you, young lady.",,,-1,-1,,
+TeacherCollar16,TeacherCollar17,It's not bad at all.,You are taking it well.,,,1,,,
+TeacherCollar16,TeacherCollar17,Can you remove it now?,"Not now, we are far from over.","!DialogCurrentDS(""Evelyn"", ""Sub"")",,-1,1,,
+TeacherCollar16,Outro1,Can you remove it now?,"Yes, Miss.  (She unlocks you quickly, before returning to her desk.)","DialogCurrentDS(""Evelyn"", ""Sub"")",,-1,1,,
+TeacherCollar17,TeacherCollar18,,"Using the right amount of pain, you can acquire total control.",,,,,,
+TeacherCollar18,TeacherCollar19,,Let me demonstrate what I mean.,,,,,,
+TeacherCollar19,,,Get on your knees.  Now!,"!DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+TeacherCollar19,,,"Miss, please get on your knees.","DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+TeacherCollar19,TeacherCollar20,(Slowly kneel down.),(You slowly get to the ground for her.),,,,,,
+TeacherCollar19,TeacherCollar20,(Get your knees quickly.),(She grins as you get to the ground.),,,1,-1,,
+TeacherCollar19,TeacherCollarResist1,Are you serious?,You doubt my seriousness?  (She slides her finger onto the phone.),,,-1,1,,
+TeacherCollar19,TeacherCollarResist1,I'm not doing that.,"Your fortitude is impressive, yet futile.  (She slides her finger onto the phone.)",,,,2,,
+TeacherCollar19,Outro1,"Slave, that's enough.  Unlock me now.","Yes, Miss.  (She unlocks you quickly, before returning to her desk.)","DialogCurrentDS(""Evelyn"", ""Sub"")",,-2,2,,
+TeacherCollarResist1,TeacherCollarResist2,,,,,,,,TeacherShockCollarOfficeZoomShock
+TeacherCollarResist2,TeacherCollarResist3,,(You can feel a much stronger electrical shock on your neck.),,,,,,
+TeacherCollarResist3,TeacherCollarResist4,,(You tremble and try to resist the pain.  Your willpower slowly goes down.),,,,,,
+TeacherCollarResist3,TeacherCollarResist4,InventoryDialogPhone,(She uses your own phone to capture your pain.),,"PictureAdd(""Teacher"")",,,,
+TeacherCollarResist4,TeacherCollar20,,"(After a few more seconds of resistance, you finally fall to the ground.)",,,,,,
+TeacherCollar20,TeacherCollar21,,,,,,,,TeacherShockCollarOfficeKneel
+TeacherCollar21,TeacherCollar22,,"(You try to get comfy on your knees, staring at her.)",,,,,,
+TeacherCollar22,TeacherCollar23,,"To train properly, shock only when the pupil does not cooperate.",,,,,,
+TeacherCollar23,TeacherCollar24,,The thought of being shocked shall slowly become enough to trigger obedience.,,,,,,
+TeacherCollar24,TeacherCollar25,,"By using it wisely and progressively, you shall barely require any discharge.","DialogCurrentDS(""Evelyn"", """")",,,,,
+TeacherCollar24,TeacherCollar26,,"Miss, this concludes the demonstration of the collar.  I shall help you up.","DialogCurrentDS(""Evelyn"", ""Sub"")",,,,,
+TeacherCollar24,TeacherNakedCollar1,,"Slave, by using it wisely and progressively, you shall barely require any discharge.","DialogCurrentDS(""Evelyn"", ""Dom"")",,,,,
+TeacherCollar25,TeacherNakedCollar1,,"(She smirks.)  Normally, this would be the end of the demonstration.  But...",DialogLoveGreater(13),,,,,
+TeacherCollar25,TeacherCollar26,,This concludes the demonstration of the collar.  Stand up.,DialogLoveLower(12),,,,,
+TeacherCollar26,Outro1,,(She unlocks the collar and puts it on her desk for you.),,,,,,TeacherShockCollarEvelynNearDeskStandTalk
+TeacherNakedCollar1,TeacherNakedCollar2,,(She stops talking and heads for her office door.),,,,,,
+TeacherNakedCollar2,TeacherNakedCollar3,,,,,,,,EvelynOfficeDoorClose
+TeacherNakedCollar3,TeacherNakedCollar4,,(She promptly closes the door and locks it.),,,,,,
+TeacherNakedCollar4,TeacherNakedCollar5,,We require more privacy to continue your training.  (She comes back.),,,,,,
+TeacherNakedCollar5,TeacherNakedCollar6,,,,,,,,TeacherShockCollarOfficeKneel
+TeacherNakedCollar6,TeacherNakedCollar7,,You shall experience the full control that the collar can provide.,,,,,,
+TeacherNakedCollar7,TeacherNakedCollar8,,This body of yours seems very pretty.  We shall expose it a little more.,"!DialogCurrentDS(""Evelyn"", ""Dom"")",,,,,
+TeacherNakedCollar7,TeacherNakedCollar8,,This body of mine is so pretty.  We shall expose it a little more.,"DialogCurrentDS(""Evelyn"", ""Dom"")",,,,,
+TeacherNakedCollar8,,,Remain on the ground and get naked.,,,,,,
+TeacherNakedCollar8,TeacherNakedCollar13,"Yes, Mistress.",Good girl.  (She smiles softly as you get naked.),"DialogCurrentDS(""Evelyn"", ""Dom"")",,1,-1,,
+TeacherNakedCollar8,TeacherNakedCollar9,"I can't, I need to go supervise detention.",Only I decide when you are leaving.  (She touches the phone.),,,-1,1,,
+TeacherNakedCollar8,TeacherNakedCollar9,I'm too shy.  What if we get caught?,"Do not worry, the door is secured.  (She touches the phone.)",,,-1,-1,,
+TeacherNakedCollar8,TeacherNakedCollar13,With pleasure.,Obedience is natural for you.  (She smirks as you get naked.),,,1,-1,,
+TeacherNakedCollar8,TeacherNakedCollar13,"Alright, but don't tell anyone about it.",I shall not make promises.  (You slowly get naked.),,,1,1,,
+TeacherNakedCollar9,TeacherNakedCollar10,,,,,,,,TeacherShockCollarOfficeKneelShock
+TeacherNakedCollar10,TeacherNakedCollar11,,(She sends strong electrical shocks to your neck.),,,,,,
+TeacherNakedCollar10,TeacherNakedCollar11,InventoryDialogPhone,(She smirks and immortalizes your pain.),,"PictureAdd(""Teacher"")",,,,
+TeacherNakedCollar11,TeacherNakedCollar12,,You do realize that the choice is not yours to make.,,,,,,
+TeacherNakedCollar12,TeacherNakedCollar13,,(You try your best to resist but the pain is too intense.  You strip reluctantly.),,,,,,
+TeacherNakedCollar13,TeacherNakedCollar14,,,,,,,,TeacherNakedShockCollarOfficeKneel
+TeacherNakedCollar14,TeacherNakedCollar15,,"Since you do not require to study for an exam, I shall give you another test.",,,,,,
+TeacherNakedCollar15,TeacherNakedCollar16,,(She slides her finger onto your phone.  You can feel a small tingling on your neck.),,,,,,
+TeacherNakedCollar15,TeacherNakedCollar16,InventoryDialogPhone,(She saves a kinky picture of yourself on your own phone.),,"PictureAdd(""Teacher"")",,,,
+TeacherNakedCollar16,,,You have five minutes to give yourself an orgasm.  Go!,,,,,,
+TeacherNakedCollar16,TeacherNakedCollarResist1,No!  This is not proper.,I decide what is proper or not.  (She slides her finger onto your phone.),,,-1,1,,
+TeacherNakedCollar16,TeacherNakedCollarResist1,Only if you do it first.,It seems you do not understand the power dynamic.  (She slides her finger onto your phone.),,,-1,,,
+TeacherNakedCollar16,TeacherNakedCollarResist1,Is this training really required?,Required by me and only me.  (She slides her finger onto your phone.),,,,,,
+TeacherNakedCollar16,TeacherNakedCollarComply1,(Nod and touch yourself very lightly.),(You put your hand on your pussy delicately.),,,,-1,,
+TeacherNakedCollar16,TeacherNakedCollarComply1,This is too much control.  (Touch yourself.),Control is an acquiring taste.  (You start to touch yourself.),,,,1,,
+TeacherNakedCollar16,TeacherNakedCollarComply1,(Smile and touch yourself.),(She grins as you start to touch yourself.),,,1,-1,,
+TeacherNakedCollarResist1,TeacherNakedCollarResist2,,,,,,,,TeacherNakedShockCollarOfficeKneelShock
+TeacherNakedCollarResist2,TeacherNakedCollarResist3,,"(She sends a powerful shock on your neck, making you cringe.)",,,,,,
+TeacherNakedCollarResist3,TeacherNakedCollarResist4,,You still have four minutes remaining.  I would advocate getting busy.,,,,,,
+TeacherNakedCollarResist3,TeacherNakedCollarResist4,InventoryDialogPhone,(She takes a few images of your torment.),,"PictureAdd(""Teacher"")",,,,
+TeacherNakedCollarResist4,TeacherNakedCollarResist5,,(She sends random shocks as you whimper from the pain.),,,,,,
+TeacherNakedCollarResist5,,,(What will you do?),,,,,,
+TeacherNakedCollarResist5,TeacherNakedCollarComply1,(Start to touch yourself reluctantly.),(You grumble but surrender and slide your hand down.),,,,,,
+TeacherNakedCollarResist5,TeacherNakedCollarComply1,(Promptly start to touch yourself.),(You quickly slide your hand down.),,,,-1,,
+TeacherNakedCollarResist5,TeacherNakedCollarResist6,You failed.  I'm stronger than your collar.,We shall measure your strength.  (She toys with your phone again.),,,,2,,
+TeacherNakedCollarResist5,TeacherNakedCollarResist6,Forget it!  I'm not your bitch.,We shall see if you are a bitch or not.  (She toys with your phone again.),"!DialogCurrentDS(""Evelyn"", ""Dom"")",,-1,1,,
+TeacherNakedCollarResist5,TeacherNakedCollarResist6,(Shake your head no.),(She stays silent and toys with your phone again.),,,,1,,
+TeacherNakedCollarResist6,TeacherNakedCollarResist7,,,,,,,,TeacherNakedShockCollarOfficeKneelShockResist
+TeacherNakedCollarResist7,TeacherNakedCollarResist8,,(She tests your resistance and willpower in the next minutes.),,,,,,
+TeacherNakedCollarResist8,TeacherNakedCollarResist9,,(You suffer a lot but you're able to endure her torture.),,,,,,
+TeacherNakedCollarResist8,TeacherNakedCollarResist9,InventoryDialogPhone,(She keeps a souvenir of your suffering.),,"PictureAdd(""Teacher"")",,,,
+TeacherNakedCollarResist9,TeacherNakedCollarResist10,,Bravo!  Your fortitude must be applauded.  (She stops the shocks.),,,1,1,,
+TeacherNakedCollarResist10,TeacherNakedCollarResist11,,"As you can testify, there is no perfect tool to train everyone.",,,,,,TeacherNakedShockCollarOfficeKneel
+TeacherNakedCollarResist11,TeacherNakedCollarResist12,,"Since the collar did not work for you, I would require other methods.",,"LogAdd(""Evelyn"", ""TeacherNakedCollarTrainingResist"")",,,,
+TeacherNakedCollarResist12,TeacherNakedCollarEnd1,,"Do not be stubborn, be versatile with our pupils.  You have plenty of tools.",,,,,,
+TeacherNakedCollarComply1,TeacherNakedCollarComply2,,,,,,,,TeacherNakedShockCollarOfficeKneelMasturbate
+TeacherNakedCollarComply2,TeacherNakedCollarComply3,,(You slowly touch yourself for her eyes.  She seems to enjoy the show.),,"LogAdd(""Evelyn"", ""TeacherNakedCollarTrainingComply"")",,,,
+TeacherNakedCollarComply2,TeacherNakedCollarComply3,InventoryDialogPhone,(She captures the kinky situation in your own picture library.),,"PictureAdd(""Teacher"")",,,,
+TeacherNakedCollarComply3,TeacherNakedCollarComply4,,I must confess.  I have been fantasizing about this exact situation.,"!DialogCurrentDS(""Evelyn"", ""Dom"")",,,,,
+TeacherNakedCollarComply3,TeacherNakedCollarComply4,,My submissive.  I have been fantasizing about this exact situation.,"DialogCurrentDS(""Evelyn"", ""Dom"")",,,,,
+TeacherNakedCollarComply4,TeacherNakedCollarComply5,,(She grins widely.)  Your exposed sexuality is quite alluring.,,,,,,
+TeacherNakedCollarComply5,TeacherNakedCollarComply6,,"(She toys with your collar, giving you little shocks when you slow down.)",,,,,,
+TeacherNakedCollarComply6,TeacherNakedCollarComply7,,"Pain and pleasure can intertwine, depending on the bottom.",,,,,,
+TeacherNakedCollarComply7,,,You still have three minutes left.  Be hasty.,,,,,,
+TeacherNakedCollarComply7,TeacherNakedCollarComplyOrgasm1,(Masturbate rapidly and fiercely.),(You masturbate quickly to make sure you can climax in three minutes.),,,1,-1,,
+TeacherNakedCollarComply7,TeacherNakedCollarComplyOrgasm1,(Masturbate skillfully and confidently.),(You get in the zone and masturbate confidently for two minutes.),,,1,1,,
+TeacherNakedCollarComply7,TeacherNakedCollarComply8,(Masturbate slowly to let the clock run.),"(You masturbate slowly, getting on the edge but never getting your orgasm.)",,,,,,
+TeacherNakedCollarComply7,TeacherNakedCollarComply8,(Masturbate very slowly without passion.),"(You barely masturbate, not putting much effort into it.)",,,-2,,,
+TeacherNakedCollarComplyOrgasm1,TeacherNakedCollarComplyOrgasm2,,,,,,,,TeacherNakedShockCollarOfficeKneelOrgasm
+TeacherNakedCollarComplyOrgasm2,TeacherNakedCollarComplyOrgasm3,,(She shocks you teasingly as you get a strong orgasm on her office floor.),,"LogAdd(""Evelyn"", ""TeacherNakedCollarTrainingOrgasm"")",,,,
+TeacherNakedCollarComplyOrgasm2,TeacherNakedCollarComplyOrgasm3,InventoryDialogPhone,(She saves your orgasm on your phone.),,"PictureAdd(""Teacher"")",,,,
+TeacherNakedCollarComplyOrgasm3,TeacherNakedCollarComplyOrgasm4,,"That was exactly the scene I imagined, young lady.",,,,,,
+TeacherNakedCollarComplyOrgasm4,TeacherNakedCollarEnd1,,I trust you now understand the power of the collar.,,,,,,TeacherNakedShockCollarOfficeKneel
+TeacherNakedCollarComply8,TeacherNakedCollarComply9,,"Time's up!  You failed, young lady.",,,,,,TeacherNakedShockCollarOfficeKneel
+TeacherNakedCollarComply9,TeacherNakedCollarEnd1,,"A few minutes were not enough to train you, but I'm sure you understand the concept.",,,,,,
+TeacherNakedCollarEnd1,TeacherNakedCollarEnd2,,(She checks the clock.)  This concludes our special training session.,,,,,,
+TeacherNakedCollarEnd2,TeacherNakedCollarEnd3,,"Dress back up, young lady, you have detention to supervise.",,,,,,
+TeacherNakedCollarEnd3,TeacherNakedCollarEnd4,,"(You stand up and dress back up slowly, still shivering.)",,,,,,TeacherShockCollarEvelynNearDeskStandTalk
+TeacherNakedCollarEnd4,Outro1,,(She unlocks the collar and puts it on her desk for you.),,,,,,
+Outro1,Outro2,,(You put a few shock collars in your briefcase.),,"InventoryAdd(""ShockCollar"")",,,,TeacherEvelynDesk
+Outro2,Outro3,,"Employ these devices wisely, with the upmost prudence.",,,,,,
+Outro3,,,"Now, get to detention, our pupils are expecting your presence.",,,,,,
+Outro3,Outro4,Yes Director.  (Go to class.),(You promptly leave for detention class.),,,,-1,,
+Outro3,Outro4,Fine.  (Go to class.),(You slowly leave for detention class.),,,,1,,
+Outro3,OutroDate1,"Before I go, do you have plans for the weekend?",(She looks at you curiously.),DialogTeacherIsSingle(),,,,,
+OutroDate1,Outro4,,"Young lady, I shall not repeat the same mistake.  Get to your class.","LogQuery(""Evelyn"", ""Breakup"")",,-1,,,
+OutroDate1,OutroDate2,,"Young lady, I did not expect that question.","!LogQuery(""Evelyn"", ""Breakup"")",,1,,,
+OutroDate2,,,Why do you ask?,,,,,,
+OutroDate2,OutroDate3,We could have dinner or go for a walk.,"I would love it, but I must decline.  The semester shall end soon and there is too much work.",DialogLoveGreater(8),,,,,
+OutroDate2,OutroDate3,We could have dinner or go for a walk.,"(She shakes her head no.)  I shall decline, young lady.",DialogLoveLower(7),,,,,
+OutroDate2,Outro4,"No reason, I should go.  (Go to class.)","(You quickly leave the basement, heading for detention.)",,,-2,,,
+OutroDate3,Outro4,,"Now, get to your class.  (You walk back up as she locks the door behind.)",,,,,,
+Outro4,Outro4,,,,"SaveGameDialog(""Class"", ""Detention"")",,,,

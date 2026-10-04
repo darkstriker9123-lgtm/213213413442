@@ -1,0 +1,231 @@
+Entry,Intro1,,,,,,,Mia,TeacherEnter
+Intro1,Intro2,,(You come back home to your girlfriend.  Your seventh week of work is done.),"DialogCurrentDS(""Mia"", """")",,,,,
+Intro1,Intro2,,(You come back home to your submissive girlfriend.  Your seventh week of work is done.),"DialogCurrentDS(""Mia"", ""Sub"")",,,,,
+Intro1,Intro2,,(You come back home to your Dominant girlfriend.  Your seventh week of work is done.),"DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+Intro2,Intro3,,"(She stands up and smiles at you, twirling in a new dress.)  Hun!  It's wonderful to see you.",DialogLoveGreater(25),,,,,MiaStandRedDressThrilled
+Intro2,Intro3,,(She stands up and twirls in a new dress.)  Hun!  So nice.,"DialogLoveBetween(10, 24)",,,,,MiaStandRedDressHappy
+Intro2,Intro3,,"(She stands up, wearing a new dress.)  Hello, welcome back.",DialogLoveLower(9),,,,,MiaStandRedDressNeutral
+Intro3,Intro4,,Check out this new dress that I've got.,"DialogCurrentDS(""Mia"", """")",,,,,
+Intro3,Intro4,,"Miss, check this new dress that I've got for you.","DialogCurrentDS(""Mia"", ""Sub"")",,,,,
+Intro3,Intro4,,"My love prisoner, check this new dress that I've got for myself.","DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+Intro3,Intro4,InventoryDialogPhone,(She rearranges her hair as you take a picture.),,PictureAdd(),,,,
+Intro4,,,Is it pretty?,,,,,,
+Intro4,Intro5,It enhances your perfect curves.,(She takes a proud pose and nods.)  It sure does!,,,,-1,,
+Intro4,Intro5,Was it expensive?,"A little, but let's not worry about that.",,,,1,,
+Intro4,Intro5,"It's gorgeous, just like you.",Thanks!  You're so sweet.,,,1,,,
+Intro4,Intro5,I don't like it.,Maybe I should've picked another color.,,,-2,,,
+Intro5,Intro6,,,,,,,,MiaStandRedDressShowHeelsGloves
+Intro6,Intro7,,(She shows you other new items.)  Wow!  Check these gloves!,,,,,,
+Intro6,Intro7,InventoryDialogPhone,(She smiles as you whip your phone for a picture.),,PictureAdd(),1,,,
+Intro7,Intro8,,It was about time that we got new clothes.,"DialogCurrentDS(""Mia"", """")",,,,,
+Intro7,Intro8,,"Miss, I hope you approve of these new clothes.","DialogCurrentDS(""Mia"", ""Sub"")",,,,,
+Intro7,Intro8,,"Face it my pet, it was about time that I got some new clothes.","DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+Intro8,,,Don't these heels look fabulous?,,,,,,
+Intro8,Intro9,How did you pay for that?,With credit!  Of course.,,,,1,,
+Intro8,Intro9,It looks kind of cheap.,"Well, it's not cheap at all.",,,-1,,,
+Intro8,Intro9,I don't know much about shoes.,I'll have to teach you then.,,,,-1,,
+Intro8,Intro9,They are adorable.  Can I borrow them some day?,Of course!  You have good taste in heels.,,,1,,,
+Intro8,Intro9,You're too fat for them.,You certainly know how to ruin the mood.,"!DialogCurrentDS(""Mia"", ""Dom"")",,-2,1,,
+Intro9,Intro9B,,,,,,,,TeacherMiaStandRedDressShowHeelsGloves
+Intro9B,Intro10,,It's a little expensive but don't worry about it.,,,,,,
+Intro10,Intro11,,I've created a special online account.  We'll pay in twenty monthly payments.,"!DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+Intro10,IntroForceRestaurant1,,I've created a special online account.  You will pay in twenty monthly payments.,"DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+Intro11,,,You'll get a raise before that.,,,,,,
+Intro11,Punishment1,"My pet, you will be punished for that expense.",(She sighs and makes puppy eyes.)  Miss?  Really?,"DialogCurrentDS(""Mia"", ""Sub"")",,-1,1,,
+Intro11,Punishment1,A punishment is required for that spending.,(She sighs and makes puppy eyes.)  What?  Really?,DialogDominationGreater(8),,-1,1,,
+Intro11,Restaurant1,"Keep that dress on, we'll go eat at the restaurant.",(She nods rapidly.)  Best idea ever!,,,1,,,MiaStandRedDressThrilled
+Intro11,Photo1,How about a photoshoot of us in that dress?,A photoshoot?   That could be fun.,,,,1,,MiaStandRedDressHappy
+Intro11,Outro1,Let's not talk about money or these new clothes.,"(She seems disappointed.)  Ok, fine.",,,-1,,,MiaStandRedDressUnhappy
+Intro11,Breakup,"You will ruin me, we are through.  (Break up with her.)",Fuck this!  I'm out!  (She changes quickly.),DialogLoveLower(9),,-6,,,MiaStandBored
+IntroForceRestaurant1,IntroForceRestaurant2,,"You'll get a raise, way before that, my little submissive.",,,,,,
+IntroForceRestaurant2,IntroForceRestaurant3,,"Now move your butt, we are going out to eat!",,,,,,MiaStandRedDressThrilled
+IntroForceRestaurant3,Restaurant1,,I'm hungry like the wolf and I want to show that dress.,,,,,,
+Punishment1,Punishment2,,,,,,,,TeacherMiaStandRedDressScold
+Punishment2,Punishment3,,"Since you're so proud of your new clothes, we need to show them in public.",,,,,Teacher,
+Punishment3,Punishment4,,Wow!  You got me worried for a second.  There's no problem there.,,,,,Mia,
+Punishment4,Punishment5,,You will wear these new items and an extra one.,,,,,Teacher,
+Punishment5,,,An extra item?,,,,,Mia,
+Punishment5,Punishment6,"For a cute combo, you will wear a red ball gag.",(She blushes and opens-up as you strap the ball gag.),,"DialogVariableSet(""Gag"", ""Ball"")",1,,,
+Punishment5,Punishment6,What letter comes before B?  (Get a ball gag.),A?  (You trick her to open-up and swiftly strap the ball gag.),,"DialogVariableSet(""Gag"", ""Ball"")",-1,,,
+Punishment5,Punishment6,"Don't worry, it's only for fun.  (Get a ball gag.)",(She nods and opens-up as you strap the ball gag.),,"DialogVariableSet(""Gag"", ""Ball"")",,-1,,
+Punishment5,Punishment6,InventoryDialogBallgag,(You stay silent and firmly strap a ball gag.),,"DialogVariableSet(""Gag"", ""Ball"")",,1,,
+Punishment5,Punishment6,"For a cute contrast, you will wear a black panel gag.",(She blushes and opens-up as you strap the panel gag.),,"DialogVariableSet(""Gag"", ""Panel"")",1,,,
+Punishment5,Punishment6,What letter comes before B?  (Get a panel gag.),A?  (You trick her to open-up and swiftly strap the panel gag.),,"DialogVariableSet(""Gag"", ""Panel"")",-1,,,
+Punishment5,Punishment6,"Don't worry, it's only for fun.  (Get a panel gag.)",(She nods and opens-up as you strap the panel gag.),,"DialogVariableSet(""Gag"", ""Panel"")",,-1,,
+Punishment5,Punishment6,InventoryDialogPanelGag,(You stay silent and firmly strap a panel gag.),,"DialogVariableSet(""Gag"", ""Panel"")",,1,,
+Punishment6,Punishment7,,,"DialogVariableIs(""Gag"", ""Ball"")",,,,,TeacherMiaStandRedDressBallGag
+Punishment6,Punishment7,,,"DialogVariableIs(""Gag"", ""Panel"")",,,,,TeacherMiaStandRedDressPanelGag
+Punishment7,Punishment8,,(She chews on her gag.)  Ow!  Whho hahe ho hinhy!,,,,,,
+Punishment8,Punishment9,,"Whenever you burn my hard-earned money, you will be punished.",,,,,Teacher,
+Punishment9,Punishment10,,Some public humiliation will teach you a lesson.,,,,,,
+Punishment9,Punishment10,InventoryDialogPhone,I'm also keeping this lesson on my phone.  (You take a picture.),,"PictureAdd(""Mia"")",,,,
+Punishment10,Punishment11,,(You grab her hand and lead her out.),,,,,,
+Punishment11,Punishment12,,,"DialogVariableIs(""Gag"", ""Ball"")",,,,Mia,MiaRedDressBallGagShyShop
+Punishment11,Punishment12,,,"DialogVariableIs(""Gag"", ""Panel"")",,,,Mia,MiaRedDressPanelGagShyShop
+Punishment12,Punishment13,,(You take her out to do grocery shopping.),,,,,,
+Punishment13,Punishment14,,(She blushes red and keeps her head low.),,,,1,,
+Punishment13,Punishment14,InventoryDialogPhone,(She grumbles as you capture the moment.),,PictureAdd(),-1,,,
+Punishment14,Punishment15,,,"DialogVariableIs(""Gag"", ""Ball"")",,,,,MiaRedDressBallGagShyPark
+Punishment14,Punishment15,,,"DialogVariableIs(""Gag"", ""Panel"")",,,,,MiaRedDressPanelGagShyPark
+Punishment15,Punishment16,,(You take her outside for a nice walk.),,,,,,
+Punishment16,Punishment17,,(She whimpers and tries not to look at anyone.),,,,,,
+Punishment16,Punishment17,InventoryDialogPhone,(She takes a deep breath as you save a picture on your phone.),,PictureAdd(),,,,
+Punishment17,Punishment18,,,"DialogVariableIs(""Gag"", ""Ball"")",,,,,TeacherMiaStandRedDressBallGag
+Punishment17,Punishment18,,,"DialogVariableIs(""Gag"", ""Panel"")",,,,,TeacherMiaStandRedDressPanelGag
+Punishment18,Punishment19,,(You return home as she seems quite embarrassed.),,,,,,
+Punishment19,,,(She stares at you with puppy eyes.),,,,,,
+Punishment19,Punishment20,I'm sure you will remember this lesson.,(She nods rapidly as you remove the gag.),,,,1,,
+Punishment19,Punishment20,Next time will be more humiliating.,(She whimpers as you remove the gag.),,,-1,,,
+Punishment19,Punishment20,I hope it wasn't too bad.,(She nods slowly as you remove the gag.),,,,-1,,
+Punishment19,Punishment20,I do this because I love you.,(She smiles as you remove the gag.),,,1,,,
+Punishment20,Punishment21,,Wow!  That was so embarrassing!,,,,,,MiaStandRedDressNeutral
+Punishment21,Outro1,,Sorry about that.  I'll be more careful with spendings.,,,,,,
+Restaurant1,Restaurant2,,(She smiles widely as you both leave to go get supper.),,,,,,
+Restaurant2,Restaurant3,,,,,,,Mia,TeacherMiaRedDressRestaurantSit
+Restaurant3,Restaurant4,,(You sit together at a nice table.  She rubs her hands in anticipation.),,,,,,
+Restaurant4,,,I'm so hungry!  I think I'll order the whole menu.,,,,,,
+Restaurant4,Restaurant5,What about your diet?,(She frowns.)  I was only kidding.,,,-1,,,
+Restaurant4,Restaurant5,We could pig in together!,That would be fun!  (She smiles at you.),,,1,,,
+Restaurant4,Restaurant5,We don't have the money for that.,I know!  I'm only kidding.,,,,1,,
+Restaurant4,Restaurant5,Go ahead!  I'll put it on my credit card.,You're way too generous.  (She winks at you.),,,,-1,,
+Restaurant5,Restaurant6,,(You both order a meal.),"DialogCurrentDS(""Mia"", """")",,,,,
+Restaurant5,Restaurant6,,"(You order for both of you, not letting her speak.)","DialogCurrentDS(""Mia"", ""Sub"")",,,,,
+Restaurant5,Restaurant6,,"(She orders for both of you, not letting you speak.)","DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+Restaurant6,Restaurant7,,,,,,,,TeacherMiaRedDressRestaurantEat
+Restaurant7,Restaurant8,,(You start to eat your meal slowly as Mia digs in quickly.),,,,,,
+Restaurant8,Restaurant9,,(She makes lots of noises while eating.),DialogDominationGreater(-9),,,,,
+Restaurant8,RestaurantDomMia0,,"(As you work on your meal, you can feel her foot crawling up your leg.)",DialogDominationLower(-10),,,,,
+Restaurant9,,,BUUUUURP!,,,,,,
+Restaurant9,Restaurant10,Don't do that in public places.,"Sorry, I had to let it go.  (She goes back to her food.)",,,-1,1,,
+Restaurant9,Restaurant10,(Laugh and make a thumbs up.),(She laughs with you and does a second one.),,,1,-1,,
+Restaurant9,Restaurant10,(Don't say anything.),(She continues to work on her food.),,,,,,
+Restaurant10,Restaurant11,,(You both finish your food and take a deep breath.),,,,,,TeacherMiaRedDressRestaurantSit
+Restaurant11,Restaurant12,,That was a great meal!  Thanks for taking the bill.  I love you.,DialogLoveGreater(25),,,,,
+Restaurant11,Restaurant12,,That was a great meal!  Thanks for taking the bill.,"DialogLoveBetween(10, 24)",,,,,
+Restaurant11,Restaurant12,,That was a great meal!,DialogLoveLower(9),,,,,
+Restaurant12,Restaurant13,,(You pay for supper and head back home together.),,,,,,
+Restaurant13,Outro1,,,,,,,,MiaStandRedDressHappy
+RestaurantDomMia0,RestaurantDomMia1,,,,,,,,TeacherMiaRedDressRestaurantFoot
+RestaurantDomMia1,RestaurantDomMia2,,"Shhhh, don't say a word and open up.",,,,,,
+RestaurantDomMia2,RestaurantDomMia3,,(You can feel her bare foot trying to dig a hole in between your thighs.),,,,,,
+RestaurantDomMia3,,,(Do you open your legs for her?),,,,,,
+RestaurantDomMia3,RestaurantDomMia4,(Open your thighs.),(She pushes further as you allow access.),,,2,-1,,
+RestaurantDomMia3,Restaurant10,(Close your thighs.),(She grumbles silently and pulls back her foot.)  You're no fun.,,,-2,1,,
+RestaurantDomMia4,RestaurantDomMia5,,,,,,,,TeacherMiaRedDressRestaurantTease
+RestaurantDomMia5,RestaurantDomMia6,,(You can feel her big toe getting dangerously close.),,,,,,
+RestaurantDomMia6,RestaurantDomMia7,,(She slowly starts to rub it against your panties.),,,,,,
+RestaurantDomMia7,RestaurantDomMia8,,What is wrong?  You cannot focus on your meal.,,,,,,
+RestaurantDomMia8,,,"My pet, give me these panties.","DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+RestaurantDomMia8,,,"Hun, give me your panties.","!DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+RestaurantDomMia8,RestaurantDomMia9,"Yes, but please be careful, I'm nervous.",(She smirks as you discreetly remove your panties.),,,,-2,,
+RestaurantDomMia8,RestaurantDomMia9,With pleasure.,(She smiles as you discreetly remove your panties.),,,1,-1,,
+RestaurantDomMia8,RestaurantDomMia9,"Fine, but next time you will give me yours.",It's a deal!  (You discreetly remove your panties.),,,,,,
+RestaurantDomMia8,Restaurant10,"Sorry, I cannot do that.","Ok, I understand.  (She pulls back her foot.)",,,-1,1,,
+RestaurantDomMia8,Restaurant10,Forget it!,(She grumbles silently and pulls back her foot.)  You're no fun.,,,-2,2,,
+RestaurantDomMia9,RestaurantDomMia10,,,,,,,,TeacherMiaRedDressRestaurantMasturbate
+RestaurantDomMia10,RestaurantDomMia11,,(She starts to play with your clitoris with her toes.),,,,,,
+RestaurantDomMia11,RestaurantDomMia12,,"(You pretend that nothing is going on, but eating is getting complicated.)",,,,,,
+RestaurantDomMia12,RestaurantDomMia13,,"(She pushes harder and faster, putting in more energy.)",,,,,,
+RestaurantDomMia13,RestaurantDomMia14,,(It's getting hard to control yourself and the chair.),,,,,,
+RestaurantDomMia14,,,(Will you get an orgasm from it?),,,,,,
+RestaurantDomMia14,RestaurantDomMia15,(Get a loud orgasm.),(Many customer jumps as you scream your orgasm in the middle of the restaurant.),,,2,1,,
+RestaurantDomMia14,RestaurantDomMia15,(Get a silent orgasm.),(You slowly get a sweet but silent orgasm in the middle of the restaurant.),,,1,-1,,
+RestaurantDomMia14,RestaurantDomMia15,(Fake a silent orgasm.),(You fake a sweet but silent orgasm in the middle of the restaurant.),,,,1,,
+RestaurantDomMia14,RestaurantDomMiaNoOrgasm,(Get no orgasm.),(She sighs as you don't achieve an orgasm from her foot work.),,,-2,,,
+RestaurantDomMia15,RestaurantDomMia16,,,,,,,,TeacherMiaRedDressRestaurantOrgasm
+RestaurantDomMia16,RestaurantDomMia17,,"(You shake for a little while, taking long breaths.)",,"LogAdd(""Mia"", ""RestaurantFootOrgasm"")",,,,
+RestaurantDomMia17,RestaurantDomMia18,,(Mia smiles and eats some of your food as you slowly recover.),,,,,,
+RestaurantDomMia18,Restaurant10,,(You finally recover your senses and go back to your meal.),,,,,,TeacherMiaRedDressRestaurantTease
+RestaurantDomMiaNoOrgasm,Restaurant10,,(She pulls back as you both return to your meal.),,,,,,
+Photo1,Photo2,,We could do some fun or naughty pictures.,,,,,,
+Photo2,Photo3,,,,,,,,MiaStandRedDressPhoto1
+Photo3,Photo4,,(She takes a first pose for you.),,,,,,
+Photo3,Photo4,InventoryDialogPhone,(You take a few pictures of your lover.),,PictureAdd(),,,,
+Photo4,Photo5,,,,,,,,MiaStandRedDressPhoto2
+Photo5,Photo6,,Does it look better?  (She takes a new pose.),,,,,,
+Photo5,Photo6,InventoryDialogPhone,(She smiles as you capture the moment.),,PictureAdd(),1,,,
+Photo6,Photo7,,,,,,,,MiaStandRedDressPhoto3
+Photo7,Photo8,,Too sexy?  Not sexy enough?  (She tries another pose.),,,,,,
+Photo7,Photo8,InventoryDialogPhone,(She smiles as you capture the moment.),,PictureAdd(),,,,
+Photo8,Photo9,,(She stops posing and smiles.),,,,,,MiaStandRedDressHappy
+Photo9,Photo10,,I'll be curious to see these pictures.,,,,,,
+Photo10,,,Would you like to try the dress?,,,,,,
+Photo10,PhotoTeacher1,"Sure, why not?",(She shrugs as you both start to change.),,,,,,
+Photo10,PhotoTeacher1,Yes!  Great idea.,(She smiles as you both start to change.),,,1,,,
+Photo10,Outro1,It's too big for me.,(She seems angry.)  Fine!  Forget it.,,,-1,,,
+Photo10,Outro1,I'm too shy to do it.,It's alright.  Don't worry about it.,"!DialogCurrentDS(""Mia"", ""Dom"")",,,-1,,
+Photo10,PhotoTeacher1,I'm too shy to do it.,"Nonsense, get naked my girl.  You will look great.  (You both start to change.)","DialogCurrentDS(""Mia"", ""Dom"")",,,-1,,
+Photo10,PhotoMiaRope1,InventoryDialogRope,(She jumps out of surprise as you start to rope her wrist.),"!DialogCurrentDS(""Mia"", ""Dom"")",,,1,,
+Photo10,Outro1,InventoryDialogRope,"No ropes, my pet.  I'll bind you later.","DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+PhotoMiaRope1,PhotoMiaRope2,,,,,,,,MiaStandRedDressRopePhoto1
+PhotoMiaRope2,PhotoMiaRope3,,(She tugs on the ropes.)  Wow!  So kinky!,,,,,,
+PhotoMiaRope2,PhotoMiaRope3,InventoryDialogPhone,(She blushes as you keep a few images.),,PictureAdd(),1,,,
+PhotoMiaRope3,PhotoMiaRope4,,,,,,,,MiaStandRedDressRopePhoto2
+PhotoMiaRope4,PhotoMiaRope5,,(She takes a second pose and smiles at you.),,,,,,
+PhotoMiaRope4,PhotoMiaRope5,InventoryDialogBallgag,(She gulps as you strap a ball gag in her mouth.),,,,1,,MiaStandRedDressRopePhoto2BallGag
+PhotoMiaRope4,PhotoMiaRope5,InventoryDialogPanelGag,(She gulps as you strap a panel gag in her mouth.),,,,1,,MiaStandRedDressRopePhoto2PanelGag
+PhotoMiaRope5,PhotoMiaRope6,,(She shakes her hips for your phone.),,,,,,
+PhotoMiaRope5,PhotoMiaRope6,InventoryDialogPhone,(You keep a few more souvenirs of that sexy photoshoot.),,PictureAdd(),,,,
+PhotoMiaRope6,PhotoMiaRope7,,(You take a few more images and release her.),,,,,,
+PhotoMiaRope7,PhotoMiaRope8,,,,,,,,MiaStandRedDressHappy
+PhotoMiaRope8,Outro1,,That was fun!  I hope I was sexy in these ropes.,,,,,,
+PhotoTeacher1,PhotoTeacher2,,,,,,,,TeacherStandRedDressPhoto1
+PhotoTeacher2,PhotoTeacher3,,(You take a first pose as she picks your phone.),,,,,,
+PhotoTeacher2,PhotoTeacher3,InventoryDialogPhone,(She saves some pictures on your device.),,"PictureAdd(""Teacher"")",,,,
+PhotoTeacher3,PhotoTeacher4,,,,,,,,TeacherStandRedDressPhoto2
+PhotoTeacher4,PhotoTeacher5,,(She snaps her fingers as you take a second pose.),,,,,,
+PhotoTeacher4,PhotoTeacher5,InventoryDialogPhone,(She captures the moment.),,"PictureAdd(""Teacher"")",,,,
+PhotoTeacher5,PhotoTeacher6,,,,,,,,TeacherStandRedDressPhoto3
+PhotoTeacher6,PhotoTeacher7,,(She hums as a sexy song as you take an alluring pose.),,,,,,
+PhotoTeacher6,PhotoTeacher7,InventoryDialogPhone,(She zooms on you to take more pictures.),,"PictureAdd(""Teacher"")",,,,
+PhotoTeacher7,PhotoTeacher8,,(You stop after a while and exchange clothes again.),DialogDominationGreater(-2),,,,,
+PhotoTeacher7,PhotoTeacherRope1,,(She grabs some rope as you shake your butt.),DialogDominationLower(-3),,,,,
+PhotoTeacher8,PhotoTeacher9,,,,,,,,MiaStandRedDressHappy
+PhotoTeacher9,Outro1,,That was fun!  You're a sexy model.,,,,,,
+PhotoTeacherRope1,PhotoTeacherRope2,,,,,,,,TeacherStandRedDressRopePhoto1
+PhotoTeacherRope2,PhotoTeacherRope3,,(She ropes your arms and grabs your phone.),,,,,,
+PhotoTeacherRope2,PhotoTeacherRope3,InventoryDialogPhone,(She zooms on you and takes a few pictures.),,"PictureAdd(""Teacher"")",,,,
+PhotoTeacherRope3,PhotoTeacherRope4,,,,"DialogVariableSetRandom(""Gag"", 2)",,,,TeacherStandRedDressRopePhoto2
+PhotoTeacherRope4,PhotoTeacherRope5,,(She adds more ropes around your legs and steps back.),,,,,,
+PhotoTeacherRope4,PhotoTeacherRope5,InventoryDialogPhone,So cute!  (She makes a thumbs up and captures the moment.),,"PictureAdd(""Teacher"")",,,,
+PhotoTeacherRope5,PhotoTeacherRope6,,,"DialogVariableIs(""Gag"", ""0"")",,,,,TeacherStandRedDressRopePhoto2BallGag
+PhotoTeacherRope5,PhotoTeacherRope6,,,"DialogVariableIs(""Gag"", ""1"")",,,,,TeacherStandRedDressRopePhoto2PanelGag
+PhotoTeacherRope6,PhotoTeacherRope7,,(She picks a ball gag and straps it tightly on you.),"DialogVariableIs(""Gag"", ""0"")",,,,,
+PhotoTeacherRope6,PhotoTeacherRope7,,(She picks a panel gag and straps it tightly on you.),"DialogVariableIs(""Gag"", ""1"")",,,,,
+PhotoTeacherRope7,PhotoTeacherRope8,,Say cheese!  (She laughs at her own joke.),,,,,,
+PhotoTeacherRope7,PhotoTeacherRope8,InventoryDialogPhone,(She giggles some more and saves a few pictures.),,"PictureAdd(""Teacher"")",,,,
+PhotoTeacherRope8,PhotoTeacher8,,(She takes a few more pictures and stops to release you.  You both change back.),,,,,,
+Outro1,OutroSwitch1,,"Hun, we have the weekend for us.","DialogCurrentDS(""Mia"", """")",,,,,
+Outro1,OutroDom1,,"Miss, we have the weekend for us.","DialogCurrentDS(""Mia"", ""Sub"")",,,,,
+Outro1,OutroSub1,,"My girl, we have the weekend for us.","DialogCurrentDS(""Mia"", ""Dom"")",,,,,
+OutroSwitch1,,,Do you have any plans?,,,,,,
+OutroSwitch1,OutroSwitch2,We could get naked in bed.,That's good plan!  (She smiles as you both get naked.),,,1,,,
+OutroSwitch1,OutroSwitch2,My plan starts with us getting naked.,I love how that plan begins.  (She giggles as you both get naked.),,,1,1,,
+OutroSwitch1,OutroSwitch2,(Blushes.)  Should we strip down?,You're cute when you blush.  (She smirks as you both get naked.),,,1,-1,,
+OutroSwitch1,EarlySleep1,"I'm exhausted, I don't want to do anything.","(She sighs.)  Fine, another boring weekend.  (You go get your pajamas.)",,,-4,1,,MiaStandRedDressUnhappy
+OutroSwitch1,Breakup,My plan is to kick you out.  (Breakup with her.),"Fuck you, PlayerName!  I'm out!  (She changes quickly.)",DialogLoveLower(9),,-6,,,MiaStandBored
+OutroSwitch2,Loop,,,,,,,,TeacherNakedMiaNakedSitBed
+OutroDom1,,,"What should we do this weekend, Miss PlayerName?",,,,,,
+OutroDom1,OutroDom2,We could get naked in bed.,That's good plan!  (She smiles as you both get naked.),,,1,,,
+OutroDom1,OutroDom2,We get naked first.,I love how that plan begins.  (She giggles as you both get naked.),,,1,1,,
+OutroDom1,OutroDom2,(Blushes.)  Should we strip down?,"You're so cute when you blush, Miss.  (She smirks as you both get naked.)",,,1,-1,,
+OutroDom1,EarlySleep1,"I'm exhausted, I don't want to do anything.","(She sighs.)  Yes Miss, another boring weekend.  (You go get your pajamas.)",,,-4,1,,MiaStandRedDressUnhappy
+OutroDom1,Breakup,My plan is to kick you out.  (Breakup with her.),"Fuck you, PlayerName!  I'm out!  (She changes quickly.)",DialogLoveLower(9),,-6,,,MiaStandBored
+OutroDom2,Loop,,,,,,,,TeacherNakedMiaNakedSitBed
+OutroSub1,,,"I've already planned everything.  First, we get naked in bed.",,,,,,
+OutroSub1,OutroSub2,That sounds wonderful.,(She smiles as you both get naked.),,,1,,,
+OutroSub1,OutroSub2,It sounds like we have the same planning.,Naughty minds think alike.  (She giggles as you both get naked.),,,1,1,,
+OutroSub1,OutroSub2,"I love your plan, Miss Mia.",We are just beginning.  (She smirks as you both get naked.),,,1,-1,,
+OutroSub1,OutroSub2,"I'm exhausted, can we get some sleep?","No!  Get naked right now, my pet.  (She frowns as you both get naked.)",DialogDominationLower(-5),,-2,2,,MiaStandRedDressNeutral
+OutroSub1,EarlySleep1,"I'm exhausted, can we get some sleep?","(She sighs.)  I give up, another boring weekend.  (You go get your pajamas.)",DialogDominationGreater(-4),,-4,1,,MiaStandRedDressUnhappy
+OutroSub1,Breakup,I don't care.  I want freedom.  (Breakup with her.),"Fuck you, PlayerName!  I'm out!  (She changes quickly.)",DialogLoveLower(9),,-6,3,,MiaStandBored
+OutroSub2,Loop,,,,,,,,TeacherNakedMiaNakedSitBed
+EarlySleep1,EarlySleep2,,,DialogLoveGreater(13),,,,,TeacherMiaBedSleepSpoon
+EarlySleep1,EarlySleep2,,,DialogLoveLower(12),,,,,TeacherMiaBedSleep
+EarlySleep2,,,(You both get ready to sleep.),,"DialogVariableSet(""MiaSleep"", ""Normal"")",,,,
+EarlySleep2,Outro,(Fall asleep quickly.),"(You quickly fall asleep, way before her.)",,,-1,,,
+EarlySleep2,Outro,(Kiss her goodnight.),(You exchange a few good night kisses before falling asleep.),,,1,,,
+EarlySleep2,Outro,Sleep well.,"Sleep well, hun.  (You both fall asleep.)",,,,,,
+Loop,,,,,"DialogLoad(""MiaLoop"")",,,,
+Breakup,,,,,"DialogLoad(""MiaBreakupStart"")",,,,
+Outro,,,,,"CommonSetScreen(""Home"", ""HomeBedroomEnd"")",,,,

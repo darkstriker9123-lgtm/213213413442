@@ -1,0 +1,434 @@
+I'm way too early, I should have waited outside.
+Je suis bien trop en avance, j’aurais dû attendre dehors.
+Time to calm down.  I'm sure the director will be in a good mood.
+Il est temps de se calmer. Je suis sûre que la directrice sera de bonne humeur.
+Maybe I can sit here, there's not much to do but wait.
+Je pourrais peut-être m'asseoir ici, je n'ai pas grand-chose d'autre à faire que d'attendre.
+(You try to get comfy.)  Everything will be fine.
+(Essayez de vous mettre à l'aise.)  Tout ira bien.
+(What will you do while you wait?)
+(Que ferez-vous pendant que vous attendrez ?)
+(Look at the office.)
+(Regardez le bureau.)
+(The office is huge.  She keeps it very clean and ordered.  It reflects on her character.)
+(Le bureau est immense. Elle le garde très propre et bien rangé. Cela en dit long sur son caractère.)
+(Look at the briefcase.)
+(Regardez la mallette.)
+(There's a metal briefcase on her desk, your name is written on the side.)
+(Il y a une mallette en métal sur son bureau, votre nom est inscrit sur le côté.)
+(Wait patiently.)
+(Patientez.)
+(You stay quiet and patient, waiting for your boss.)
+(Vous restez silencieuse et patiente, en attendant votre patron.)
+(Play a game on your phone.)
+(Jouez à un jeu sur votre téléphone.)
+(You play a little game on your phone while you wait.)
+(Vous jouez à un petit jeu sur votre téléphone pendant que vous attendez.)
+(Continue playing.)
+(Continuez à jouer.)
+(You continue to play your game.  Maybe you will finally clear that level.)
+(Vous continuez à jouer à votre jeu. Peut-être parviendrez-vous enfin à passer ce niveau.)
+(Put down the phone.)
+(Posez le téléphone.)
+(You put down the phone.)
+(Vous raccrochez le téléphone.)
+(Open it.)
+(Ouvrez-le.)
+(Leave it alone.)
+(Ne touchez à rien.)
+(You slowly open the briefcase.  Inside you find a few books, papers, pens and handcuffs.)
+(Vous ouvrez lentement la mallette. À l’intérieur, vous trouvez quelques livres, des papiers, des stylos et des menottes.)
+(Check the books.)
+(Consultez les ouvrages.)
+(There's a teacher's manual, a book on student psychology and a college rulebook.)
+(Il existe un manuel de l’enseignant, un ouvrage sur la psychologie des élèves et un règlement de l’université.)
+(Check the papers.)
+(Vérifiez les documents.)
+(You find a copy of your work contract and sheets containing student profiles.)
+(Vous trouvez une copie de votre contrat de travail et des fiches contenant les profils des élèves.)
+(Check the handcuffs.)
+(Vérifiez les menottes.)
+(The steel handcuffs look quite sturdy.  They come with a double-lock mechanism for more safety.)
+(Les menottes en acier ont l’air assez solides. Elles sont équipées d’un mécanisme à double verrouillage pour plus de sécurité.)
+(Close it and leave it alone.)
+(Fermez-le et ne vous en occupez plus.)
+(What will you do while you wait.)
+(Que ferez-vous pendant que vous attendrez ?)
+(Play with the cuffs.)
+(Jouez avec les menottes.)
+(You snap the cuffs open and closed.  They seem to work well.  You put them back.)
+(Vous ouvrez et fermez les menottes. Elles semblent bien fonctionner. Vous les rangez.)
+(Cuff yourself.)
+(Faites-vous une petite remarque.)
+(You playfully cuff yourself in the back.)
+(Vous vous donnez une petite tape amicale dans le dos.)
+(Leave them inside.)
+(Laissez-les à l'intérieur.)
+(There are a few books, papers, pens and handcuffs.)
+(Il y a quelques livres, des feuilles, des stylos et des menottes.)
+(Do a test struggle.)
+(Faites un petit exercice.)
+(You struggle and test the cuffs.  After a few attempts, it seems that it won't be that easy to get out.)
+(Vous vous débattez et testez les menottes. Après quelques tentatives, il semble que ce ne sera pas si facile de vous en libérer.)
+(Try to unlock them.)
+(Essayez de les déverrouiller.)
+(You try to unlock the cuffs behind your back but fumble with the key.  It might take a while to get out.)
+(Vous essayez de déverrouiller les menottes dans votre dos, mais vous vous emmêlez les pinceaux avec la clé.  Cela risque de prendre un certain temps avant de vous libérer.)
+(Struggle for fun.)
+(Luttez pour le plaisir.)
+(You struggle in the cuffs for fun.  Giggling and enjoying yourself.)
+(Vous vous débattez dans les menottes pour vous amuser. Vous gloussez et vous vous amusez bien.)
+(Struggle harder.)
+(Faites davantage d'efforts.)
+(You struggle hard to get out, but you're firmly locked up in steel.)
+(Vous vous débattez de toutes vos forces pour vous échapper, mais vous êtes solidement enfermée dans de l'acier.)
+(Unlock them.)
+(Déverrouillez-les.)
+(You sigh and watch the clock in your restraints.)
+(Vous soupirez et regardez l’horloge tout en restant menottée.)
+Hello?  Is there anyone around?
+Allô ? Y a-t-il quelqu’un ?
+(Nobody answers.)
+(Personne ne répond.)
+(The director enters and smiles.)
+(La directrice entre et sourit.)
+Patience is a virtue young lady.
+La patience est une vertu, jeune femme.
+Well said Director.
+Bien dit, Madame la Directrice.
+(She nods as you both walk to her desk.)
+(Elle hoche la tête tandis que vous vous dirigez tous les deux vers son bureau.)
+Yep!
+Oui !
+(She stares at you as you both walk to her desk.)
+(Elle vous fixe du regard tandis que vous vous dirigez tous les deux vers son bureau.)
+You're late Evelyn.
+Vous êtes en retard, Évelyne.
+Address me as "Director" young lady.  (She gets annoyed as you both get to her desk.)
+Adressez-vous à moi en m’appelant « directrice », jeune fille. (Elle s’agace lorsque vous vous approchez toutes les deux de son bureau.)
+(Nod slowly.)
+(Hochez lentement la tête.)
+(She smirks and you both walk to her desk.)
+(Elle esquisse un sourire en coin et vous vous dirigez tous les deux vers son bureau.)
+(The director enters and seems annoyed.)  
+(La directrice entre et semble agacée.)  
+Are we paying you to play games young lady?
+Est-ce que nous vous payons pour jouer à des jeux, jeune fille ?
+I wasn't paid yet.
+Je n'avais pas encore été payée.
+Do not get cheeky young lady.  We shall pay you each week.  (You both walk to her desk.)
+Ne faites pas la maligne, jeune fille. Nous vous paierons chaque semaine. (Vous vous dirigez toutes les deux vers son bureau.)
+I'm sorry Director.
+Je suis désolée, Madame la Directrice.
+That's better.  (She smirks as you both walk to her desk.)
+C'est mieux.  (Elle esquisse un sourire narquois tandis que vous vous dirigez tous les deux vers son bureau.)
+There was nothing to do.
+Il n’y avait rien à faire.
+Nothing is better than wasting your brain.  (You both walk to her desk.)
+Rien de mieux que de se creuser la tête.  (Vous vous dirigez tous les deux vers son bureau.)
+It will not happen again.
+Cela ne se reproduira plus.
+Good.  (You both walk to her desk.)
+Bien.  (Vous vous dirigez tous les deux vers son bureau.)
+I was getting my daily login gems!
+Je récupérais mes gemmes quotidiennes de connexion !
+I could not care less.  (She rolls her eyes up as you both walk to her desk.)
+Je m'en fiche complètement.  (Elle lève les yeux au ciel tandis que vous vous dirigez tous les deux vers son bureau.)
+(The director enters and smirks.)
+(La directrice entre et esquisse un sourire narquois.)
+Are you testing the school material young lady?
+Êtes-vous en train de tester le matériel scolaire, jeune fille ?
+Yes Director.
+Oui, Directrice.
+(She grins.)  Are you enjoying the restraints?
+(Elle sourit.)  Appréciez-vous ces contraintes ?
+For quality assurance.
+À des fins d’assurance qualité.
+We only get the best equipment.  Are you enjoying the restraints?
+Nous ne nous équipons que du meilleur matériel.  Appréciez-vous les entraves ?
+I was about to get out.
+J'étais sur le point de sortir.
+Of course you were.  Are you enjoying the restraints?
+Bien sûr que oui.  Appréciez-vous ces contraintes ?
+I got stuck in them.
+Je me suis retrouvé coincé là-dedans.
+You look quite helpless.  Are you enjoying the restraints?
+Vous avez l’air assez désemparée.  Appréciez-vous ces liens ?
+(Tug harder on the cuffs.)
+(Tirez plus fort sur les poignets.)
+You shall not get out by struggling.  Are you enjoying the restraints?
+Vous ne vous en sortirez pas en vous débattant.  Appréciez-vous ces contraintes ?
+Not really.
+Pas vraiment.
+As a lesson, you can keep them while we talk.  (You both walk to her desk.)
+À titre d’exercice, vous pouvez les garder pendant que nous discutons.  (Vous vous dirigez tous les deux vers son bureau.)
+Of course not.
+Bien sûr que non.
+Maybe a little.
+Peut-être un peu.
+Then you shall keep them while we talk.  (You both walk to her desk.)
+Vous les garderez donc pendant que nous parlons.  (Vous vous dirigez tous les deux vers son bureau.)
+(Blush.)  Yes Director.
+(Rougit.)  Oui, Directrice.
+I trust you reviewed the college history, curriculum and rules.
+J’espère que vous avez pris connaissance de l’histoire, du programme et du règlement de l’établissement.
+Sorry, I haven't had the time yet.
+Désolée, je n'ai pas encore eu le temps.
+You shall manage your time better, young lady.
+Vous devriez mieux gérer votre temps, jeune femme.
+I've read everything twice Director.
+J'ai tout relu deux fois, Madame la Directrice.
+(She smirks and then smiles.)  Good girl.
+(Elle esquisse un sourire narquois, puis sourit.)  Bravo.
+I will help to enforce these rules.
+Je veillerai à ce que ces règles soient respectées.
+(She nods slowly.)  This is the spirit I'm looking for.
+(Elle hoche lentement la tête.)  C'est exactement l'esprit que je recherche.
+I was busy.  I'll do it later.
+J'étais occupée. Je le ferai plus tard.
+(She grumbles.)  You shall allocate more time for your career, young lady.
+(Elle marmonne.)  Vous devriez consacrer davantage de temps à votre carrière, jeune femme.
+We require excellence and discipline from our teachers.
+Nous exigeons de nos enseignants qu’ils fassent preuve d’excellence et de discipline.
+We shall teach you discipline.  Your students will learn it from you.
+Nous vous enseignerons la discipline. Vos élèves l'apprendront de vous.
+Very well.
+Très bien.
+As a new teacher here, you shall not give full classes yet.
+En tant que nouvel enseignant ici, vous ne devez pas encore assurer des cours complets.
+An iron fist in a velvet glove.
+Une main de fer dans un gant de velours.
+(She nods and continues.)  As a new teacher here, you shall not give full classes yet.
+(Elle hoche la tête et poursuit.) En tant que nouvelle enseignante ici, vous ne devez pas encore assurer des cours complets.
+(Gulp and listen.)
+(Avalez votre salive et écoutez.)
+(She grins and continues.)  As a new teacher here, you shall not give full classes yet.
+(Elle sourit et poursuit.) En tant que nouvelle enseignante ici, vous ne devez pas encore assurer des cours complets.
+Your role this semester shall be to coach our students with difficulties.
+Votre rôle ce semestre consistera à accompagner nos élèves en difficulté.
+You shall manage the detention room.
+Vous serez chargée de gérer la salle de retenue.
+I can take care of that.
+Je peux m'en occuper.
+This is music to my ears.
+C'est une véritable musique à mes oreilles.
+Detention?  Are you sure Director?
+Une heure de retenue ? Êtes-vous sûre, Madame la Directrice ?
+You require more confidence than that.
+Vous devez faire preuve de plus d’assurance que cela.
+(Stay silent.)
+(Restez silencieux.)
+(She plays with her glasses and continues.)
+(Elle joue avec ses lunettes et poursuit.)
+When our students get in trouble or get expelled from a class, you shall take care of them.
+Lorsque nos élèves ont des problèmes ou sont exclus d’un cours, vous devrez vous occuper d’eux.
+You shall ensure they study harder and do their homework.
+Vous veillerez à ce qu’elles étudient davantage et fassent leurs devoirs.
+In the metal briefcase behind you. You shall find your teacher's tools.
+Dans la mallette en métal derrière vous, vous trouverez les outils de votre enseignante.
+There are books, notepads, pens and handcuffs.
+Il y a des livres, des blocs-notes, des stylos et des menottes.
+Can I see how the handcuffs work?
+Puis-je voir comment fonctionnent les menottes ?
+(She thinks aloud.)  Fine, I can take some time to show you the cuffs.  Go get them.
+(Elle réfléchit à voix haute.)  Très bien, je peux prendre un peu de temps pour vous montrer les menottes.  Allez les chercher.
+We don't have time for that.  Use them in class if a student gives you too much trouble.
+Nous n'avons pas le temps pour ça. Utilisez-les en classe si un élève vous cause trop de problèmes.
+Handcuffs Director?
+Des menottes, Directrice ?
+Young lady, if a student gives you too much trouble, you can use that tool to restrain her.
+Jeune femme, si une élève vous cause trop de problèmes, vous pouvez utiliser cet outil pour la maîtriser.
+Wait... what did you say?
+Attendez... qu’avez-vous dit ?
+You heard me just fine.  If a student gives you too much trouble, you can use that tool to restrain her.
+Vous m’avez très bien entendue. Si une élève vous cause trop de problèmes, vous pouvez utiliser cet outil pour la maîtriser.
+To enforce discipline, I'm sure.
+Pour faire respecter la discipline, j'en suis sûr.
+(She nods in agreement.)  If a student gives you too much trouble, you can use that tool to restrain her.
+(Elle acquiesce d’un signe de tête.) Si une élève vous cause trop de problèmes, vous pouvez utiliser cet outil pour la maîtriser.
+(Jump out of surprise.)
+(Sursauter de surprise.)
+Don't be surprised.  If a student gives you too much trouble, you can use that tool to restrain her.
+Ne soyez pas surpris. Si une élève vous cause trop de problèmes, vous pouvez utiliser cet outil pour la maîtriser.
+I see that you have already looked in your new briefcase young lady.  (She grins.)
+Je vois que vous avez déjà fouillé dans votre nouvelle mallette, jeune femme.  (Elle sourit.)
+Keep everything in it, these are your teacher's tools.  Including the handcuffs.
+Conservez tout ce qui s’y trouve, ce sont les outils de votre professeur. Y compris les menottes.
+I'll certainly use the handcuffs.
+Je vais certainement utiliser les menottes.
+Not on yourself anymore, I hope.  (She laughs.)
+J'espère que ce n'est plus à votre sujet.  (Elle rit.)
+Can I use them on students?
+Puis-je les utiliser avec des élèves ?
+Of course, if they misbehave.
+Bien sûr, s’ils se comportent mal.
+Will you unlock me?
+Voulez-vous me libérer ?
+Later young lady.  Your lesson isn't over.
+À plus tard, jeune fille. Votre cours n'est pas terminé.
+Have you also used the double locking mechanism?
+Avez-vous également utilisé le mécanisme de double verrouillage ?
+I'm sorry, I did not.
+Je suis désolée, je ne l'ai pas fait.
+Do not worry young lady.  Just make sure you double lock them on our students.
+Ne vous inquiétez pas, jeune fille. Assurez-vous simplement de bien fermer à double tour les portes de nos élèves.
+What is that?
+Qu'est-ce que c'est ?
+(She sighs.)  It's a mechanism that shall ensure that they won't lock tighter.
+(Elle soupire.) C'est un mécanisme qui doit garantir qu'ils ne se serreront pas davantage.
+Of course.  Safety is important.
+Bien sûr.  La sécurité est importante.
+Perfect!  Make sure you do the same when you use them on our students.
+Parfait ! Veillez à faire de même lorsque vous les utilisez avec nos élèves.
+I did Director.
+Je l'ai fait, Directrice.
+Good.  Make sure you do the same when you use them on our students.
+Très bien. Veillez à faire de même lorsque vous les utilisez sur nos élèves.
+(Struggle and shrug.)
+(Hésitation et haussement d’épaules.)
+You're clueless, aren't you?  It's a mechanism that shall ensure that they won't lock tighter.
+Vous n'y comprenez rien, n'est-ce pas ? C'est un mécanisme qui doit garantir qu'ils ne se serrent pas davantage.
+These cuffs shall be a tool if a student lacks discipline or gives you trouble.
+Ces menottes vous serviront d’outil si un élève manque de discipline ou vous cause des problèmes.
+(You walk to the briefcase to fetch the cuffs and bring them back to Evelyn.)
+(Vous vous dirigez vers la mallette pour aller chercher les menottes et les rapporter à Éveline.)
+These cuffs are easy to use and come with a double locking safety mechanism.
+Ces menottes sont faciles à utiliser et sont équipées d’un double mécanisme de verrouillage de sécurité.
+Can I try them on you?
+Puis-je vous les faire essayer ?
+(She sighs and nods.)  Fine, but do it quickly.  (She puts her hands in front or herself.)
+(Elle soupire et hoche la tête.)  D’accord, mais faites-le vite.  (Elle place ses mains devant elle.)
+(She shakes her head from left to right.)  Forget it young lady.  You shall wear them.
+(Elle secoue la tête de gauche à droite.)  Laissez tomber, jeune fille.  Vous devrez les porter.
+Can you try them on me?
+Pouvez-vous me les faire essayer ?
+(She grins and nods.)  Of course young lady.  I can arrange that.
+(Elle sourit et hoche la tête.) Bien sûr, jeune fille. Je peux m'en occuper.
+(She stares at you as you cuff her hands.)
+(Elle vous fixe du regard tandis que vous lui passez les menottes.)
+Well done, and what should you do next?
+Bravo, et que devez-vous faire ensuite ?
+Tighten them?
+Faut-il les raccourcir ?
+Absolutely not.  As I told you, you require the double locking mechanism, so they don't lock tighter.
+Absolument pas. Comme je vous l’ai dit, vous avez besoin du mécanisme de double verrouillage, afin qu’ils ne se verrouillent pas plus fermement.
+Grope your butt?
+Vous peloter les fesses ?
+(Her eyes widen.)  Young lady!  As I told you, you require the double locking mechanism, so they don't lock tighter.
+(Elle écarquille les yeux.)  Jeune fille !  Comme je vous l’ai dit, il vous faut le mécanisme de double verrouillage, pour qu’ils ne se verrouillent pas davantage.
+Use the double lock?
+Faut-il utiliser le double accent aigu ?
+(She nods in agreement.)  Very good!  As I told you, you require the double locking mechanism, so they don't lock tighter.
+(Elle acquiesce d’un signe de tête.) Très bien ! Comme je vous l’ai dit, il vous faut le mécanisme à double verrouillage, afin qu’ils ne se verrouillent pas plus fermement.
+I don't know.
+Je ne sais pas.
+(She sighs.)  As I told you, you require the double locking mechanism, so they don't lock tighter.
+(Elle soupire.)  Comme je vous l’ai dit, il vous faut le mécanisme de double verrouillage, pour qu’ils ne se verrouillent pas davantage.
+(She watches you carefully as you double lock the cuffs.)
+(Elle vous observe attentivement tandis que vous verrouillez les menottes à double tour.)
+There you go.  It requires to be both secure and safe for our students.
+Voilà. Il faut que l'environnement soit à la fois sûr et sécurisé pour nos élèves.
+Do you enjoy being cuffed?
+Aimez-vous être menottée ?
+(She stays silent for a few seconds and doesn't answer your question.)
+(Elle reste silencieuse pendant quelques secondes et ne répond pas à votre question.)
+These cuffs are not suitable for you Director.
+Ces menottes ne vous conviennent pas, Madame la Directrice.
+Of course they are not.
+Bien sûr que non.
+They look good on you.
+Cela vous va très bien.
+(You can notice a little blush on her face.)
+(Vous pouvez remarquer un léger rougissement sur son visage.)
+Struggle for me.
+Faites l’effort pour moi.
+This is not a game!
+Ce n’est pas un jeu !
+I will unlock you now.
+Je vais vous déverrouiller maintenant.
+Yes young lady, it's time to unlock me.
+Oui, jeune femme, il est temps de me libérer.
+(As she's busy checking her hands, you whip up your phone and snap a stealthy picture.)
+(Alors qu’elle est occupée à vérifier ses mains, vous sortez rapidement votre téléphone et prenez une photo en cachette.)
+It's time to unlock me, young lady.
+Il est temps de me libérer, jeune femme.
+(You unlock the cuffs, and she goes back to her desk.)
+(Vous lui retirez les menottes, et elle retourne à son bureau.)
+(She swiftly cuffs your hands.  It seems that she has lots of practice with them.)
+(Elle vous passe rapidement les menottes. On dirait qu’elle a beaucoup d’expérience avec ces menottes.)
+This is the first step young lady.  What should I do next?
+C'est la première étape, jeune fille. Que dois-je faire ensuite ?
+(She shakes her head no.)  They are tight enough.  The next step is to use the double locking mechanism.
+(Elle secoue la tête pour dire « non ».)  Ils sont suffisamment serrés.  L’étape suivante consiste à utiliser le mécanisme de double verrouillage.
+(She smiles.)  Exactly!  The next step is to use the double locking mechanism.
+(Elle sourit.)  Exactement !  L'étape suivante consiste à utiliser le mécanisme de double verrouillage.
+Spank me?
+Vous voulez me donner une fessée ?
+(She grumbles.)  Be serious!  The next step is to use the double locking mechanism.
+(Elle marmonne.) Soyez sérieux ! L’étape suivante consiste à utiliser le mécanisme de double verrouillage.
+(She sighs.)  The next step is to use the double locking mechanism.
+(Elle soupire.)  L’étape suivante consiste à utiliser le mécanisme de double verrouillage.
+(She uses the double lock.)
+(Elle utilise le double verrou.)
+This mechanism makes it both secure and safe for our students.
+Ce dispositif garantit à la fois la sécurité et la sûreté de nos élèves.
+Can you unlock me?
+Pouvez-vous me déverrouiller ?
+Of course.  It's time to unlock you, young lady.
+Bien sûr. Il est temps de vous libérer, jeune femme.
+Our students need to be safe.
+Nos élèves doivent être en sécurité.
+Well said.  It's time to unlock you, young lady.
+Bien dit. Il est temps de vous libérer, jeune femme.
+These cuffs are very comfortable.
+Ces poignets sont très confortables.
+They suit you well, but it's time to unlock you, young lady.
+Elles vous vont très bien, mais il est temps de vous libérer, jeune femme.
+(Struggle playfully.)
+(Luttez de manière ludique.)
+That's enough.  It's time to unlock you, young lady.
+Cela suffit. Il est temps de vous libérer, jeune femme.
+(She unlocks your cuffs and goes back to her desk.)
+(Elle vous détache les menottes et retourne à son bureau.)
+Our college is strict and shall not allow students to become little queens.
+Notre établissement est strict et ne permettra pas aux étudiantes de se comporter comme des petites reines.
+Spending some time restrained shall remind them they are not in charge.  It's a fair punishment.
+Le fait de passer un certain temps en détention leur rappellera qu’ils ne sont pas aux commandes. C’est une punition juste.
+You shall be able to consult each student's grades, to see how they progress with time.
+Vous pourrez consulter les notes de chaque élève afin de suivre leur progression au fil du temps.
+Your job here is to help them learn discipline and get better grades.  Is that clear?
+Votre rôle ici est de les aider à acquérir de la discipline et à obtenir de meilleures notes.  Est-ce clair ?
+(Nod timidly.)
+(Hochez timidement la tête.)
+You shall be more confident to face our most troublesome ladies.
+Vous serez ainsi plus à l’aise pour faire face à nos dames les plus difficiles.
+Yes Director!
+Oui, directrice !
+That's the spirit!  You shall require that confidence.
+C'est ça l'esprit ! Vous devrez faire preuve de cette assurance.
+It's clear.
+C'est clair.
+(She nods.)  Our methods have been proven to work.
+(Elle hoche la tête.)  Nos méthodes ont fait leurs preuves.
+Is this a good way to educate?
+Est-ce là une bonne manière d’éduquer ?
+Our methods have been proven for decades.  Be confident.
+Nos méthodes ont fait leurs preuves depuis des décennies.  Ayez confiance.
+I will respect your rules.
+Je respecterai vos règles.
+Very good, and make sure they respect your rules.  Be more confident.
+Très bien, et veillez à ce que vos règles soient respectées. Ayez davantage confiance en vous.
+Now turn around and give me your hands.  (She gets a key to unlock you.)
+Maintenant, tournez-vous et tendez-moi vos mains.  (Elle prend une clé pour vous libérer.)
+(She looks at the clock.)  Our students require you now.
+(Elle regarde l’horloge.) Nos élèves ont besoin de vous maintenant.
+Get moving young lady!
+Allez, bougez-vous, jeune femme !
+(Go to the detention room.)
+(Rendez-vous à la salle de retenue.)
+You arrive early at the college, before any students and most staff.
+Vous arrivez tôt à l'université, avant tous les étudiants et la plupart des membres du personnel.
+A secretary unlocks your boss's office.  You can wait for her there.
+Une secrétaire ouvre le bureau de votre patron. Vous pouvez l'y attendre.
+Her office is large and impressive, try to relax while you wait.
+Son bureau est vaste et imposant ; essayez de vous détendre pendant que vous attendez.

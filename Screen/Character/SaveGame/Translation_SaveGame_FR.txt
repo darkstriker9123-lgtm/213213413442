@@ -1,0 +1,22 @@
+Enter a description, select the folder on the left and click on the slot to save.
+Saisissez une description, sélectionnez le dossier à gauche, puis cliquez sur l'emplacement pour enregistrer.
+Select the folder on the left and click on the saved game on the right to load it.
+Sélectionnez le dossier à gauche et cliquez sur la partie sauvegardée à droite pour la charger.
+Empty slot
+Emplacement vide
+Week #
+Semaine n°
+Back to menu
+Retour au menu
+Exit game
+Quitter le jeu
+Continue
+Continuer
+Description:
+Description :
+Class
+Classe
+Boss Office
+Directrice
+Home
+Maison

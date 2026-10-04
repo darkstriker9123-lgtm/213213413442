@@ -1,0 +1,845 @@
+Entry,Intro0,,,,,,,Teacher,TeacherEnter
+Intro0,CheckBlackmail1,,(You come back home to your empty apartment.),,DialogAloneEventSet(),,,,
+CheckBlackmail1,CheckBlackmail2,,(The place is very quiet.),"!LogQuery(""Sidney"", ""BlackmailUnderwearCuffsDesk"")",,,,,TeacherStandAlone
+CheckBlackmail1,BlackmailUnderwearCuffsDesk1,,(The place is very quiet.),"LogQuery(""Sidney"", ""BlackmailUnderwearCuffsDesk"")",,,,,
+BlackmailUnderwearCuffsDesk1,BlackmailUnderwearCuffsDesk2,,,,,,,,TeacherStandPhone
+BlackmailUnderwearCuffsDesk2,BlackmailUnderwearCuffsDesk3,,(Sidney sends you a few text messages.),"!LogQuery(""Sidney"", ""BlackmailUnderwearCuffsDeskPhone"")",,,,,
+BlackmailUnderwearCuffsDesk2,Intro2,,(You check your phone but there are no new messages.),"LogQuery(""Sidney"", ""BlackmailUnderwearCuffsDeskPhone"")",,,,,
+BlackmailUnderwearCuffsDesk3,BlackmailUnderwearCuffsDesk4,,"(She tells you that you are a prey, and you must serve the hunters.)",,,,,,
+BlackmailUnderwearCuffsDesk4,BlackmailUnderwearCuffsDesk5,,"(She also sends you a picture of yourself, so you don't forget her.)",,"LogAdd(""Sidney"", ""BlackmailUnderwearCuffsDeskPhone"")",,,,
+BlackmailUnderwearCuffsDesk5,BlackmailUnderwearCuffsDesk6,,,,,,,,SidneyBlackmailUnderwearCuffsDesk
+BlackmailUnderwearCuffsDesk6,BlackmailUnderwearCuffsDesk7,,(The picture in class is very explicit.  It could compromise your career.),,,,,,
+BlackmailUnderwearCuffsDesk7,BlackmailUnderwearCuffsDesk8,,(She writes to you that you will serve her again someday.),,,,,,
+BlackmailUnderwearCuffsDesk8,Intro2,,(She stops texting you after a while.),"!DialogVariableIs(""AloneEvent"", ""SidneyPorn"")",,,,,TeacherStandPhone
+BlackmailUnderwearCuffsDesk8,Intro2,,(She messages you that she wants to talk right now.),"DialogVariableIs(""AloneEvent"", ""SidneyPorn"")",,,,,TeacherStandPhone
+CheckBlackmail2,Intro2,,"(You look at the clock, it's ticking slowly.)","!LogQuery(""Sidney"", ""BlackmailNakedBoundBasementDesk"")",,,,,TeacherStandAlone
+CheckBlackmail2,BlackmailNakedBoundBasementDesk1,,"(You look at the clock, it's ticking slowly.)","LogQuery(""Sidney"", ""BlackmailNakedBoundBasementDesk"")",,,,,
+BlackmailNakedBoundBasementDesk1,BlackmailNakedBoundBasementDesk2,,,,,,,,TeacherStandPhone
+BlackmailNakedBoundBasementDesk2,BlackmailNakedBoundBasementDesk3,,(Sidney sends you a few text messages.),"!LogQuery(""Sidney"", ""BlackmailNakedBoundBasementDeskPhone"")",,,,,
+BlackmailNakedBoundBasementDesk2,Intro2,,(You check your phone but there are no new messages.),"LogQuery(""Sidney"", ""BlackmailNakedBoundBasementDeskPhone"")",,,,,
+BlackmailNakedBoundBasementDesk3,BlackmailNakedBoundBasementDesk4,,"(She tells you that you are a prey, and you must serve the hunters.)","!DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+BlackmailNakedBoundBasementDesk3,BlackmailNakedBoundBasementDesk4,,"(She tells you that you're her bitch, her private porn star.)","DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+BlackmailNakedBoundBasementDesk4,BlackmailNakedBoundBasementDesk5,,"(She also sends you a picture of yourself, so you don't forget her.)",,"LogAdd(""Sidney"", ""BlackmailNakedBoundBasementDeskPhone"")",,,,
+BlackmailNakedBoundBasementDesk5,BlackmailNakedBoundBasementDesk6,,,,,,,,SidneyBlackmailNakedBoundBasementDesk
+BlackmailNakedBoundBasementDesk6,BlackmailNakedBoundBasementDesk7,,(The picture shows you fully naked.  It could compromise your career.),,,,,,
+BlackmailNakedBoundBasementDesk7,BlackmailNakedBoundBasementDesk8,,(She writes to you that you will work for her again soon.),"!DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+BlackmailNakedBoundBasementDesk7,BlackmailNakedBoundBasementDesk8,,(She writes that she will choke and fuck you soon.),"DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+BlackmailNakedBoundBasementDesk8,Intro2,,(She stops texting you after a while.),"!DialogVariableIs(""AloneEvent"", ""SidneyPorn"")",,,,,TeacherStandPhone
+BlackmailNakedBoundBasementDesk8,Intro2,,(She messages you that she wants to talk right now.),"DialogVariableIs(""AloneEvent"", ""SidneyPorn"")",,,,,TeacherStandPhone
+Intro2,Intro3,,(This might be a boring evening.),"DialogVariableIs(""AloneEvent"", ""None"")",,,,,
+Intro2,SidneyDom1,,(Your phone starts to ring.),"DialogVariableIs(""AloneEvent"", ""SidneyPorn"")",,,,,
+Intro2,Evelyn1,,(You notice a package by your doorstep.),"DialogVariableIs(""AloneEvent"", ""EvelynFirstDate"")",,,,,
+Intro3,,,(What will you do this weekend?),,,,,,
+Intro3,Call1,(Make a phone call.),,,,,,,TeacherStandPhone
+Intro3,Club1,(Go to a night club.),,,,,,,TeacherNightClubAlone
+Intro3,Intro4,(Get drunk alone.),(You get wasted alone all weekend.  The hangover will probably not help your career and students.),,DialogChangeGradesAll(-1),,,,TeacherDrinkAlone
+Intro3,Restaurant1,(Eat at the restaurant.),,,,,,,TeacherRestaurantAlone
+Intro3,Shopping1,(Go shopping.),,,,,,,TeacherShoppingAlone
+Intro3,Intro4,(Binge movies and TV series in bed.),(You stay at home and binge movies and TV series in your bed.),,,,,,TeacherBedPhoneAlone
+Intro3,Intro4,(Review the students material.),"(You review the school material, preparing yourself to help your students better.)",,DialogChangeGradesAll(1),,,,TeacherStudyAlone
+Intro3,Intro8,(Sleep in your pajamas all weekend.),"(You stay at home in bed all weekend, recharging your batteries in your pajamas.)",,,,,,TeacherSleepAlonePajamas
+Call1,,,(Who will you call?),,,,,,TeacherStandPhone
+Call1,Call1,(Call your ex Mia.),"(You try to call your ex-girlfriend Mia, but she doesn't answer.)",,,,,,TeacherStandPhoneTalk
+Call1,Call1,(Call your Dominant Sidney.),"(You try to call your Dominant Sidney, but she doesn't answer.)","DialogCurrentDS(""Sidney"", ""Dom"")",,,,,TeacherStandPhoneTalk
+Call1,SidneySub1,(Call your submissive Sidney.),"(You give a phone call to Sidney, your submissive student.)","DialogCurrentDS(""Sidney"", ""Sub"")",,,,,TeacherStandPhoneTalk
+Call1,SarahDom1,(Call your Big Sister Sarah.),(You try to call your Big Sister Sarah.  It rings for a while.),"DialogCurrentDS(""Sarah"", ""Dom"")",,,,,TeacherStandPhoneTalk
+Call1,Intro3,(Don't call anyone.),(You put the phone down.),,,,,,TeacherStandAlone
+Restaurant1,Restaurant2,,"(You go eat at the restaurant, sitting alone with your phone in hand.)",,,,,,
+Restaurant2,Restaurant3,,(You remember how Mia used to love this place.),,,,,,
+Restaurant3,Restaurant4,,"(You look at the other tables, but she's not there.)",,,,,,
+Restaurant4,Intro4,,(You head back home after your meal.),,,,,,TeacherStandAlone
+Club1,Club2,,"(You go to a night club alone, to dance and have a good time.)",,,,,,
+Club2,Club3,,(It's a good way to unwind and watch the cute girls and boys.),,,,,,
+Club3,Club4,,"(You flirt a little, but don't end the evening with a date.)",,,,,,
+Club4,Intro4,,(You head back home after your night out.),,,,,,TeacherStandAlone
+Shopping1,Shopping2,,"(You go to the local shopping mall, looking at the stores.)",,,,,,
+Shopping2,,,(What will you buy?),,,,,,
+Shopping2,Shopping3,(Buy some clothes.),(You treat yourself with some new clothes.),,,,,,
+Shopping2,Shopping3,(Buy a headset.),(You buy a new headset for the electronic store and put it in your bag.),"!InventoryAvailable(""Headset"")","InventoryAdd(""Headset"")",,,,
+Shopping2,Shopping3,(Buy a book.),(You buy a new book to read by yourself this weekend.),,,,,,
+Shopping2,Shopping3,(Buy some ropes.),(You buy some red ropes from the hardware store and put it in your bag.),"!InventoryAvailable(""Rope"")","InventoryAdd(""Rope"")",,,,
+Shopping2,Shopping3,(Buy groceries.),(You buy some extra groceries to eat better this week.),,,,,,
+Shopping2,Shopping3,(Don't buy anything.),(You can't make up your mind and don't buy anything.),,,,,,
+Shopping3,Shopping4,,(You head back home after your shopping.),,,,,,
+Shopping4,Intro4,,,,,,,,TeacherStandAlone
+Intro4,Intro5,,(It will be a lazy weekend all alone.),,,,,,
+Intro5,,,(Will you masturbate?),,,,,,
+Intro5,Masturbate1,(Masturbate.),"(You slowly strip down, ready to masturbate alone.)",,,,,,
+Intro5,Intro6,(Don't masturbate.),(You decide to stay chaste and not touch yourself.),,,,,,
+Masturbate1,Masturbate2,,,,,,,,TeacherBedNakedMasturbate
+Masturbate2,Masturbate3,,(You lay in bed in a suggestive position.),,,,,,
+Masturbate3,,,(Who will you think about?),,,,,,
+Masturbate3,Masturbate4,(Think about Mia.),(You dream about your ex-girlfriend Mia and start to touch yourself.),"DialogCharacterIsKnown(""Mia"")","DialogChangeLove(""Mia"", 1)",,,,
+Masturbate3,Masturbate4,(Think about Evelyn.),(You dream about your boss Evelyn and start to touch yourself.),"DialogCharacterIsKnown(""Evelyn"")","DialogChangeLove(""Evelyn"", 1)",,,,
+Masturbate3,Masturbate4,(Think about Yuki.),(You dream about your colleague Yuki and start to touch yourself.),"DialogCharacterIsKnown(""Yuki"")","DialogChangeLove(""Yuki"", 1)",,,,
+Masturbate3,Masturbate4,(Think about Sidney.),(You dream about your student Sidney and start to touch yourself.),"DialogCharacterIsKnown(""Sidney"")","DialogChangeLove(""Sidney"", 1)",,,,
+Masturbate3,Masturbate4,(Think about Sarah.),(You dream about your student Sarah and start to touch yourself.),"DialogCharacterIsKnown(""Sarah"")","DialogChangeLove(""Sarah"", 1)",,,,
+Masturbate3,Masturbate4,(Think about Amanda.),(You dream about the teacher's pet Amanda and start to touch yourself.),"DialogCharacterIsKnown(""Amanda"")","DialogChangeLove(""Amanda"", 1)",,,,
+Masturbate3,Masturbate4,(Think about Sam.),(You dream about the foreign student Sam and start to touch yourself.),"DialogCharacterIsKnown(""Sam"")","DialogChangeLove(""Sam"", 1)",,,,
+Masturbate3,Masturbate4,(Think about a movie actress.),(You dream about a cute movie star actress and start to touch yourself.),,,,,,
+Masturbate4,Intro6,,,,"MiniGameStart(""FreeBondage"", ""TeacherApartmentMasturbate"", ""TeacherApartmentMasturbate"")",,,,MiniGameBackgroundFreeBondage
+Intro6,,,(How will you sleep this weekend?),,,,,,
+Intro6,Intro7,(Sleep in your teacher outfit.),,,,,,,TeacherSleepAloneOutfit
+Intro6,Intro7,(Sleep in your pajamas.),,,,,,,TeacherSleepAlonePajamas
+Intro6,Intro7,(Sleep fully naked.),,,,,,,TeacherSleepAloneNaked
+Intro7,Intro8,,(You sleep by yourself all weekend.),,,,,,
+Intro8,Intro9,,(You flip the lights off and close your eyes.),,,,,,
+Intro9,,,,,"CommonSetScreen(""Home"", ""HomeBedroomEnd"")",,,,
+Evelyn1,Evelyn2,,(It's from your boss Evelyn.  There are clothes and a note in the box.),,"LogDelete(""Evelyn"", ""FirstDate"")",,,Evelyn,TeacherStandPackage
+Evelyn2,Evelyn3,," ""We are going to the history museum.  You are required to wear this.""",DialogDominationLower(-14),,,,,
+Evelyn2,Evelyn3,," ""I'm taking you to the history museum.  You shall wear these clothes.""","DialogDominationBetween(-13, -7)",,,,,
+Evelyn2,Evelyn3,," ""I'm inviting you to the history museum.  You can wear these clothes if you desire.""","DialogDominationBetween(-6, 0)",,,,,
+Evelyn2,Evelyn3,," ""Please join me at the history museum.  This is a gift for you.""",DialogDominationGreater(1),,,,,
+Evelyn3,,,(Will you visit the museum with her this weekend?),,,,,,
+Evelyn3,Evelyn4,(Go to the museum.),(You decide to go with her and check what she sent you.),,,,,,
+Evelyn3,EvelynCancel,(Stay alone at home.),"(You ditch the package and your boss, staying at your apartment.)",,,-5,2,,
+Evelyn4,Evelyn5,,"(The package contains a sleeveless white top, stockings and cute white shoes.)",,,,,,
+Evelyn5,,,(What will you wear for your trip?),,,,,,TeacherPickClothMuseum
+Evelyn5,Evelyn6,(Evelyn's white top and stockings.),(You unpack Evelyn's gift and wear it.),,"DialogVariableSet(""Cloth"", ""White"")",,,,TeacherDisplayClothWhite
+Evelyn5,Evelyn6,(Your casual clothes and jeans.),(You pick your casual clothes and wear them.),,"DialogVariableSet(""Cloth"", ""Casual"")",,,,TeacherDisplayClothCasual
+Evelyn5,Evelyn6,(Your college teacher outfit.),(You decide to stay in your regular outfit.),,"DialogVariableSet(""Cloth"", ""College"")",,,,TeacherDisplayClothCollege
+Evelyn5,EvelynCancel,(Cancel and stay alone at home.),"(You ditch the package and your boss, staying at your apartment.)",,,-5,2,,TeacherStandAlone
+EvelynCancel,Intro5,,(It will be a lazy weekend all alone.),,"LogAdd(""Evelyn"", ""Breakup"")",,,Teacher,TeacherStandAlone
+Evelyn6,Museum1,,(You're ready to join your boss at the museum.),"DialogVariableIs(""Cloth"", ""White"")",,,,Teacher,TeacherDisplayClothWhite
+Evelyn6,Museum1,,(You're ready to join your boss at the museum.),"DialogVariableIs(""Cloth"", ""Casual"")",,,,Teacher,TeacherDisplayClothCasual
+Evelyn6,Museum1,,(You're ready to join your boss at the museum.),"DialogVariableIs(""Cloth"", ""College"")",,,,Teacher,TeacherDisplayClothCollege
+Museum1,Museum2,,"(After a short bus ride, you arrive at the history museum.)","DialogVariableIs(""Cloth"", ""White"")",,,,,TeacherMuseumAloneWhite
+Museum1,Museum2,,"(After a short bus ride, you arrive at the history museum.)","DialogVariableIs(""Cloth"", ""Casual"")",,,,,TeacherMuseumAloneCasual
+Museum1,Museum2,,"(After a short bus ride, you arrive at the history museum.)","DialogVariableIs(""Cloth"", ""College"")",,,,,TeacherMuseumAloneCollege
+Museum2,Museum3,,"(The place is pretty old, not well maintained or decorated.)",,,,,,
+Museum3,Museum4,,(They change the museum theme often.  The current one is colonization.),,,,,,
+Museum4,Museum5,,"(They have ship models, maps, plants, artifacts and weapons on display.)",,,,,,
+Museum5,Museum6,,"(After a while, you and Evelyn find each other.)",,,,,,
+Museum6,Museum7,,,"DialogVariableIs(""Cloth"", ""White"")",,,,Evelyn,EvelynTeacherMuseumMeetWhite
+Museum6,Museum7,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,Evelyn,EvelynTeacherMuseumMeetCasual
+Museum6,Museum7,,,"DialogVariableIs(""Cloth"", ""College"")",,,,Evelyn,EvelynTeacherMuseumMeetCollege
+Museum7,Museum8,,"(She examines you.)  It's a pleasure to see you in these clothes, young lady.  It suits you well.","DialogVariableIs(""Cloth"", ""White"")",,1,-2,,
+Museum7,Museum8,,(She frowns.)  I'm guessing that you did not receive my present.  Someone shall get fired.,"DialogVariableIs(""Cloth"", ""Casual"")",,-1,2,,
+Museum7,Museum8,,(She shakes her head no.)  It's not proper to wear your uniform outside young lady.,"DialogVariableIs(""Cloth"", ""College"")",,-2,,,
+Museum8,,,Are you enjoying the museum so far?,,,,,,
+Museum8,Museum9,It's quite boring.,(She seems angry.)  This is not an amusement park PlayerName.,,,-1,1,,
+Museum8,Museum9,They should renovate to present their artifacts better.,"(She nods.)  I agree, PlayerName, the place would attract a bigger crowd.",,,1,1,,
+Museum8,Museum9,I must admit that I'm really impressed.,"(She smiles.)  Your enthusiasm is music to my ears, young lady.",,,1,-1,,
+Museum8,Museum9,I'm pretty bad at history.,"(She sighs.)  Young lady, you should seize the occasion and learn.",,,-1,-1,,
+Museum9,Museum10,,Walk behind me.  I shall show you the most fascinating exhibits.,DialogDominationLower(-7),,,,,
+Museum9,Museum10,,Please walk with me.  I shall show you the most fascinating exhibits.,DialogDominationGreater(-6),,,,,
+Museum10,Museum11,,,,,,,,EvelynMuseumWalk
+Museum11,Museum12,,(You visit the museum together.  She seems to know the place very well.),,,,,,
+Museum11,Museum12,InventoryDialogPhone,(She smiles as you take a picture of her with your phone.),,PictureAdd(),1,,,
+Museum12,Museum13,,"(You get to a violent part of the museum, dedicated to wars and murders.)",,,,,,
+Museum13,,,"History is fascinating.  Alas, it has it's dark and bloody side.",,,,,,
+Museum13,Museum14,Oh my!  Let's go elsewhere.,Those who ignore history are doomed to repeat it.,,,-1,-1,,
+Museum13,Museum14,History is written by the victors.,"(She nods in agreement.)  Indeed, it is.",,,1,1,,
+Museum13,Museum14,The battles are cool.,(She rolls her eyes up.)  I might propose a few adjectives that would be better appropriated.,,,-1,1,,
+Museum13,Museum14,This is so barbaric.  It's hard to look.,Do not be afraid.  The past requires to be remembered and understood.,,,1,-1,,
+Museum14,Museum15,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,EvelynTeacherMuseumWalkWhite
+Museum14,Museum15,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,EvelynTeacherMuseumWalkCasual
+Museum14,Museum15,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,EvelynTeacherMuseumWalkCollege
+Museum15,Museum16,,(She takes your hand as you travel to a new section of the museum.),,,,,,
+Museum16,Museum17,,(This part is dedicated to a darker subject: slavery.),,,,,,
+Museum17,Museum18,,,,,,,,EvelynMuseumSlaveryWalk
+Museum18,Museum19,,"Sadly, slavery is a dark page in our human history.",,,,,,
+Museum18,Museum19,InventoryDialogPhone,(She seems pleased as you take your phone to capture her image.),,PictureAdd(),1,,,
+Museum19,Museum20,,The nations with stronger military forces enslaved the others to serve them.,,,,,,
+Museum20,Museum21,,"Hopefully, slavery is slowly dying down even if it shall never truly end.",,,,,,
+Museum21,Museum22,,It's part of our nature as humans.  We are driven to it.,,,,,,
+Museum22,,,The strong and the weak.  The wolf and the sheep.,,,,,,
+Museum22,Museum23,The Dominant and the submissive.,(She nods in agreement.)  Absolutely.,,,1,,,
+Museum22,Museum23,I'd rather be the wolf.,"Yes, being the Dominant offers lots of advantages.",,,,1,,
+Museum22,Museum23,(Check your phone.),(She sighs and shakes her head from left to right.),,,-1,,,
+Museum22,Museum23,(Listen and nod.),It's human nature and how we balance our relationships.,,,,-1,,
+Museum23,Museum24,,Dominants and submissives shall always exist in our society.,,,,,,
+Museum24,Museum25,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,EvelynTeacherMuseumPilloryWhite
+Museum24,Museum25,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,EvelynTeacherMuseumPilloryCasual
+Museum24,Museum25,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,EvelynTeacherMuseumPilloryCollege
+Museum25,Museum26,,"(As you walk, you find a fully functional pillory in the middle of a room.)",,,,,,
+Museum26,Museum27,,The pillory was a common tool to restrain and humiliate criminals or slaves.,,,,,,
+Museum27,Museum28,,(She ponders for a few seconds and smirks.)  It makes me wonder.,DialogLoveGreater(12),,,,,
+Museum27,MuseumEnd1,,(She ponders for a few seconds and shakes her head no.)  Let's continue the visit.,DialogLoveLower(11),,,,,
+Museum28,,,Would you be willing to experience it?,DialogDominationGreater(-12),,,,,
+Museum28,,,"Young lady, you shall experience the pillory.",DialogDominationLower(-13),,,,,
+Museum28,MuseumDom1,"Girl, get your ass in it.",(She clenches her fists and trembles.)  I...  That...  Are you serious?,DialogDominationGreater(0),,-1,1,,
+Museum28,MuseumEnd1,"Girl, get your ass in it.",Enough! (She slaps your face in anger.)  We shall pursue the museum tour.,DialogDominationLower(-1),,-1,1,,
+Museum28,MuseumDom1,"Evelyn, you should experience it.",(She seems nervous.)  Me?  Are you serious?,DialogDominationGreater(0),,,1,,
+Museum28,MuseumSub1,"Evelyn, you should experience it.","Nonsense, we shall get you in it.  (She guides you to the device.)",DialogDominationLower(-1),,,1,,
+Museum28,MuseumSub1,(Blush.)  I shall try it.,Good girl.  (She chuckles and guides you to the device.),,,,-1,,
+Museum28,MuseumSub1,(Wink and nod.)  What a funny idea.,(You giggle together as she guides you to the device.),,,1,,,
+Museum28,MuseumSub1,What?  Why?,(She frowns and guides you to the device.),,,-1,,,
+Museum28,MuseumEnd1,No.  Not in public.,"(She sighs.)  Very well, we shall resume the visit.",,,-1,,,
+MuseumDom1,MuseumDom2,,"(You guide her toward the device, to put her inside.)",,,,,,
+MuseumDom2,MuseumDom3,,,,,,,,EvelynMuseumLockedPillory
+MuseumDom3,MuseumDom4,,(She tests the pillory and quickly finds out that she's trapped.),,,,,,
+MuseumDom4,MuseumDom5,,(She looks stunned.)  I am... I am baffled.,,,,,,
+MuseumDom4,MuseumDom5,InventoryDialogPhone,(She fidgets as you take a humiliating picture of her.),,PictureAdd(),,1,,
+MuseumDom5,,,Did I really consent to this?,,,,,,
+MuseumDom5,MuseumDom6,Indeed.,(She blushes.),,,,,,
+MuseumDom5,MuseumDom6,"You did, girl.",(She bows her head.),,,,1,,
+MuseumDom5,MuseumDom6,Is it a bad thing?,(She shakes her head no.)  I guess not.,,,,-1,,
+MuseumDom6,MuseumDom7,,I've never felt like that before.,,,,,,
+MuseumDom7,,,I must look pathetic in this state.,,,,,,
+MuseumDom7,MuseumDom8,You're not on top anymore.,"(She sighs.)  It looks like it, PlayerName.",,,-1,1,,
+MuseumDom7,MuseumDom8,You look great in all states.,You are a kind young lady.,,,1,-1,,
+MuseumDom7,MuseumDom8,I admit it's a little intense.,"I would not use that word, young lady.",,,-1,-1,,
+MuseumDom7,MuseumDom8,You're beautiful in bondage.,"Thank you, PlayerName.  I appreciate the sentiment.",,,1,1,,
+MuseumDom8,MuseumDom9,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,EvelynMuseumLockedPilloryTeacherWhite
+MuseumDom8,MuseumDom9,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,EvelynMuseumLockedPilloryTeacherCasual
+MuseumDom8,MuseumDom9,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,EvelynMuseumLockedPilloryTeacherCollege
+MuseumDom9,MuseumDom10,,(You slowly circle around the device.),,,,,,
+MuseumDom10,MuseumDom11,,(Other visitors start to notice Evelyn locked up.),,,,,,
+MuseumDom11,MuseumDom12,,"(Some of them laugh, others take pictures.)",,,,,,
+MuseumDom12,,,This is quite embarrassing.,,,,,,
+MuseumDom12,MuseumDom13,The visitors will think it's a game.,You think so?  This is not a game to me.,,,,-1,,
+MuseumDom12,MuseumDom13,"Focus on me, don't look at them.",(She nods and tries to focus solely on you.),,,,1,,
+MuseumDom12,MuseumDom13,Shut up!,(She gulps and shuts up for a while.),,,-1,2,,
+MuseumDom12,MuseumDom13,"Yes Director, it must be quite a shock.","That word does describe the situation well, young lady.",,,1,-1,,
+MuseumDom12,MuseumDom13,You have nothing to be embarrassed about.,"Your words are kind, PlayerName.",,,1,,,
+MuseumDom13,MuseumDom17,,"(You recognize Amanda from college in the crowd, she comes forward to talk.)","DialogCharacterIsKnown(""Amanda"")",,,,,
+MuseumDom13,MuseumDom14,,"(In the crowd, a student from the College comes forward to talk.)","!DialogCharacterIsKnown(""Amanda"")","CharacterAdd(""Amanda"", ""Amanda"")",,,,
+MuseumDom14,MuseumDom15,,(She briefly stares at Evelyn and turns to you.)  Amazing!,,,,,Amanda,AmandaMuseumStand
+MuseumDom15,MuseumDom16,,"You're PlayerName aren't you?  The new detention teacher.  I'm Amanda, I study at the college.",,,,,,
+MuseumDom16,MuseumDom17,,"I often visit museums on the weekend, but I've never thought I would see that.",,,,,,
+MuseumDom17,MuseumDom18,,(She looks at Evelyn and seems amazed.),,"LogAdd(""Amanda"", ""EvelynPillory"")",,,Amanda,AmandaMuseumStand
+MuseumDom18,,,Why is Director Evelyn in that pillory?,,,,,,
+MuseumDom18,MuseumDom19,We are testing the device.,(She nods.)  This is quite a test.,,,,,,
+MuseumDom18,MuseumDom19,She's learning her true nature.,(She gulps and nods slowly.),,,,1,,
+MuseumDom18,MuseumDom19,She bet that she could get out.,(She laughs.)  Now that's a funny bet.,,,1,,,
+MuseumDom18,MuseumDom19,I wanted to humiliate her.,(She takes a step back.)  I see.,,,-1,,,
+MuseumDom18,MuseumDom19,I'm not sure how to get her out.,(She giggles.)  You might need to call for help.,,,,-1,,
+MuseumDom19,MuseumDom19B,,,,,,,,AmandaMuseumKneelEvelynPillory
+MuseumDom19B,MuseumDom20,,(She kneels in front of the pillory.)  This is truly amazing.,,,,,,
+MuseumDom19B,MuseumDom20,InventoryDialogPhone,(Amanda doesn't notice that you snap a picture behind her back.),,PictureAdd(),,,,
+MuseumDom20,,,Nobody will believe me.  Can I take a picture?,,,,,,
+MuseumDom20,MuseumDom21,Take all the pictures you want.,"Thank you very much, Teacher PlayerName.  (She takes a few pictures and puts her phone away.)",,,1,1,,
+MuseumDom20,MuseumDom21,"Fine, one picture.",Thank you!  (She takes a picture and puts her phone away.),,,1,,,
+MuseumDom20,MuseumDom21,"No, she first needs to consent.","(She nods.)  Of course, sorry I forgot about that.",,,,1,,
+MuseumDom20,MuseumDom21,"No, think about her career.",(She nods in agreement.)  I understand.,,,,,,
+MuseumDom20,MuseumDom21,"No, I'm taking the pictures.","Oh!  Of course, Teacher PlayerName.  Sorry for asking.",,,-1,1,,
+MuseumDom21,MuseumDom22,,(Evelyn struggles a little but doesn't dare to speak with the student.),,,,,Evelyn,EvelynMuseumLockedPillory
+MuseumDom21,MuseumDom22,InventoryDialogCrop,(She jumps and struggles some more as you whip her butt with the crop.),,,,1,,
+MuseumDom22,,,(What will you do with her?),,,,,,
+MuseumDom22,MuseumDomSpank1,(Spank her publicly.),(You invite Amanda and get behind Evelyn.),,,,,,
+MuseumDom22,MuseumDomAmanda1,(Make Amanda spank her.),(You turn back to Amanda.),,,,,Teacher,AmandaMuseumKneelStare
+MuseumDom22,MuseumDomEnd1,(Release her.),(You chase Amanda away and release her.),,,,,,
+MuseumDom22,MuseumDomDeaf1,InventoryDialogHeadset,(She looks surprised as you install the headset on her.),,,,1,,
+MuseumDomDeaf1,MuseumDomDeaf2,,,,,,,Evelyn-Headset,EvelynMuseumPilloryHeadset
+MuseumDomDeaf2,,,PlayerName!  What game are you playing now?,,,,,,
+MuseumDomDeaf2,MuseumDomDeaf3,It's called: A secured boss.  (Gag her.),(She bows her head as you lock the panel gag on her.),,,,1,,
+MuseumDomDeaf2,MuseumDomDeaf3,I've heard enough of you.  (Gag her.),(She frowns as you lock the panel gag on her.),,,-1,,,
+MuseumDomDeaf2,MuseumDomDeaf3,Please open wide Evelyn.  (Gag her.),(She nods as you lock the panel gag on her.),,,1,,,
+MuseumDomDeaf2,MuseumEnd1,"I'm sorry, that's enough.  (Release her.)",(You chase Amanda away and release her.),,,,-1,,
+MuseumDomDeaf2,MuseumDomDeaf3,InventoryDialogPanelGag,(Her eyes open wide as you lock the panel gag on her.),,,,,,
+MuseumDomDeaf3,MuseumDomDeaf4,,,,,,,Evelyn-HeadsetPanelGagClosed,EvelynMuseumPilloryHeadsetPanelGag
+MuseumDomDeaf4,MuseumDomDeaf5,,(She chews on the big gag as you slowly turn to Amanda.),,,,,,
+MuseumDomDeaf4,MuseumDomDeaf5,InventoryDialogPhone,(You take a quick picture of her in her predicament before addressing Amanda.),,PictureAdd(),,,,
+MuseumDomDeaf5,MuseumDomDeaf6,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,EvelynMuseumPilloryHeadsetPanelGagAmandaTeacherWhite
+MuseumDomDeaf5,MuseumDomDeaf6,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,EvelynMuseumPilloryHeadsetPanelGagAmandaTeacherCasual
+MuseumDomDeaf5,MuseumDomDeaf6,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,EvelynMuseumPilloryHeadsetPanelGagAmandaTeacherCollege
+MuseumDomDeaf6,MuseumDomDeaf7,,This is amazing.  Sarah will never believe me.,,,,,Amanda,
+MuseumDomDeaf7,,,Is she listening to something in her headset?,,,,,,
+MuseumDomDeaf7,MuseumDomDeaf8,Let's use Sidney's playlist.  (Put metal music.),"(She shakes her head no.)  Poor Director, Sidney has some horrible music.",,"DialogChangeLove(""Evelyn"", -1)",-1,,,
+MuseumDomDeaf7,MuseumDomDeaf8,I'll put some classics.  (Play classical music.),(She nods happily.)  I'm sure the Director will love it.,,"DialogChangeLove(""Evelyn"", 1)",1,,,
+MuseumDomDeaf7,MuseumDomDeaf8,I'll tease her a little.  (Play some porn audio.),(She blushes.)  You have quite a devious mind.,,"DialogChangeLove(""Evelyn"", -1)",,1,,
+MuseumDomDeaf7,MuseumDomDeaf8,Noises are already cancelled for her.,(She shrugs.)  If you say so.,,"DialogChangeLove(""Evelyn"", 1)",,-1,,
+MuseumDomDeaf8,MuseumDomDeaf9,,"This is a special lesson for Evelyn, an experiment.",,,,,Teacher,
+MuseumDomDeaf9,MuseumDomDeaf10,,"Right now, she's bound, deaf and mute.  She's helpless.",,,,,,
+MuseumDomDeaf10,MuseumDomDeaf11,,She knows that we are talking but cannot understand a word.,,,,,,
+MuseumDomDeaf11,MuseumDomDeaf12,,"It will teach her to be patient, that others can be more important than her.",,,,,,
+MuseumDomDeaf12,MuseumDomDeaf13,,"It's a very humbling lesson, but an important one.",,,,,,
+MuseumDomDeaf13,MuseumDomDeaf14,,This is a great lesson for a Director.  Humility is certainly an important quality.,,,,,Amanda,
+MuseumDomDeaf14,,,"I have lots to learn from you, Teacher PlayerName.",,,,,,
+MuseumDomDeaf14,MuseumDomDeaf15,"You're way too serious, enjoy yourself.","(She giggles.)  Yes, Teacher PlayerName.  I'll try to have more fun.",,DialogChangeGrades(-2),1,,,
+MuseumDomDeaf14,MuseumDomDeaf15,You will learn with time.,"(She shrugs.)  I guess so, Teacher PlayerName.",,,-1,,,
+MuseumDomDeaf14,MuseumDomDeaf15,Stay serious and you will learn a lot.,"(She nods rapidly.)  Yes, Teacher PlayerName.  I will be serious.",,DialogChangeGrades(2),,1,,
+MuseumDomDeaf14,MuseumDomDeaf15,Stop trying to learn and have fun Amanda.,(She laughs out loud.)  I should do better stuff on weekends.,,DialogChangeGrades(-4),,-1,,
+MuseumDomDeaf15,MuseumDomDeaf16,,She's totally clueless in that predicament.,,,,,,
+MuseumDomDeaf16,MuseumDomDeaf17,,I bet she's very curious to know what we are talking about.,,,,,,
+MuseumDomDeaf17,MuseumDomDeaf18,,"Oh well!  I need to go back home soon.  Please take care, Teacher PlayerName.",,,,,,
+MuseumDomDeaf18,MuseumDomEnd1,,(Amanda leaves as you release Evelyn from the pillory.),,,,,,
+MuseumDomSpank1,MuseumDomSpank2,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,EvelynPilloryAmandaMuseumTeacherSpankWhite
+MuseumDomSpank1,MuseumDomSpank2,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,EvelynPilloryAmandaMuseumTeacherSpankCasual
+MuseumDomSpank1,MuseumDomSpank2,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,EvelynPilloryAmandaMuseumTeacherSpankCollege
+MuseumDomSpank2,MuseumDomSpank3,,(Evelyn struggles in the pillory as you prepare to spank her.),,,,,,
+MuseumDomSpank3,,,"Young lady, what are you doing?",,,,,,
+MuseumDomSpank3,MuseumDomSpank4,I'm teaching you a lesson.,(She calms down and takes deep breaths.)  ,,,,1,,
+MuseumDomSpank3,MuseumDomSpank4,I'll beat your ass.,(She struggles harder.)  PlayerName!,,,-1,,,
+MuseumDomSpank3,MuseumDomSpank4,"Be prepared Director, it might hurt.",(She gets defiant.)  Don't you dare!,,,,-1,,
+MuseumDomSpank3,MuseumDomSpank4,I'm giving you what you desire.,(She blushes and stops her struggles.),,,1,,,
+MuseumDomSpank4,MuseumDomSpankWhite,,(You raise your hand up.),"DialogVariableIs(""Cloth"", ""White"")",,,,,
+MuseumDomSpank4,MuseumDomSpankCasual,,(You raise your hand up.),"DialogVariableIs(""Cloth"", ""Casual"")",,,,,
+MuseumDomSpank4,MuseumDomSpankCollege,,(You raise your hand up.),"DialogVariableIs(""Cloth"", ""College"")",,,,,
+MuseumDomSpankWhite,MuseumDomSpank5,,,,"MiniGameStart(""Spanking"", ""MuseumEvelynPilloryTeacherWhite"")",,,,
+MuseumDomSpankCasual,MuseumDomSpank5,,,,"MiniGameStart(""Spanking"", ""MuseumEvelynPilloryTeacherCasual"")",,,,
+MuseumDomSpankCollege,MuseumDomSpank5,,,,"MiniGameStart(""Spanking"", ""MuseumEvelynPilloryTeacherCollege"")",,,,
+MuseumDomSpank5,MuseumDomSpank6,,"(You stop as she sighs loudly.)  That was really pathetic, young lady.  You are hopeless.","MiniGameResultBetween(0, 24)",,-2,-3,,
+MuseumDomSpank5,MuseumDomSpank6,,(You stop as she grumbles.)  Your technique has deficiencies.  It requires many adjustments.,"MiniGameResultBetween(25, 49)",,-1,-1,,
+MuseumDomSpank5,MuseumDomSpank6,,"(You stop as she takes a deep breath.)  You still need practice, but your spanking technique is acceptable.","MiniGameResultBetween(50, 74)",,,1,,
+MuseumDomSpank5,MuseumDomSpank6,,(You stop as she shivers.)  Well done.  You are growing in your confidence and dominance.,"MiniGameResultBetween(75, 99)",,1,2,,
+MuseumDomSpank5,MuseumDomSpank6,,"(You stop as she moans.)  Miss, I am baffled.  Your technique is truly a work of art.","MiniGameResultBetween(100, 100)",,2,3,,
+MuseumDomSpank6,MuseumDomSpank7,,That public spanking was so embarrassing.,,,,,,
+MuseumDomSpank7,MuseumDomEnd1,,(Amanda leaves as you release her from the pillory.),,,,,,
+MuseumDomAmanda1,MuseumDomAmanda2,,"Amanda, you're a good student.  You deserve a reward.",,,,,,
+MuseumDomAmanda2,MuseumDomAmanda3,,You will be honored to do something that no student has done before.,,,,,,
+MuseumDomAmanda3,MuseumDomAmanda4,,Follow my instructions without questions and come closer.,,,,,,
+MuseumDomAmanda4,MuseumDomAmanda5A,,,,,,,Amanda,EvelynPilloryMuseumAmandaSpankAim
+MuseumDomAmanda5A,MuseumDomAmanda5B,,(She comes closer as you instruct her to put her hand straight up.),,,,,,
+MuseumDomAmanda5B,,,"Yes, Teacher PlayerName?",,,,,,
+MuseumDomAmanda5B,MuseumDomAmanda6,Spank her now.,(She nods and gets ready to spank her.),,,,1,,
+MuseumDomAmanda5B,MuseumDomAmanda6,"Girl, turn her butt red.",(She gulps and gets ready to spank her.),,,-1,2,,
+MuseumDomAmanda5B,MuseumDomAmanda6,Your reward is to spank her.,(She giggles and gets ready to spank her.),,,1,,,
+MuseumDomAmanda5B,MuseumDomAmanda6,Spank her but be gentle.,(She smirks and gets ready to spank her.),,,,-1,,
+MuseumDomAmanda6,MuseumDomAmanda7,,Sarah will never believe me!,,,,,,
+MuseumDomAmanda7,MuseumDomAmanda8,,(She takes a deep breath while her hand is trembling.),,,,,,
+MuseumDomAmanda8,MuseumDomAmanda9,,,,,,,Evelyn,EvelynPilloryMuseumAmandaSpankHit
+MuseumDomAmanda9,MuseumDomAmanda10,,Ow!  (Evelyn jumps in stupor from the first spank.),,,,1,,
+MuseumDomAmanda10,MuseumDomAmanda11,,,,,,,,EvelynPilloryMuseumAmandaSpankAim
+MuseumDomAmanda10,MuseumDomAmanda11,InventoryDialogPhone,(She doesn't notice as you take a picture of the scene on your phone.),,PictureAdd(),,,,
+MuseumDomAmanda11,MuseumDomAmanda12,,,,,,,,EvelynPilloryMuseumAmandaSpankHit
+MuseumDomAmanda11,MuseumDomAmanda12,InventoryDialogPhone,(You take an embarrassing picture of the situation.),,PictureAdd(),,,,
+MuseumDomAmanda12,MuseumDomAmanda13,,"(She keeps silent but cannot hide how humiliated she is, as visitors take pictures.)",,,-1,,,
+MuseumDomAmanda13,MuseumDomAmanda14,,,,,,,,EvelynPilloryMuseumAmandaSpankAim
+MuseumDomAmanda13,MuseumDomAmanda14,InventoryDialogPhone,(She doesn't notice as you take a picture of the scene on your phone.),,PictureAdd(),,,,
+MuseumDomAmanda14,MuseumDomAmanda15,,,,,,,,EvelynPilloryMuseumAmandaSpankHit
+MuseumDomAmanda14,MuseumDomAmanda15,InventoryDialogPhone,(You take an embarrassing picture of the situation.),,PictureAdd(),,,,
+MuseumDomAmanda15,MuseumDomAmanda16,,(Amanda spanks her one last time.  Your boss whimpers from the pain and humiliation.),,,,1,,
+MuseumDomAmanda16,MuseumDomEnd1,,(You chase Amanda away and release Evelyn.),,,,,,
+MuseumDomEnd1,MuseumDomEnd2,,,"DialogVariableIs(""Cloth"", ""White"")",,,,Evelyn,EvelynTeacherMuseumWalkWhite
+MuseumDomEnd1,MuseumDomEnd2,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,Evelyn,EvelynTeacherMuseumWalkCasual
+MuseumDomEnd1,MuseumDomEnd2,,,"DialogVariableIs(""Cloth"", ""College"")",,,,Evelyn,EvelynTeacherMuseumWalkCollege
+MuseumDomEnd2,MuseumDomEnd3,,You have my gratitude for releasing me.  It was quite embarrassing.,,,,,,
+MuseumDomEnd3,MuseumDomEnd3,,I never thought I would end up consenting to be restrained in public.,,,,,,
+MuseumDomEnd3,,,You have Dominant blood.  It's easy to submit to you.,,,,,,
+MuseumDomEnd3,MuseumDomEnd4,You could become my submissive.,(She thinks for a while.)  I...  I think I would love that.,DialogDominationGreater(5),,1,1,,
+MuseumDomEnd3,MuseumEnd1,You could become my submissive.,"(She thinks for a while.)  My apologies, I cannot go that far.  Let's resume the tour.",DialogDominationLower(4),,1,1,,
+MuseumDomEnd3,MuseumEnd1,"You're wrong, I'm not a Dominant.","I guess I was mistaken about you, young lady.  Let's resume the tour.",,,-1,-3,,
+MuseumDomEnd4,MuseumDomEnd5,,(She seems nervous.)  I've never submitted to anyone before.,,,,,,
+MuseumDomEnd5,,,"My apologies, I am anxious.",,,,,,
+MuseumDomEnd5,MuseumDomEnd6,I understand.  I'm also nervous.,(She nods and holds your hand.),,,,-1,,
+MuseumDomEnd5,MuseumDomEnd6,I'll take good care of you.,(She smiles at you.),,,1,,,
+MuseumDomEnd5,MuseumDomEnd6,Don't be nervous.,I shall try my best.,,,,,,
+MuseumDomEnd5,MuseumDomEnd6,Your submission will cure your anxiety.,(She takes a deep breath and nods.),,,,1,,
+MuseumDomEnd5,MuseumDomEnd6,Stop being silly.,(She sighs and nods.),,,-1,,,
+MuseumDomEnd6,MuseumDomEnd7,,"My apologies, I have so many questions now.",,,,,,
+MuseumDomEnd7,MuseumDomEnd8,,,"DialogVariableIs(""Cloth"", ""White"")",,,,Teacher,EvelynTeacherMuseumFingerMouthWhite
+MuseumDomEnd7,MuseumDomEnd8,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,Teacher,EvelynTeacherMuseumFingerMouthCasual
+MuseumDomEnd7,MuseumDomEnd8,,,"DialogVariableIs(""Cloth"", ""College"")",,,,Teacher,EvelynTeacherMuseumFingerMouthCollege
+MuseumDomEnd8,MuseumDomEnd9,,(You gently put a finger on her mouth and smile at her.),,,,,,
+MuseumDomEnd9,MuseumDomEnd10,,"Evelyn, we will meet again next weekend, at your home.",,"LogAdd(""Evelyn"", ""Dominate"")",,,,
+MuseumDomEnd10,MuseumDomEnd11,,I will arrange everything.  All your questions will be answered.,,,,,,
+MuseumDomEnd11,MuseumDomEnd12,,"Until then, you have a school to manage.  I will manage your life outside of it.",,,,,,
+MuseumDomEnd12,MuseumDomEnd13,,You've been in control for years now.  You will find new bliss in submission.,,,,,,
+MuseumDomEnd13,MuseumDomEnd14,,"Take care, my submissive.  We will see each other next weekend, at your house.",,,,,,
+MuseumDomEnd14,MuseumEnd7,,(She nods submissively as you release your finger.),,,,,Evelyn,
+MuseumSub1,MuseumSub2,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,TeacherMuseumLockedPilloryWhite
+MuseumSub1,MuseumSub2,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,TeacherMuseumLockedPilloryCasual
+MuseumSub1,MuseumSub2,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,TeacherMuseumLockedPilloryCollege
+MuseumSub2,MuseumSub3,,"We shall do an experiment, young lady.",,,,,,
+MuseumSub3,,,Shall you participate in the experiment?  Do I have your consent?,,,,,,
+MuseumSub3,MuseumSub4,You need to explain the details first.,That's a fair request.  Let me explain the details of experiment.,,,,,,
+MuseumSub3,MuseumSub4,I consent Miss.,Good girl.  Let me explain the details of experiment.,,,,-1,,
+MuseumSub3,MuseumEnd1,I don't consent.,(She sighs and releases you.)  Very well.,,,-1,1,,
+MuseumSub3,MuseumEnd1,Help!,(She releases you quickly.)  Your reaction was exaggerated.,,,-2,-1,,
+MuseumSub4,MuseumSub5,,"Until I say otherwise, you shall be silent.",,,,,,
+MuseumSub5,MuseumSub6,,"No word, no sound, no moan, nothing audible.  Perfect silence.",,,,,,
+MuseumSub6,,,"Is that clear, young lady?",,,,,,
+MuseumSub6,MuseumEnd1,I don't want to be silent.,(She seems disappointed and releases you.)  The experiment has ended.,,,-2,1,,
+MuseumSub6,MuseumSub7,Alright!,(She frowns.)  I'll allow this one mistake.  Now be silent.,,,-1,,,
+MuseumSub6,MuseumSub7,(Nod slowly.),(She smiles and pets your head.),,,,-1,,
+MuseumSub7,MuseumSub8,,This experiment shall help you to understand who you are.,,,,,,
+MuseumSub8,MuseumSub9,,"From perfect silence, we shall learn more than with a thousand words.",,,,,,
+MuseumSub9,MuseumSub10,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,TeacherMuseumFacePilloryWhite
+MuseumSub9,MuseumSub10,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,TeacherMuseumFacePilloryCasual
+MuseumSub9,MuseumSub10,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,TeacherMuseumFacePilloryCollege
+MuseumSub10,MuseumSub11,,(She circles around the pillory to face you.),,,,,,
+MuseumSub10,MuseumSub11,InventoryDialogPhone,(She picks your phone on the ground and snaps a picture of you before putting it back in your purse.),,"PictureAdd(""Teacher"")",,,,
+MuseumSub11,,,"Do you feel it, young lady?  Do you understand yourself?",,,,,,
+MuseumSub11,MuseumSub12,(Stay silent.),(She smirks.)  You are learning with celerity.,,,,,,
+MuseumSub11,MuseumEnd1,Enough!,(She frowns and releases you.)  It is indeed enough.,,,-2,1,,
+MuseumSub11,MuseumEnd1,"Please, can we stop?",(She nods and releases you.)  The experiment has ended.,,,-1,-1,,
+MuseumSub12,MuseumSub13,,"You might still be confused now, but everything shall become clearer in time.",,,,,,
+MuseumSub13,MuseumSub14,,"(Her phone rings.)  My apologies, this call is required.",,,,,,EvelynMuseumPhoneZoomFromBelow
+MuseumSub14,,,"Please give me a few minutes, I shall be back.",,,,,,
+MuseumSub14,MuseumEnd1,"Yes, Miss.","You failed, young lady.  (She hangs up and starts to release you.)",,,-1,-1,,
+MuseumSub14,MuseumSub15,(Nod slowly.),(She starts to talk on her phone and walks away.),,,,,,
+MuseumSub14,MuseumSub15,(Stay quiet.),(She starts to talk on her phone and walks away.),,,,,,
+MuseumSub14,MuseumEnd1,Release me first!,"As you wish, young lady.  (She hangs up and starts to release you.)",,,-2,1,,
+MuseumSub15,MuseumSub16,,(You are left alone and stranded.),"DialogVariableIs(""Cloth"", ""White"")",,,,Teacher,TeacherMuseumFacePilloryWhite
+MuseumSub15,MuseumSub16,,(You are left alone and stranded.),"DialogVariableIs(""Cloth"", ""Casual"")",,,,Teacher,TeacherMuseumFacePilloryCasual
+MuseumSub15,MuseumSub16,,(You are left alone and stranded.),"DialogVariableIs(""Cloth"", ""College"")",,,,Teacher,TeacherMuseumFacePilloryCollege
+MuseumSub16,,,(A few visitors walk by and giggle seeing you.),,,,,,
+MuseumSub16,MuseumEnd1,Hey!  Can you help?,(Evelyn quickly comes back out of nowhere to release you.)  The experiment has ended.,,,-2,1,Evelyn,
+MuseumSub16,MuseumEnd1,(Whimper for attention.),(Evelyn quickly comes back out of nowhere to release you.)  The experiment has ended.,,,-1,-1,Evelyn,
+MuseumSub16,MuseumSub17,(Bow your head silently.),"(The visitors walk by, a few of them take pictures of you, it's quite embarrassing.)",,,,,,
+MuseumSub17,MuseumSub20,,"(You recognize Amanda from college in the crowd, she rushes to see you.)","DialogCharacterIsKnown(""Amanda"")",,,,,
+MuseumSub17,MuseumSub18,,(A student from the college sees you and comes to talk.),"!DialogCharacterIsKnown(""Amanda"")","CharacterAdd(""Amanda"", ""Amanda"")",,,,
+MuseumSub18,MuseumSub19,,"Greetings, are you the new teacher in charge of detention?",,,,,Amanda,AmandaMuseumKneelStare
+MuseumSub19,MuseumSub20,,"I'm Amanda, I study at the college and sometime visit museums on the weekend.",,,,,,
+MuseumSub20,MuseumSub21,,(She looks at you curiously.),,"LogAdd(""Amanda"", ""TeacherPillory"")",,-1,Amanda,AmandaMuseumKneelStare
+MuseumSub21,,,What are you doing here?,,,,,,
+MuseumSub21,MuseumSub22,(Shake your head no.),No?  I must admit I'm confused.,,,-1,,,
+MuseumSub21,MuseumEnd1,What does it look like?,(Evelyn quickly comes to chase Amanda away and release you.)  The experiment has ended.,,,,,,
+MuseumSub21,MuseumEnd1,(Whisper to her to go away.),(Evelyn quickly comes to chase Amanda away and release you.)  The experiment has ended.,,,,,,
+MuseumSub21,MuseumEnd1,(Whisper to her to come closer.),(Evelyn quickly comes to chase Amanda away and release you.)  The experiment has ended.,,,,,,
+MuseumSub21,MuseumSub22,(Keep quiet.),The cat got your tongue?,,,,-1,,
+MuseumSub22,MuseumSub23,,Too bad Sarah never goes to museums.  She would have loved this visit.,,,,,,
+MuseumSub23,MuseumSub24,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,AmandaTeacherMuseumPilloryWhite
+MuseumSub23,MuseumSub24,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,AmandaTeacherMuseumPilloryCasual
+MuseumSub23,MuseumSub24,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,AmandaTeacherMuseumPilloryCollege
+MuseumSub24,,,(She smiles.)  Do you need help?,,,,,,
+MuseumSub24,MuseumEnd1,"I'm fine, you can go.",(Evelyn comes out of nowhere to chase Amanda away and release you.),,,,1,,
+MuseumSub24,MuseumSub25,(Bow your head and look at the floor.),"(She shrugs.)  Very well, enjoy the pillory.",,,,-1,,
+MuseumSub24,MuseumEnd1,Can you unlock me please?,(Evelyn comes out of nowhere to chase Amanda away and release you.),,,1,-1,,
+MuseumSub24,MuseumSub25,(Shake your head no.),"(She looks surprised but nods.)  Very well, I hope this isn't too painful.",,,,1,,
+MuseumSub24,MuseumEnd1,(Shake your head yes.),"(As Amanda starts to help, Evelyn comes to chase her away and release you.)",,,1,-2,,
+MuseumSub25,MuseumSub26,,Please take care.  I must go.,,,,,,AmandaMuseumKneelStare
+MuseumSub26,MuseumSub27,,,"DialogVariableIs(""Cloth"", ""White"")",,,,Teacher,TeacherMuseumFacePilloryWhite
+MuseumSub26,MuseumSub27,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,Teacher,TeacherMuseumFacePilloryCasual
+MuseumSub26,MuseumSub27,,,"DialogVariableIs(""Cloth"", ""College"")",,,,Teacher,TeacherMuseumFacePilloryCollege
+MuseumSub27,,,"(You're alone once again, locked up in the pillory.)",,,,,,
+MuseumSub27,MuseumEnd1,Hello?  Some help?,(Evelyn quickly comes back out of nowhere to release you.)  The experiment has ended.,,,,,,
+MuseumSub27,MuseumSub28,(Wait patiently.),"(You continue to wait patiently, as people come and go while laughing.)",,,,,,
+MuseumSub27,MuseumEnd1,"Ok, this is enough!",(Evelyn quickly comes back out of nowhere to release you.)  The experiment has ended.,,,,,,
+MuseumSub28,MuseumSub29,,"(After a while, you recognize a familiar high heel sound, slowly approaching.)",,,,,,
+MuseumSub29,MuseumSub30,,,"DialogVariableIs(""Cloth"", ""White"")",,,,Evelyn,TeacherMuseumLockedPilloryWhite
+MuseumSub29,MuseumSub30,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,Evelyn,TeacherMuseumLockedPilloryCasual
+MuseumSub29,MuseumSub30,,,"DialogVariableIs(""Cloth"", ""College"")",,,,Evelyn,TeacherMuseumLockedPilloryCollege
+MuseumSub30,MuseumSub31,,"Congratulations young lady, the experiment is completed.",,,,,,
+MuseumSub31,MuseumSub32,,I would wager that you have learned a lot about yourself.,,,,,,
+MuseumSub32,,,How are you feeling?,,,,,,
+MuseumSub32,MuseumSub33,I don't know why I stayed silent.,"The answer should be obvious now.  Deep inside, you are a submissive.",,,-1,1,,
+MuseumSub32,MuseumSub33,I feel very helpless.,This is only part of it.  The goal is to open your eyes to your submissive side.,,,,-1,,
+MuseumSub32,MuseumSub33,"Miss, I might be a submissive.","Yes, young lady, you are.  I'm glad this experience opened your eyes.",,,1,-2,,
+MuseumSub32,MuseumEnd1,Fuck that experiment.,(She frowns and releases you.)  These manners won't get you far in your career.,,,-3,1,,
+MuseumSub33,MuseumSub34,,"Let me help you out, beautiful submissive.  (She starts to unlock you.)",,,,,,
+MuseumSub34,MuseumSub35,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,EvelynTeacherMuseumPilloryWhite
+MuseumSub34,MuseumSub35,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,EvelynTeacherMuseumPilloryCasual
+MuseumSub34,MuseumSub35,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,EvelynTeacherMuseumPilloryCollege
+MuseumSub35,MuseumSub36,,"As a submissive, you require guidance, a strong hand to command you.",,,,,,
+MuseumSub36,MuseumSub37,,I could be this protective hand.  I could teach you to serve and blossom.,,,,,,
+MuseumSub37,MuseumSub38,,"Young lady, shall you submit to me?",,,,,,
+MuseumSub38,MuseumSub39,"Yes, Miss Evelyn.",(She smiles and caresses your cheek.)  Good girl.,,,2,-1,,
+MuseumSub38,MuseumEnd1,"No, I cannot do that.","(She seems disappointed.)  Very well, let's not mention this conversation again.",,,-2,1,,
+MuseumSub39,MuseumSub40,,I shall have lots to teach you.  You shall have lots to learn.,,,,,,
+MuseumSub40,MuseumSub41,,,"DialogVariableIs(""Cloth"", ""White"")",,,,,EvelynTeacherMuseumWalkWhite
+MuseumSub40,MuseumSub41,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,,EvelynTeacherMuseumWalkCasual
+MuseumSub40,MuseumSub41,,,"DialogVariableIs(""Cloth"", ""College"")",,,,,EvelynTeacherMuseumWalkCollege
+MuseumSub41,MuseumSub42,,"(You walk together in the museum, but she doesn't talk about history anymore, she's focused on you.)",,"LogAdd(""Evelyn"", ""Submit"")",,,,
+MuseumSub42,MuseumSub43,,Your newfound path shall not impact on your teaching career.  We shall be professional on college ground.,,,,,,
+MuseumSub43,MuseumSub44,,"We shall meet again at my house next week, to begin your submissive journey.",,,,,,
+MuseumSub44,,,"For now, please take care, my little one.",,,,,,
+MuseumSub44,MuseumSub45,See ya!,"See you soon, young submissive.  (She frowns as she leaves.)",,,-1,,,
+MuseumSub44,MuseumSub45,I'll call you.,"Young submissive, I shall plan everything.  (She rolls her eyes up as she leaves.)",,,,1,,
+MuseumSub44,MuseumSub45,This is wonderful.,Seeing you thrilled brings light to my day.  (She smiles as she leaves.),,,1,,,
+MuseumSub44,MuseumSub45,I will take good care Miss.,"You certainly shall, young submissive.  (She nods slowly as she leaves.)",,,,-1,,
+MuseumSub45,MuseumEnd8,,"(You're alone once again, the museum tour is over.)","DialogVariableIs(""Cloth"", ""White"")",,,,Teacher,TeacherMuseumAloneWhite
+MuseumSub45,MuseumEnd8,,"(You're alone once again, the museum tour is over.)","DialogVariableIs(""Cloth"", ""Casual"")",,,,Teacher,TeacherMuseumAloneCasual
+MuseumSub45,MuseumEnd8,,"(You're alone once again, the museum tour is over.)","DialogVariableIs(""Cloth"", ""College"")",,,,Teacher,TeacherMuseumAloneCollege
+MuseumEnd1,MuseumEnd2,,,"DialogVariableIs(""Cloth"", ""White"")",,,,Evelyn,EvelynTeacherMuseumMeetWhite
+MuseumEnd1,MuseumEnd2,,,"DialogVariableIs(""Cloth"", ""Casual"")",,,,Evelyn,EvelynTeacherMuseumMeetCasual
+MuseumEnd1,MuseumEnd2,,,"DialogVariableIs(""Cloth"", ""College"")",,,,Evelyn,EvelynTeacherMuseumMeetCollege
+MuseumEnd2,MuseumEnd3,,(You walk together and complete the exhibition.),,,,,,
+MuseumEnd3,MuseumEnd4,,"I hope you enjoyed the museum, young lady.",,,,,,
+MuseumEnd4,,,It's time for us to part.,,,,,,
+MuseumEnd4,MuseumEnd5,Smell ya later!,(She sighs and shakes her head from left to right.),,,-3,,,
+MuseumEnd4,MuseumEnd5,"Oh well, take care.",(She shrugs and checks her dress.),,,-2,,,
+MuseumEnd4,MuseumEnd5,I'm sorry.  I thought we could go for dinner.,(She shakes her head from left to right.)  You thought wrong.,,,-1,-1,,
+MuseumEnd4,MuseumEnd5,I can invite you to my place.,"My apologies, but I must decline.  ",,,-1,1,,
+MuseumEnd5,MuseumEnd6,,This visit did not turn out how I expected.,,"LogAdd(""Evelyn"", ""Breakup"")",,,,
+MuseumEnd6,MuseumEnd7,,We shall get acquainted once again at work.,,,,,,
+MuseumEnd7,MuseumEnd8,,Please take good care of yourself.  (She starts to walk away.),"DialogVariableIs(""Cloth"", ""White"")",,,,,TeacherMuseumAloneWhite
+MuseumEnd7,MuseumEnd8,,Please take good care of yourself.  (She starts to walk away.),"DialogVariableIs(""Cloth"", ""Casual"")",,,,,TeacherMuseumAloneCasual
+MuseumEnd7,MuseumEnd8,,Please take good care of yourself.  (She starts to walk away.),"DialogVariableIs(""Cloth"", ""College"")",,,,,TeacherMuseumAloneCollege
+MuseumEnd8,MuseumEnd9,,(You slowly head out to take the bus.),,,,,Teacher,
+MuseumEnd9,Intro4,,(You come back home to your empty apartment.),,,,,,TeacherStandAlone
+SidneyDom1,,,(Sidney is calling you.  Will you answer?),,,,,,TeacherStandPhone
+SidneyDom1,SidneyDom2,(Answer the phone.),(You quickly pick up the call.),,,,,,
+SidneyDom1,SidneyDomRefuseCall1,(Refuse to answer.),"(She calls you multiple times, but you refuse to answer.)",,,,,,
+SidneyDom2,SidneyDom3,,,,,,,Sidney,TeacherStandPhoneTalk
+SidneyDom3,SidneyDom4,,"Prey, you will work for me this weekend.","!DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyDom3,SidneyDom4,,My bitch!  You will work for me this weekend.,"DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyDom4,SidneyDom5,,"I need cash, you'll do some webcam porn for me.","!LogQuery(""Sidney"", ""DormPornMovie"")",,,,,
+SidneyDom4,SidneyDom5,,"I need cash, you'll do another porn movie for me.","LogQuery(""Sidney"", ""DormPornMovie"")",,,,,
+SidneyDom5,,,Move your butt to my place.,,,,,,
+SidneyDom5,SidneyDom6,It will be my pleasure.,Fuck yeah!  Don't make me wait.,,,1,,,
+SidneyDom5,SidneyDom6,"Fine, but only this weekend.",We'll see about that.  Don't make me wait.,,,,1,,
+SidneyDom5,SidneyDom6,"Ok, but this is bad idea.",Who cares about what you think?  Don't make me wait.,,,-1,,,
+SidneyDom5,SidneyDom6,"Yes, Miss Sidney.",You're a true prey.  Don't make me wait.,,,,-1,,
+SidneyDom5,SidneyDomRefuseCall1,"Sorry, I cannot do that.  (Try to convince her.)","(You argue for a while, then she hangs up the phone in rage.)",,,,,,
+SidneyDom5,SidneyDomRefuseCall1,(Hang up the phone.),(You can only imagine how furious she must be as you hang up the phone.),,,,,,
+SidneyDom6,SidneyDom7,,(She gives you the address and hangs up.),"!LogQuery(""Sidney"", ""DormPornMovie"")",,,,Teacher,TeacherStandAlone
+SidneyDom6,SidneyDom7,,(She hangs up quickly since you already know the address.),"LogQuery(""Sidney"", ""DormPornMovie"")",,,,Teacher,TeacherStandAlone
+SidneyDom7,SidneyPorn1,,(You pack up your bag and head for her place.),,,,,,
+SidneyPorn1,SidneyPorn2,,,,,,,Sidney,TeacherShySidneyAngryStandSidneyDorm
+SidneyPorn2,SidneyPorn3,,"There you are, a prey in my web.","!DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPorn2,SidneyPorn3,,"There you are, my private bitch is ready to serve.","DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPorn3,SidneyPorn4,,I need fucking cash for weed and booze.,"!LogQuery(""Sidney"", ""DormPornMovie"")",,,,,
+SidneyPorn3,SidneyPorn4,,"You know the drill, I need more cash.","LogQuery(""Sidney"", ""DormPornMovie"")",,,,,
+SidneyPorn4,,,You will shake your butt for my camera.,,,,,,
+SidneyPorn4,SidneyPorn5,(Sigh loudly and nod.),What a fucking downer.,,,-1,,,
+SidneyPorn4,SidneyPorn5,(Make a big thumbs up.),"Such fucking confidence, I'm impressed.",,,,1,,
+SidneyPorn4,SidneyPorn5,(Nod slowly and bow your head.),You're pathetic.,,,,-1,,
+SidneyPorn4,SidneyPorn5,(Shake your butt right away.),Hell yeah!  You will make it fun.,,,1,,,
+SidneyPorn5,SidneyPorn6,,,,,,,,TeacherSidneyShowCameraStandSidneyDorm
+SidneyPorn6,SidneyPorn7,,(She picks up her camera.),,,,,,
+SidneyPorn7,SidneyPorn8,,"Teacher, you will be bound and you will cum live for the viewers.","!DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPorn7,SidneyPorn8,,"My cunt, you will be bound and you will cum live for the viewers.","DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPorn8,SidneyPorn9,,"The better you do, the more views and the more cash for me.",,,,,,
+SidneyPorn9,,,You won't get paid.,"!LogQuery(""Sidney"", ""DormPornMovie"")",,,,,
+SidneyPorn9,,,"As usual, you won't get paid.","LogQuery(""Sidney"", ""DormPornMovie"")",,,,,
+SidneyPorn9,SidneyPorn10,Could we split fifty fifty?,"Read my lips girl, NO!",,,,,,
+SidneyPorn9,SidneyPorn10,That's fair.,"Hell yeah, best deal ever!",,,1,-1,,
+SidneyPorn9,SidneyPorn10,That's unfair.,Life isn't fair for preys.,,,-1,1,,
+SidneyPorn10,SidneyPorn11,,"Now get naked, the perverts are waiting.",,,,,,
+SidneyPorn11,SidneyPorn12,,,,,,,,TeacherNakedStandSidneyDormShy
+SidneyPorn12,SidneyPorn13,,(You slowly strip as she starts to film and talk to the camera.),,,,,,
+SidneyPorn13,SidneyPorn14,,"Ok gentlemen, we have a brand-new bitch for your eyes today.","!LogQuery(""Sidney"", ""DormPornMovie"")",,,,,
+SidneyPorn13,SidneyPorn14,,"Gentlemen, we have your favorite bitch once again for your eyes.","LogQuery(""Sidney"", ""DormPornMovie"")",,,,,
+SidneyPorn13,SidneyPorn14,InventoryDialogPhone,(She grins and sends you an image for your phone.),,"PictureAdd(""Teacher"")",,,,
+SidneyPorn14,SidneyPorn15,,"She's a true prey, a real cunt that will do anything.","!DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPorn14,SidneyPorn15,,"She's my private slave, a real cunt that will do anything.","DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPorn15,,,Whore!  Show your moves!,,,,,,
+SidneyPorn15,SidneyPorn16,(Dance timidly.),"(You start to move slowly.)  Gentlemen, we have a shy dancer.",,,,-1,,TeacherNakedStandSidneyDormDance
+SidneyPorn15,SidneyPorn16,(Blush red and bow your head.),"(You blush and refuse to dance.)  Gentlemen, she's too shy to shake it up.",,,-1,-2,,TeacherNakedStandSidneyDormAngry
+SidneyPorn15,SidneyPorn16,(Shake your butt shamelessly.),"(You start to move rapidly.)  Gentlemen, she's a daring slut.",,,,1,,TeacherNakedStandSidneyDormDance
+SidneyPorn15,SidneyPorn16,(Blow a kiss to the camera.),"(You start to move sensually.)  Gentlemen, isn't she cute?",,,1,,,TeacherNakedStandSidneyDormDance
+SidneyPorn15,SidneyPorn16,(Refuse to move.),"(You refuse to dance.)  Gentlemen, she needs some training.",,,-1,,,TeacherNakedStandSidneyDormAngry
+SidneyPorn15,SidneyPorn16,(Raise your middle finger for the viewers.),"(You refuse to dance and make a rude gesture.)  Gentlemen, she has bad manners.",,,-2,1,,TeacherNakedStandSidneyDormAngry
+SidneyPorn16,SidneyPorn17,,,,,,,,
+SidneyPorn17,SidneyPorn18,,Tip me right now to motivate her a little more.,,,,,,
+SidneyPorn18,SidneyPorn19,,(She lets the movie roll as she checks to see if people are paying.),,,,,,
+SidneyPorn18,SidneyPorn19,InventoryDialogPhone,(She uploads new images of you to attract more viewers.),,"PictureAdd(""Teacher"")",,,,
+SidneyPorn19,SidneyPorn20,,"(She opens a bag with many gags.)  Gentlemen, how should we shut up that bitch?",,,,,,
+SidneyPorn20,SidneyPorn21,,(People start to bid and vote for your gag.  The highest amount wins.),,"DialogVariableSetRandom(""Gag"", 3)",,,,
+SidneyPorn21,SidneyPorn22,,(The crowd voted for a ball gag.  She throws one at you to wear.),"DialogVariableIs(""Gag"", 0)",,,,,
+SidneyPorn21,SidneyPorn22,,(The crowd voted for a panel gag.  She throws one at you to wear.),"DialogVariableIs(""Gag"", 1)",,,,,
+SidneyPorn21,SidneyPorn22,,(The crowd voted for a ring gag.  She throws one at you to wear.),"DialogVariableIs(""Gag"", 2)",,,,,
+SidneyPorn22,SidneyPorn23,,,"DialogVariableIs(""Gag"", 0)",,,,,TeacherNakedBallGagStandSidneyDorm
+SidneyPorn22,SidneyPorn23,,,"DialogVariableIs(""Gag"", 1)",,,,,TeacherNakedPanelGagStandSidneyDorm
+SidneyPorn22,SidneyPorn23,,,"DialogVariableIs(""Gag"", 2)",,,,,TeacherNakedRingGagStandSidneyDorm
+SidneyPorn23,SidneyPorn24,,(You strap and lock the gag on yourself.),,,,,Teacher,
+SidneyPorn24,SidneyPorn25,,Thank you gentlemen!  You're fucking generous.,"!LogQuery(""Sidney"", ""DormPornMovie"")",,,,Sidney,
+SidneyPorn24,SidneyPornSlave1,,Thank you gentlemen!  You're fucking generous once again.,"LogQuery(""Sidney"", ""DormPornMovie"")",,,,Sidney,
+SidneyPorn25,SidneyPorn26,,"I would ask you to clap for our prey, but I'm sure your hands are busy.",,,,,,
+SidneyPorn25,SidneyPorn26,InventoryDialogPhone,(She picks up your phone and saves a copy of your predicament.),,"PictureAdd(""Teacher"")",,,,
+SidneyPorn26,SidneyPorn27,,"For your pleasure, we do the game: Will it fit?",,,,,,
+SidneyPorn27,,,Slut!  Pick an object!,,,,,,
+SidneyPorn27,SidneyPornBanana1,(Pick a banana.),Naughty and nutritious!  Will it fit?,,,,,,
+SidneyPorn27,SidneyPornSpoon1,(Pick a spoon.),"Gentlemen, she's taking it easy!  Will it fit?",,,-1,-1,,
+SidneyPorn27,SidneyPornBeer1,(Pick a beer can.),"Gentlemen, she's taking a huge challenge!  Will it fit?",,,1,1,,
+SidneyPornBanana1,SidneyPornBanana2,,,"DialogVariableIs(""Gag"", 0)",,,,,TeacherNakedBallGagStandSidneyDormBanana
+SidneyPornBanana1,SidneyPornBanana2,,,"DialogVariableIs(""Gag"", 1)",,,,,TeacherNakedPanelGagStandSidneyDormBanana
+SidneyPornBanana1,SidneyPornBanana2,,,"DialogVariableIs(""Gag"", 2)",,,,,TeacherNakedRingGagStandSidneyDormBanana
+SidneyPornBanana2,SidneyPornEnd1,,(You slide the banana inside as Sidney continues to film.),,,,,,
+SidneyPornSpoon1,SidneyPornSpoon2,,,"DialogVariableIs(""Gag"", 0)",,,,,TeacherNakedBallGagStandSidneyDormSpoon
+SidneyPornSpoon1,SidneyPornSpoon2,,,"DialogVariableIs(""Gag"", 1)",,,,,TeacherNakedPanelGagStandSidneyDormSpoon
+SidneyPornSpoon1,SidneyPornSpoon2,,,"DialogVariableIs(""Gag"", 2)",,,,,TeacherNakedRingGagStandSidneyDormSpoon
+SidneyPornSpoon2,SidneyPornEnd1,,(You easily slide a spoon as Sidney continues to film.),,,,,,
+SidneyPornBeer1,SidneyPornBeer2,,,"DialogVariableIs(""Gag"", 0)",,,,,TeacherNakedBallGagStandSidneyDormBeer
+SidneyPornBeer1,SidneyPornBeer2,,,"DialogVariableIs(""Gag"", 1)",,,,,TeacherNakedPanelGagStandSidneyDormBeer
+SidneyPornBeer1,SidneyPornBeer2,,,"DialogVariableIs(""Gag"", 2)",,,,,TeacherNakedRingGagStandSidneyDormBeer
+SidneyPornBeer2,SidneyPornEnd1,,(You push hard to slide the beer can inside as Sidney continues to film.),,,,,,
+SidneyPornEnd1,SidneyPornEnd2,,Gentlemen!  It fits!,,,,,,
+SidneyPornEnd1,SidneyPornEnd2,InventoryDialogPhone,(She laughs and uploads many images of your performance on the web.),,"PictureAdd(""Teacher"")",,,,
+SidneyPornEnd2,,,"You deserve it, slut!  Pleasure yourself!",,,,,,
+SidneyPornEnd2,SidneyPornEnd3A,(Masturbate sensually.),(You masturbate sensually and get a slow but wonderful orgasm in front for the camera.),,,2,,,
+SidneyPornEnd2,SidneyPornEnd3A,(Masturbate vigorously.),(You masturbate fiercely and get a powerful orgasm in front for the camera.),,,1,1,,
+SidneyPornEnd2,SidneyPornEnd3A,(Masturbate timidly.),(You masturbate timidly and fake an orgasm in front for the camera.),,,1,-1,,
+SidneyPornEnd2,SidneyPornEnd3A,(Don't masturbate.),(You don't masturbate at all as Sidney yells at you.)  You lazy whore!,,,-1,,,
+SidneyPornEnd3A,SidneyPornEnd3B,,Gentlemen!  Anything that entered that cunt will be on sale later.,,,,,,
+SidneyPornEnd3B,SidneyPornEnd3C,,(She checks the tipping dropping and gets mad.),,,,,,
+SidneyPornEnd3C,SidneyPornEnd3D,,"Slut, that's enough.  Give it to me.  Our customers are running dry.","!DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPornEnd3C,SidneyPornEnd3D,,"My slave, that's enough.  Give it to me.  Our customers are running dry.","DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPornEnd3D,SidneyPornEnd4,,(You remove the soaked object as Sidney wraps up her movie.),"DialogVariableIs(""Gag"", 0)",,,,,TeacherNakedBallGagStandSidneyDorm
+SidneyPornEnd3D,SidneyPornEnd4,,(You remove the soaked object as Sidney wraps up her movie.),"DialogVariableIs(""Gag"", 1)",,,,,TeacherNakedPanelGagStandSidneyDorm
+SidneyPornEnd3D,SidneyPornEnd4,,(You remove the soaked object as Sidney wraps up her movie.),"DialogVariableIs(""Gag"", 2)",,,,,TeacherNakedRingGagStandSidneyDorm
+SidneyPornEnd4,SidneyPornEnd5,,"Gentlemen, you know the drill.",,,,,,
+SidneyPornEnd5,SidneyPornEnd6,,"If you wanna see that prey again, you need to tip.  And tip some more!","!DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPornEnd5,SidneyPornEnd6,,"If you wanna see my personal slave again, you need to tip.  And tip some more!","DialogCurrentDS(""Sidney"", ""Dom"")",,,,,
+SidneyPornEnd6,SidneyPornEnd7,,(She earns a few more tips before the movie ends.),,"LogAdd(""Sidney"", ""DormPornMovie"")",,,,
+SidneyPornEnd7,SidneyPornEnd8,,(She shuts down her camera and removes your gag.),,,,,,
+SidneyPornEnd8,SidneyPornEnd9,,,,,,,,TeacherNakedStandSidneyDormShy
+SidneyPornEnd9,SidneyPornEnd10,,You're a fucking cute actress.  I'm sure I made a lot.,DialogLoveGreater(1),,,,,
+SidneyPornEnd9,SidneyPornEnd10,,You're a fucking slut.  I'm sure I made a lot.,DialogLoveLower(0),,,,,
+SidneyPornEnd10,SidneyPornEnd11,,Now get the fuck out!  I'm going to buy some weed.,,,,,,
+SidneyPornEnd11,SidneyPornEnd12,,I'll call you again when I need cash.,,,,,,
+SidneyPornEnd12,SidneyPornEnd13,,(She throws your clothes at you and sends you back home.),,,,,,
+SidneyPornEnd13,Intro4,,(You take the bus and return to your apartment.),,,,,Teacher,TeacherStandAlone
+SidneyDomRefuseCall1,SidneyDomRefuseCall2,,(Your phone finally goes silent.  You can put it away.),,,,,Teacher,TeacherStandAlone
+SidneyDomRefuseCall2,SidneyDomRefuseCall3,,(You relax alone at home.  It might be a quiet weekend.),,"LogDelete(""Sidney"", ""Submit"")",,,,
+SidneyDomRefuseCall3,SidneyDomRefuseCall4,,"(After a few hours, your phone rings again.)",,,,,,TeacherStandPhone
+SidneyDomRefuseCall4,SidneyDomRefuseCall5,,"(It's your boss Evelyn.  She should not call you on weekends, unless it's an emergency.)",,,,,,
+SidneyDomRefuseCall5,SidneyDomRefuseCall6,,(It must be important.  You answer right away.),,,,,,
+SidneyDomRefuseCall6,SidneyDomRefuseCall7,,,,,,,Evelyn,TeacherStandPhoneTalk
+SidneyDomRefuseCall7,SidneyDomRefuseCall8,,(Her tone is furious.)  Young lady!  How could you?  This is outrageous!,,,-2,,,
+SidneyDomRefuseCall8,SidneyDomRefuseCall9,,Your salacious pictures taken on college ground are all over the web.,,,-2,,,
+SidneyDomRefuseCall9,SidneyDomRefuseCall10,,This is a true scandal!  You are not worthy of working with us.,,,-2,,,
+SidneyDomRefuseCall10,SidneyDomRefuseCall11,,"Do not bother coming back to college, you are fired!",,,,,,
+SidneyDomRefuseCall11,SidneyDomRefuseCall12,,(You lost your job as a teacher.  This story ends here.),,"LogAdd(""College"", ""Leave"")",,,None,
+SidneyDomRefuseCall12,,,,,"DialogGameEnd("""")",,,,
+SidneyPornSlave1,SidneyPorn26,,"I would ask you to clap for our prey, but I'm sure your hands are busy.",DialogDominationGreater(-15),,,,,
+SidneyPornSlave1,SidneyPornSlave2,,"I would ask you to clap for our prey, but I'm sure your hands are busy.",DialogDominationLower(-16),,,,,
+SidneyPornSlave2,SidneyPornSlave3,,"For your pleasure, we do the game: Enslave the slut forever!",,,,,,
+SidneyPornSlave3,,,(She throws you a pair of handcuffs.)  In the fucking back!,,,,,,
+SidneyPornSlave3,SidneyPornSlave4,(Pout and cuff yourself.),(You reluctantly cuff yourself in the back.),,,-1,,,
+SidneyPornSlave3,SidneyPornSlave4,(Blush and cuff yourself.),(You timidly cuff yourself in the back.),,,,-2,,
+SidneyPornSlave3,SidneyPornSlave4,(Cuff yourself happily.),(You giggle in your gag and cuff yourself promptly.),,,1,-1,,
+SidneyPornSlave3,SidneyPorn27,(Refuse to cuff yourself.),This cunt will need more training.  We'll do your favorite game then: Will it fit?,,,-2,3,,
+SidneyPornSlave4,SidneyPornSlave5,,,"DialogVariableIs(""Gag"", 0)",,,,,TeacherNakedBallGagCuffsStandSidneyDorm
+SidneyPornSlave4,SidneyPornSlave5,,,"DialogVariableIs(""Gag"", 1)",,,,,TeacherNakedPanelGagCuffsStandSidneyDorm
+SidneyPornSlave4,SidneyPornSlave5,,,"DialogVariableIs(""Gag"", 2)",,,,,TeacherNakedRingGagCuffsStandSidneyDorm
+SidneyPornSlave5,SidneyPornSlave6,,"Gentlemen, she accepts her slavery.  Her fate is sealed!",,,,,,
+SidneyPornSlave6,SidneyPornSlave7,,"She will become our permanent star, locked up for your pleasure.",,,,,,
+SidneyPornSlave7,SidneyPornSlave8,,Sidney finishes the movie but doesn't release you.,,,,,None,
+SidneyPornSlave8,SidneyPornSlave9,,She intends on enslaving you as her personal porn star.,,,,,,
+SidneyPornSlave9,SidneyPornSlave10,,You will be kept chained and isolated for a long time.,,,,,,
+SidneyPornSlave10,SidneyPornSlave11,,You lost your job as a teacher.  This story ends here.,,"LogAdd(""College"", ""Leave"")",,,,
+SidneyPornSlave11,,,,,"DialogGameEnd(""LeaveCollegeSubmitToSidney"")",,,,
+SidneySub1,SidneySub2,,,,,,,Sidney,TeacherStandPhoneTalk
+SidneySub2,SidneySub3,,(She answers rapidly.)  Greetings Miss.,DialogDominationGreater(16),,,,,
+SidneySub2,SidneySub3,,(She answers after a little while.)  Hello Miss.,"DialogDominationBetween(5, 15)",,,,,
+SidneySub2,SidneySub3,,(It takes a long while before she answers.)  Yo!,DialogDominationLower(4),,,,,
+SidneySub3,SidneySub4,,What a great idea to call me.  I was thinking about you.,DialogLoveGreater(6),,,,,
+SidneySub3,SidneySub4,,It's nice to talk to you.  I hope you're ok.,"DialogLoveBetween(-5, 5)",,,,,
+SidneySub3,SidneySub4,,"I'm surprised, I did not expect your call.",DialogLoveLower(-6),,,,,
+SidneySub4,,,What's up?,,,,,,
+SidneySub4,SidneySub5,"Girl, I'm coming over to supervise you.",Now?  Yes Miss.  Gimme some time to clean up.,,,,1,,
+SidneySub4,SidneySub5,Would you like me to go see you?,"Sure, bring your ass and some booze.  (She laughs.)",,,,-1,,
+SidneySub4,SidneySub5,Are you stone?  I want to see you.,"(She sounds annoyed.)  I'm not always high!  Fine, come over.",,,-1,,,
+SidneySub4,SidneySub5,Are you alone sweetie?  I'd like to see you.,"That sounds like a good plan.  Yeah, you can come over.",,,1,,,
+SidneySub4,SidneySubSkip,"Nothing special, I only wanted to chat for a while.",Alright!  (You spend some time on the phone together to chat and bond.),,,1,,,
+SidneySubSkip,Intro4,,(You hang up after a long conversation with your girl.),,,,,Teacher,TeacherStandAlone
+SidneySub5,SidneySub6,,(She gives you the address before you end the call.),"!LogQuery(""Sidney"", ""VisitSubDorm"")",,,,,
+SidneySub5,SidneySub6,,"See ya later, teacher!  (You end the call.)","LogQuery(""Sidney"", ""VisitSubDorm"")",,,,,
+SidneySub6,SidneySub7,,(You pack up your bag and head for her place.),,,,,Teacher,TeacherStandAlone
+SidneySub7,SidneySub8A,,,,,,,Sidney,TeacherSidneyShyStandSidneyDorm
+SidneySub8A,SidneySub8B,,Welcome to my dorm.  My stupid roommates are out.  We have plenty of time.,"!LogQuery(""Sidney"", ""VisitSubDorm"")",,,,,
+SidneySub8A,SidneySub8B,,Welcome again.  You know the place by now.,"LogQuery(""Sidney"", ""VisitSubDorm"")",,,,,
+SidneySub8B,SidneySub9,,It's cool that you're taking some time for me.,,,1,,,
+SidneySub9,,,I hope you're having a good weekend.,,,,,,
+SidneySub9,SidneySub10,Weekends are the best.,"Fuck yeah, any time away from class is great.",,DialogChangeGrades(-1),1,,,
+SidneySub9,SidneySub10,It's been really boring.,"Yeah, it's too fucking quiet today.",,,,,,
+SidneySub9,SidneySub10,I much prefer school days.,No way!  We won't agree there.,,DialogChangeGrades(1),-1,,,
+SidneySub10,SidneySub11,,,DialogDominationGreater(13),,,,,SidneyKneelShySidneyDorm
+SidneySub10,SidneySub11,,,DialogDominationLower(12),,,,,SidneyStandShySidneyDorm
+SidneySub11,SidneySub12,,"Don't mind the mess.  I've tried to clean up for you, but it's still a shity place.","!LogQuery(""Sidney"", ""VisitSubDorm"")",,,,,
+SidneySub11,SidneySub12,,I know I haven't cleaned up much since your last visit.,"LogQuery(""Sidney"", ""VisitSubDorm"")",,,,,
+SidneySub12,SidneySub13,,(She looks around and shrugs.)  I'm no maid for sure.,,"LogAdd(""Sidney"", ""VisitSubDorm"")",,,,
+SidneySub12,SidneySub13,InventoryDialogPhone,(She stares at the camera as you capture a picture.),,PictureAdd(),,,,
+SidneySub13,,,Why the visit?,,,,,,
+SidneySub13,SidneySubStudy1,I came here to help you study.,There's nothing better to do?  (She sighs loudly and picks up a book.),,,-1,,,
+SidneySub13,SidneySubWeed1,I want to party!  Can I have some weed?,"(She laughs.)  Fine, but you should find a pusher.",,,1,-1,,
+SidneySub13,SidneySubPlease1,"Get naked my girl, you will pleasure me.","(She nods.)  Miss, that sounds like a wild idea.",,,1,1,,
+SidneySub13,SidneySubSpank1,I came to discipline and spank you.,(She gulps and seems nervous.)  You're serious?,,,,1,,
+SidneySubStudy1,SidneySubStudy2,,,,,,,,TeacherSidneySitDeskSidneyDormStudy
+SidneySubStudy2,SidneySubStudy3,,"(She sits and starts to read, seeming bored.)",,,,,,
+SidneySubStudy3,SidneySubStudy4,,That shit would be much easier with a beer.,,,,,,
+SidneySubStudy3,SidneySubStudyGag1,InventoryDialogPanelGag,(She jumps out of surprise as you swiftly strap a panel gag on her.),,,,1,,SidneyPanelGagSitDeskSidneyDormStudy
+SidneySubStudy3,SidneySubStudyGag1,InventoryDialogBallgag,(She jumps out of surprise as you swiftly strap a ball gag on her.),,,,1,,SidneyBallGagSitDeskSidneyDormStudy
+SidneySubStudyGag1,SidneySubStudyGag2,,,,,,,,
+SidneySubStudyGag2,SidneySubStudy4,,Hhy hhe hhuhhinn hah?,,,,,,
+SidneySubStudyGag2,SidneySubStudy4,InventoryDialogPhone,(You keep a souvenir of her gagged face on your phone.),,PictureAdd(),,,,
+SidneySubStudy4,,,(How will you help her?),,,,,,
+SidneySubStudy4,SidneySubStudy5,(Give her all the answers right away.),(She seems quite happy that you do the hard parts for her.),,DialogChangeGrades(1),1,-1,,
+SidneySubStudy4,SidneySubStudy5,(Help her a little but make sure she works.),"(You try your best to help her to learn, not giving the answers right away.)",,DialogChangeGrades(5),,,,
+SidneySubStudy4,SidneySubStudy5,(Let her search on her own.),"(You stay rigorous, not giving any answer and letting her do the work.)",,DialogChangeGrades(3),-1,1,,
+SidneySubStudy4,SidneySubStudy5,(Give her the wrong answers.),(You trick her and give her lots of wrong answers that she memorizes.),,DialogChangeGrades(-3),1,,,
+SidneySubStudy5,SidneySubStudy6,,(You study together and help her with her homework for many hours.),,,,,,
+SidneySubStudy6,SidneySubEnd1,,"(After a while, it's time to go back home.)",,,,,,
+SidneySubWeed1,SidneySubWeed2,,,,,,,,TeacherSitSidneySitSidneyDormDrugs
+SidneySubWeed2,SidneySubWeed3,,(You pick up some beers and light a joint.),,,,,,
+SidneySubWeed3,SidneySubWeed4,,Now that's good fucking life!  Nothing to worry about.,,,,,,
+SidneySubWeed4,SidneySubWeed5,,"We could do more than weed, you know.",,,,,,
+SidneySubWeed5,,,Wanna go higher?,,,,,,
+SidneySubWeed5,SidneySubWeed7,(Only do some weed and beer.),(You play it safe and stick with weed and beer.),,DialogChangeGrades(-2),,-1,,
+SidneySubWeed5,SidneySubWeed6,(Get drunk on hard liquors.),(You get strong liquors and get hammered with your submissive.),,DialogChangeGrades(-3),,1,,TeacherSitSidneySitSidneyDormDrugsDrunk
+SidneySubWeed5,SidneySubWeed6,(Try magic mushrooms.),(You try some mushrooms and laugh for hours with Sidney.),,DialogChangeGrades(-1),1,,,TeacherSitSidneySitSidneyDormDrugsLaugh
+SidneySubWeed5,SidneySubWeed6,(Pull out the crack pipe.),"(You both get fucked up on crack, a heavy drug trip.)",,DialogChangeGrades(-5),1,1,,TeacherSitSidneySitSidneyDormDrugsStone
+SidneySubWeed6,SidneySubWeed7,,,,,,,,
+SidneySubWeed7,SidneySubWeed8,,"(It probably won't be good for her grades, but it's a fun time with your girl.)",,,,,,
+SidneySubWeed8,SidneySubWeed9,,"(You both recover from your trip slowly, feeling dizzy.)",,,,,,
+SidneySubWeed9,SidneySubEnd1,,"(After a while, it's time to go back home.)",,,,,,
+SidneySubPlease1,SidneySubPlease2,,,,,,,,SidneyStandNakedSidneyDormDisplay
+SidneySubPlease2,SidneySubPlease3,,"(She strips sensually for you, trying to please your eyes.)",DialogLoveGreater(6),,,,,
+SidneySubPlease2,SidneySubPlease3,,(She smiles and slowly undresses for you.),"DialogLoveBetween(-5, 5)",,,,,
+SidneySubPlease2,SidneySubPlease3,,(She quickly ditches her clothes away.),DialogLoveLower(-6),,,,,
+SidneySubPlease2,SidneySubPlease3,InventoryDialogPhone,(You capture her striptease on your phone.),,PictureAdd(),,,,
+SidneySubPlease3,SidneySubPlease4,,"It will be my pleasure to help you undress, Miss PlayerName.",DialogDominationGreater(16),,,,,
+SidneySubPlease3,SidneySubPlease4,,"Miss, would you like some help to remove these clothes?","DialogDominationBetween(5, 15)",,,,,
+SidneySubPlease3,SidneySubPlease4,,You need to get naked also.,DialogDominationLower(4),,,,,
+SidneySubPlease4,SidneySubPlease5,,(She removes your outfit as you both lay in her bed.),,,,,,
+SidneySubPlease5,SidneySubPlease6,,,,,,,,TeacherNakedSidneyNakedSidneyDormEatTeacher
+SidneySubPlease6,SidneySubPlease7,,"(She slides her head in between your legs, getting ready to please you.)",,,,,,
+SidneySubPlease6,SidneySubPlease7,InventoryDialogRope,(You swiftly wrap some ropes around her wrist.),,,,,,TeacherNakedSidneyNakedRopeSidneyDormEatTeacher
+SidneySubPlease6,SidneySubPlease7,InventoryDialogHandcuffs,(You swiftly lock her wrist in handcuffs.),,,,,,TeacherNakedSidneyNakedCuffsSidneyDormEatTeacher
+SidneySubPlease7,SidneySubPlease8,,(She plunges and starts to rub her face on your pussy.),,,,,,
+SidneySubPlease8,,,(She works hard to pleasure you.),,,,,,
+SidneySubPlease8,SidneySubPlease9,(Have a long and sweet orgasm.),"(You get a slow and nice orgasm, feeling your submissive love and devotion.)",,,1,,,
+SidneySubPlease8,SidneySubPlease9,(Have a loud and powerful orgasm.),(You shake and scream from a shattering orgasm.),,,,1,,
+SidneySubPlease8,SidneySubPlease9,(Fake your orgasm.),"(You try your best to fake a great orgasm, hoping she will believe it.)",,,,-1,,
+SidneySubPlease8,SidneySubPlease9,(Don't climax.),(She seems disappointed that you don't get any orgasm from her work.),,,-2,,,
+SidneySubPlease9,SidneySubPlease10,,(She pleasures you a few more times that day.  It's a relaxing break with your girl.),,,,,,
+SidneySubPlease10,SidneySubEnd1,,"(After a while, it's time to go back home.)",,,,,,
+SidneySubSpank1,SidneySubSpank2,,Very serious.  A proper spanking will remind you of who's boss.,,,,,Teacher,
+SidneySubSpank2,SidneySubSpank3,,It will teach you to accept your submissive role and my control over you.,,,,,,
+SidneySubSpank3,SidneySubSpank4,,"Don't make me wait, drop these pants and show me your butt.",,,,,,
+SidneySubSpank4,SidneySubSpank5,,,,,,,Sidney,TeacherSitBedSidneyLayButtNakedSidneyDormSpankReady
+SidneySubSpank5,SidneySubSpank6,,"(She lays on your lap, taking a deep breath.)",,,,,,
+SidneySubSpank6,SidneySubSpank7,,,,"MiniGameStart(""Spanking"", ""SidneyLapButtNakedDorm"")",,,,
+SidneySubSpank7,SidneySubSpank8,,Stop it!  Fuck!  That spanking was true shit!,"MiniGameResultBetween(0, 24)",,-2,-3,,TeacherSitBedSidneyLayButtNakedSidneyDormSpankDone0
+SidneySubSpank7,SidneySubSpank8,,Enough!  That spanking was bad.,"MiniGameResultBetween(25, 49)",,-1,-1,,TeacherSitBedSidneyLayButtNakedSidneyDormSpankDone0
+SidneySubSpank7,SidneySubSpank8,,Not fucking bad.  You've been practicing in detention.,"MiniGameResultBetween(50, 74)",,,1,,TeacherSitBedSidneyLayButtNakedSidneyDormSpankDone1
+SidneySubSpank7,SidneySubSpank8,,"You're good, Miss PlayerName.  I will remember this lesson.","MiniGameResultBetween(75, 99)",,1,2,,TeacherSitBedSidneyLayButtNakedSidneyDormSpankDone2
+SidneySubSpank7,SidneySubSpank8,,"(She seems shaken to her core.)  Miss...  I am...  That was...  Thank you, Miss PlayerName.","MiniGameResultBetween(100, 100)",,2,3,,TeacherSitBedSidneyLayButtNakedSidneyDormSpankDone3
+SidneySubSpank8,SidneySubSpank9,,(She slowly recovers as you caress her butt.),,,,,,
+SidneySubSpank9,SidneySubSpank10,,"(You talk together for a long time, keeping her in that submissive position.)",,,,,,TeacherSitBedSidneyLayButtNakedSidneyDormSpankDone0
+SidneySubSpank10,SidneySubEnd1,,"(After a while, it's time to go back home.)",,,,,,
+SidneySubEnd1,SidneySubEnd2,,,,,,,Sidney,TeacherSidneyShyStandSidneyDorm
+SidneySubEnd2,SidneySubEnd3,,"(You take your stuff, getting ready to leave.)",,,,,,
+SidneySubEnd3,SidneySubEnd4,,It was fucking great to see you.  Please come back soon.,DialogLoveGreater(6),,,,,
+SidneySubEnd3,SidneySubEnd4,,It was nice to see you.  Call me again soon.,"DialogLoveBetween(-5, 5)",,,,,
+SidneySubEnd3,SidneySubEnd4,,We don't have to meet every fucking weekend you know.,DialogLoveLower(-6),,,,,
+SidneySubEnd4,SidneySubEnd5,,"I will be a good girl while you're away, Miss PlayerName.",DialogDominationGreater(16),,,,,
+SidneySubEnd4,SidneySubEnd5,,"Miss, I won't get in trouble while you're gone.","DialogDominationBetween(5, 15)",,,,,
+SidneySubEnd4,SidneySubEnd5,,I'll try not to get arrested.  Take care!,DialogDominationLower(4),,,,,
+SidneySubEnd5,SidneySubEnd6,,(You leave her dorm and return to your apartment.),,,,,,
+SidneySubEnd6,Intro6,,,,,,,Teacher,TeacherStandAlone
+SarahDom1,SarahDom2,,(She finally answers.)  Lil sis!,,,,,Sarah,
+SarahDom2,SarahDom3,,"I'm so happy to hear your voice, this is awesome.",DialogLoveGreater(25),,,,,
+SarahDom2,SarahDom3,,It's great to hear from you.,"DialogLoveBetween(16, 24)",,,,,
+SarahDom2,SarahDom3,,It's nice that you've called me.,"DialogLoveBetween(7, 15)",,,,,
+SarahDom2,SarahDom3,,I did not expect your call.,DialogLoveLower(6),,,,,
+SarahDom3,,,What's up?,,,,,,
+SarahDom3,SarahDom4,"I'm bored, I wanted to talk to someone.",Oh!  Then you need to get off your couch.,,,-1,,,
+SarahDom3,SarahDom4,"Sarah, I need to spend some time with you.","Oh!  Sure!  No problem, PlayerName.",,,,1,,
+SarahDom3,SarahDom4,"I would like to see you if you're not busy, Big Sister.",Oh!  Absolutely!  I could bring you along.,,,,-1,,
+SarahDom3,SarahDom4,We could go create some trouble if you're in the mood.,Oh!  Hahaha!  I would love that!,,,1,,,
+SarahDom3,SarahDomSkip,"Nothing special, I only wanted to chat for a while.",Oh!  Nice!  (You spend some time on the phone together to chat and bond.),,,1,,,
+SarahDomSkip,Intro4,,(You hang up after a long conversation with your Big Sister.),,,,,Teacher,TeacherStandAlone
+SarahDom4,SarahDom5,,I'm going to the Bondage Club tonight.,"!LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDom4,SarahDom5,,"Once again, I'm going to the Bondage Club tonight.","LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDom5,SarahDom6,,"Grab your favorite restraints, we could meet up there.  (She laughs.)",,,,,,
+SarahDom6,,,"If you're in the mood, of course.",,,,,,
+SarahDom6,SarahDom7,Only if you've done your homework first.,"Don't worry about that, I'm all set.",,DialogChangeGrades(2),-1,1,,
+SarahDom6,SarahDom7,"If I go, will you protect me?","Of course, lil sis, don't worry.",,,,-1,,
+SarahDom6,SarahDom7,Yes!  It will be more fun than college.,(She laughs.)  Absolutely!,,DialogChangeGrades(-2),1,,,
+SarahDom6,SarahDom7,"Sounds good, we'll get submissives in bondage.",Or we'll get in bondage together!,,,,1,,
+SarahDom6,Intro4,I'm not in the mood for that.,No problem!  Have a good weekend.  (She hangs up.),,,-3,1,Teacher,TeacherStandAlone
+SarahDom7,SarahDom8,,Meet me there in two hours.  Bye-bye!  (She hangs up.),,,,,,
+SarahDom8,SarahDom9,,(You pack up your bag and look for casual clothes.),,,,,Teacher,TeacherStandAlone
+SarahDom9,SarahDom10,,,,,,,,TeacherDisplayClothCasual
+SarahDom10,SarahDom11,,"(Wearing your jeans and jacket, you head out to the Bondage Club.)",,,,,,
+SarahDom11,SarahDomBC1,,,,,,,Teacher,TeacherCasualBondageClubEntranceAlone
+SarahDomBC1,SarahDomBC2,,"(You enter the Bondage Club, it's a huge BDSM gathering place.)","!LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC1,SarahDomBC2,,"(You come back to the Bondage Club, looking for Sarah.)","LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC2,SarahDomBCFirstVisit1,,(A maid sees you and comes to greet you.),"!DialogCharacterIsKnown(""Jane"")",,,,,
+SarahDomBC2,SarahDomBC3,,(Maid Jane sees you and comes to greet you.),"DialogCharacterIsKnown(""Jane"")",,,,,
+SarahDomBCFirstVisit1,SarahDomBCFirstVisit2,,,,"CharacterAdd(""Jane"", ""Jane"")",,,,TeacherCasualJaneMaidBondageClubEntranceTalk
+SarahDomBCFirstVisit2,SarahDomBCFirstVisit3,,"Welcome to the Bondage Club, M'lady.  M'name is Jane, I'm here to h'lp and protect newcommers.",,,,,Jane,
+SarahDomBCFirstVisit3,SarahDomBCFirstVisit4,,"W're the largest BDSM club in town, off'ring lots of activ'ties for Doms and subs.",,,,,,
+SarahDomBCFirstVisit4,SarahDomBC4,,Please be p'lite and open minded.  Y'all withness many diff'rent fetishes.,,,,,,
+SarahDomBC3,SarahDomBC4,,"It's great to see you again, M'lady.  I hope you're feeling well t'night.",,,,,Jane,TeacherCasualJaneMaidBondageClubEntranceTalk
+SarahDomBC4,,,Are you looking for s'meone on s'mething specific?,,,,,,
+SarahDomBC4,SarahDomBC5,Is Sarah around?  Maybe I should not be here.,"(She shakes her head no.)  Nonsense, Y're welcome.",,,-1,,,
+SarahDomBC4,SarahDomBC5,"Yes, I'm looking for my protector, Sarah.",(She smirks.)  I'm still s'rprised that M'lady Sarah has a sub.,,,,-1,,
+SarahDomBC4,SarahDomBC5,"I'm searching for my wonderful sister, Sarah.",(She smiles.)  The bond b'tween subs is adorable.,,,1,,,
+SarahDomBC4,SarahDomBC5,I'm looking for a blond sub named Sarah.,(She nods slowly.),,,,1,,
+SarahDomBC5,SarahDomBC6,,M'lady Sarah left a note for you.  You must change b'fore joining her.  Come w'th me.,,,,,,
+SarahDomBC6,SarahDomBC7,,,,,,,,TeacherCasualJaneMaidBondageClubChangingRoomTalk
+SarahDomBC7,SarahDomBC8,,(You follow her to a more private room with some outfits and restraints on display.),,,,,,
+SarahDomBC8,SarahDomBC9,,"Th's is one of our many changing rooms.  It's private, d'nt be shy.","!LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC8,SarahDomBC9,,You kn'w this place and you should kn'w what to do now.,"LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC9,,,"Get naked, M'lady sub.",,,,,,
+SarahDomBC9,SarahDomBC10,I'm not a sub!,"(She shrugs.)  In my book, the sub of a sub is a sub.",,,,1,,
+SarahDomBC9,SarahDomBC10,"Fine, but don't look.",(She sighs.)  I'm not judg'ng you.,,,-1,,,
+SarahDomBC9,SarahDomBC10,Are you sure this is right?,(She nods.)  V'ry sure.,,,,,,
+SarahDomBC9,SarahDomBC10,Only for your eyes.  (Wink at her.),(She winks back.)  My eyes h've seen lots of cute skin.,,,1,,,
+SarahDomBC9,SarahDomBC10,How did you know I'm a submissive?,(She laughs.)  I've w'rked here for years.,,,,-1,,
+SarahDomBC10,SarahDomBC11,,(She helps you to get naked quite rapidly.),,,,,,
+SarahDomBC11,SarahDomBC12,,,,,,,,TeacherNakedBondageClubChangingRoomShy
+SarahDomBC12,SarahDomBC13,,(She puts your clothes away and comes back with a leather device.),,,,,,
+SarahDomBC12,SarahDomBC13,InventoryDialogPhone,(You give her your phone so she can keep a souvenir of your visit.),,"PictureAdd(""Teacher"")",1,,,
+SarahDomBC13,SarahDomBC14,,Y're slave sister prepared s'mething special for you.,"!LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC13,SarahDomBC14,,"Once again, you and y're slave sister will wear the b'nder.","LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC14,SarahDomBC15,,You will be releas'd when your contract is done.  M'lady Sarah sign'd it.,,,,,,
+SarahDomBC15,,,G'mme your hands.,,,,,,
+SarahDomBC15,SarahDomBC16,"Yes, Miss Jane.",Good girl.,,,,-1,,
+SarahDomBC15,SarahDomBC16,My pleasure!,Happy subs are the b'st subs.,,,1,,,
+SarahDomBC15,SarahDomBC16,"Next time, I'll prepare the contracts.",That might be wise.,,,,1,,
+SarahDomBC15,SarahDomBC16,Be careful with these restraints.,"M'lady, I kn'w my job.",,,-1,,,
+SarahDomBC16,SarahDomBC17,,,,,,,,TeacherArmbinderCollarBondageClubChangingRoomShy
+SarahDomBC17,SarahDomBC18,,"(She straps your arms in a tight armbinder, adding a collar around your neck.)",,,,,,
+SarahDomBC17,SarahDomBC18,InventoryDialogPhone,(You give her your phone.  She saves your submission on it.),,"PictureAdd(""Teacher"")",,-1,,
+SarahDomBC18,SarahDomBC19,,I'll escort you to y're slave sister.,,,,,,
+SarahDomBC19,SarahDomBC20,,(She leads you to the public area in your naughty attire.),,,,,,
+SarahDomBC20,SarahDomBC21,,,,,,,Sarah,TeacherAndSarahArmbinderCollarBondageClubBarTalk
+SarahDomBC21,SarahDomBC22,,(You finally meet with your Big Sister who's dressed just like you.),,,,,,
+SarahDomBC22,SarahDomBC23,,Lil sis!  I'm glad you made it.  I thought you would have chickened out.,"!LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC22,SarahDomBC23,,Lil sis!  Welcome back to the Club.  We'll have fun once again.,"LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC23,SarahDomBC24,,We will be club slave sisters tonight.  It will be kinky and fun.,"!LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC23,SarahDomBC24,,We will be club slave sisters once again.  Another kinky evening.,"LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC24,,,I hope you're ready to serve.,,,,,,
+SarahDomBC24,SarahDomBC25,"Next time, we should be in charge.",Are you serious?  You look so good on your knees.,,,,1,,
+SarahDomBC24,SarahDomBC25,Maybe this was a mistake.,"It's too late to go back to school, enjoy the ride.",,DialogChangeGrades(1),-1,,,
+SarahDomBC24,SarahDomBC25,I was born to serve.,"That's the spirit, lil sis.  We think alike.",,DialogChangeGrades(-1),,-1,,
+SarahDomBC24,SarahDomBC25,You're so sexy bound like that.,Thanks!  You're also adorable in that binder.,,,1,,,
+SarahDomBC25,SarahDomBC26,,Let's go!  We have a busy night ahead of us.,,,,,,
+SarahDomBC26,SarahDomBC27,,,,,,,,TeacherAndSarahArmbinderCollarBondageClubSlaveWork1
+SarahDomBC27,SarahDomBC28,,(You both work as club slaves tonight.  A very naughty but fun job.),,,,,,
+SarahDomBC27,SarahDomBC28,InventoryDialogPhone,(A customer happily takes your phone to capture the happy moment.),,PictureAdd(),,,,
+SarahDomBC28,SarahDomBC29,,(Your duty is to entertain the customers and serve them within your limits.),,,,,,
+SarahDomBC29,SarahDomBC30,,,,,,,,TeacherAndSarahArmbinderCollarBondageClubSlaveWork2
+SarahDomBC30,SarahDomBC31,,(You explore the different areas of the Bondage Club with your sister Sarah.),,,,,,
+SarahDomBC30,SarahDomBC31,InventoryDialogPhone,(A Dominant grabs your phone to save your submissive faces.),,PictureAdd(),,,,
+SarahDomBC31,SarahDomBC32,,"(The BDSM rooms of the club are full of cages, restraints and toys.)",,,,,,
+SarahDomBC32,SarahDomBC33,,,,,,,,TeacherAndSarahArmbinderCollarBondageClubSlaveWork3
+SarahDomBC33,SarahDomBC34,,"(Lot of your work is aimed at pleasing the Club Owners, the Mistresses.)",,,,,,
+SarahDomBC33,SarahDomBC34,InventoryDialogPhone,(A Mistress smirks and keeps a souvenir of your tight bondage.),,PictureAdd(),,,,
+SarahDomBC34,SarahDomBC35,,Oh!  Lil sis!  We've been given a challenge.,"!LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC34,SarahDomBC35,,Oh!  Lil sis!  We've been challenged again.,"LogQuery(""Sarah"", ""BigSisterBondageClub"")",,,,,
+SarahDomBC35,SarahDomBC36,,"Whoever makes the Mistress cum first, wins.  The other gets punished.",,,,,,
+SarahDomBC36,,,Are you up for the challenge?,,,,,,
+SarahDomBC36,SarahDomBC37,Yes!  I'm sure to win!,Ah!  We'll see about that!  (She licks her lips and turns around.),,"MiniGameParameterSet(""Rhythm"", ""Difficulty"", ""2"")",1,1,,
+SarahDomBC36,SarahDomBC37,It sounds like a fun challenge.,Yes!  (She licks her lips and turns around.),,"MiniGameParameterSet(""Rhythm"", ""Difficulty"", ""1"")",1,,,
+SarahDomBC36,SarahDomBC37,"Ok, but give me a chance.","Alright, I'll go slowly.  (She licks her lips and turns around.)",,"MiniGameParameterSet(""Rhythm"", ""Difficulty"", ""0"")",,-1,,
+SarahDomBC36,SarahDomBC39,"No, I don't want to do that.",(She pouts.)  Boring!  Let's continue our job then.,,,-2,,,
+SarahDomBC36,SarahDomBC37,"She will cum so hard, you'll be punished for years.",(She gets cocky.)  Game on!  You're going down.,,"MiniGameParameterSet(""Rhythm"", ""Difficulty"", ""3"")",,2,,
+SarahDomBC37,SarahDomBC38,,,,"MiniGameStart(""Rhythm"", ""TeacherSarahLickMistresses"")",,,,
+SarahDomBC38,SarahDomBCVictory1,,(Sarah seems amazed.)  You were incredible!  I have lots to learn from you.,"MiniGameResultBetween(95, 100)",,2,1,,
+SarahDomBC38,SarahDomBCVictory1,,(Sarah seems impressed.)  Congrats!  I need to learn tricks from you.,"MiniGameResultBetween(75, 94)",,1,,,
+SarahDomBC38,SarahDomBCDefeat1,,"(Sarah smiles proudly.)  All you need is a little more practice, lil sis.","MiniGameResultBetween(50, 74)",,,-1,,
+SarahDomBC38,SarahDomBCDefeat1,,"(Sarah laughs and smiles proudly.)  I'll teach you some tricks, lil sis.","MiniGameResultBetween(25, 49)",,-1,-1,,
+SarahDomBC38,SarahDomBCDefeat1,,"(Sarah laughs at you.)  You're clueless, lil sis.","MiniGameResultBetween(0, 24)",,-2,-1,,
+SarahDomBCVictory1,SarahDomBCVictory2,,I guess I'll be punished by this sexy Mistress.  This is such a tragedy.  (She winks at you.),,,,,,
+SarahDomBCVictory2,SarahDomBCVictory3,,,,,,,,SarahArmbinderCollarBallGagBondageClubMistressCropSpank
+SarahDomBCVictory3,SarahDomBCVictory4,,(Many clients gather for Sarah's punishment.  A Mistress picks up a leather crop.),,,,,,
+SarahDomBCVictory4,SarahDomBCVictory5,,(Sarah gets gagged and whipped in public for failing the challenge.),,,,,,
+SarahDomBCVictory4,SarahDomBCVictory5,InventoryDialogPhone,(Someone captures the moment and sends you a picture.),,PictureAdd(),,,,
+SarahDomBCVictory5,SarahDomBCVictory6,,(She whimpers and begs but you know that she secretly loves it.),,,,,,
+SarahDomBCVictory6,SarahDomBC39,,"(She's released after a while.)  Thank you, Mistress.  I've learned my lesson.",,,,,,TeacherAndSarahArmbinderCollarBondageClubSlaveWork3
+SarahDomBCDefeat1,SarahDomBCDefeat2,,Be strong and endure your punishment.  I will cheer for you.,,,,,,
+SarahDomBCDefeat2,SarahDomBCDefeat3,,,,,,,Teacher,TeacherArmbinderCollarBallGagBondageClubMistressCropSpank
+SarahDomBCDefeat3,SarahDomBCDefeat4,,(Many clients gather for your punishment.  A Mistress picks up a leather crop.),,,,,,
+SarahDomBCDefeat4,SarahDomBCDefeat5,,(You get gagged and whipped in public for failing the challenge.),,,,,,
+SarahDomBCDefeat4,SarahDomBCDefeat5,InventoryDialogPhone,(Someone captures your humiliation and sends you a picture.),,"PictureAdd(""Teacher"")",,,,
+SarahDomBCDefeat5,,,(Your Big Sister stares at you.  What do you do?),,,,,Sarah,
+SarahDomBCDefeat5,SarahDomBCDefeat6,(Stay stoic and pretend it doesn't hurt.),(She seems impressed that you can endure the pain.),,,,1,,
+SarahDomBCDefeat5,SarahDomBCDefeat6,(Wink at Sarah and wiggle your butt.),(She laughs happily and cheers for you.),,,1,,,
+SarahDomBCDefeat5,SarahDomBCDefeat6,(Cry and whimper in your gag.),(She trembles with you and tries to comfort you.),,,,-1,,
+SarahDomBCDefeat5,SarahDomBCDefeat6,(Try to dodge the crop.),(She shakes her head from left to right as you fail to dodge the crop.),,,-1,,,
+SarahDomBCDefeat6,SarahDomBCDefeat7,,(The Mistress swings at your butt a few more times before stopping.),,,,,,
+SarahDomBCDefeat7,SarahDomBC39,,(You get released and join Sarah again.)  Oh!  I hope you're fine.,,,,,,TeacherAndSarahArmbinderCollarBondageClubSlaveWork3
+SarahDomBC39,SarahDomBC40,,"Lil sis, we have more work to do tonight, let's go!",,,,,,
+SarahDomBC40,SarahDomBC41,,,,,,,,TeacherAndSarahArmbinderCollarBondageClubSlaveWork4
+SarahDomBC41,SarahDomBC42,,"(You finish your shift together, getting into more kinky situations.)",,,,,,
+SarahDomBC41,SarahDomBC42,InventoryDialogPhone,(A fellow slave girl helps you to keep a souvenir.),,PictureAdd(),,,,
+SarahDomBC42,SarahDomBC43,,"(After many hours of slave work, you both get unlocked and paid.)",,,,,,
+SarahDomBC43,SarahDomBC44,,,,"LogAdd(""Sarah"", ""BigSisterBondageClub"")",,,,TeacherAndSarahNakedBondageClubTalk
+SarahDomBC44,SarahDomBC45,,"I hope you enjoyed your evening, lil sis.",,,,,,
+SarahDomBC45,,,We could come again next week if you want.,,,,,,
+SarahDomBC45,SarahDomBC46,It's a date!,Nice!  Lots of fun to come.  See you soon!,,,1,,,
+SarahDomBC45,SarahDomBC46,I'm not sure if I'll come back.,Oh!  We'll see then.  Bye-bye!,,,-1,,,
+SarahDomBC45,SarahDomBC46,"If it doesn't affect your exams, we'll come back.","Oh!  Of course, school comes first.  See you soon!",,DialogChangeGrades(2),,1,,
+SarahDomBC45,SarahDomBC46,It will help us to forget about school.,(She laughs and nods.)  Well said.  See you soon!,,DialogChangeGrades(-2),,-1,,
+SarahDomBC46,SarahDomBC47,,(You both dress back up and head back to your homes.),,,,,,
+SarahDomBC47,SarahDomBC48,,,,,,,Teacher,TeacherStandAlone
+SarahDomBC48,Intro5,,(You return to your apartment.  It's now very late.),,,,,,
+Outro,,,,,,,,,

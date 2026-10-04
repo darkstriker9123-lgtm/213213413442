@@ -1,0 +1,22 @@
+Enter a description, select the folder on the left and click on the slot to save.
+Introduce una descripción, selecciona la carpeta de la izquierda y haz clic en la ranura para guardar.
+Select the folder on the left and click on the saved game on the right to load it.
+Selecciona la carpeta de la izquierda y haz clic en el juego guardado de la derecha para cargarlo.
+Empty slot
+Ranura vacía
+Week #
+Semana #
+Back to menu
+Volver al menú
+Exit game
+Juego de escape
+Continue
+Continúa
+Description:
+Descripción:
+Boss Office
+Oficina de la jefa
+Class
+Clase
+Home
+Inicio

@@ -1,0 +1,240 @@
+Previous
+Précédent
+Next
+Suivant
+Pictures
+Photos
+Inventory
+Inventaire
+Close
+Fermer
+Main character
+Personnage principal
+Age:
+Âge :
+23
+23
+24
+24
+37
+37
+20
+20
+19
+19
+18
+18
+31
+31
+52
+52
+22
+22
+6
+6
+Job:
+Emploi :
+Teacher
+Professeur
+Unemployed
+Sans emploi
+Director
+Directrice
+Student
+Étudiant
+Maid
+Femme de ménage
+Barmaid
+Serveuse
+Expected grades:
+Notes attendues :
+Expected career:
+Carrière envisagée :
+Crackhead
+Accro à la coke
+Junkie
+Accro
+Bum
+Cloche
+Pusher
+Pusher
+Garbage Collector
+Le ramasseur d'ordures
+Gardener
+Jardinière
+Herbalist
+Herboriste
+Chemist
+Chimiste
+Pharmacist
+Pharmacienne
+Researcher
+Chercheuse
+Inventor
+Inventeur
+Sexual Slave
+Esclave sexuelle
+Prostitute
+Prostituée
+Sex Cam Girl
+Fille de webcam
+Groupie
+Groupie
+Porn Actress
+Actrice de films pornographiques
+Hairdresser
+Coiffeuse
+Theater Actress
+Actrice de théâtre
+Film Makeup Artist
+Maquilleuse de cinéma
+B Movie Actress
+Actrice de films de série B
+Movie Director
+Réalisatrice
+Hollywood Star
+Star hollywoodienne
+Homeless
+Sans-abri
+Fraud Victim
+Victime d'une fraude
+Cat Lady
+La passionnée de chats
+Failed Writer
+Écrivaine ratée
+School Aide
+Aide-éducatrice
+Journalist
+Journaliste
+School Teacher
+Enseignante
+Novelist
+Romancière
+School Director
+Directrice d'école
+Famous Author
+Auteure célèbre
+Exiled
+En exil
+Disgraced
+Disgraciée
+Disinherited
+Déshéritée
+Secretary
+Secrétaire
+Third Heir
+Troisième héritière
+Human Ressource
+Ressources humaines
+Second Heir
+Deuxième héritière
+Businesswoman
+Femme d'affaires
+First Heir
+Premier héritier
+Oligarch
+Oligarque
+Mogul
+Mogul
+PlayerName is studious, hard-working and can be a little anxious.
+PlayerName est studieuse, travailleuse et peut se montrer un peu anxieuse.
+She earned her bachelor's degree while working a full-time restaurant job.
+Elle a obtenu sa licence tout en travaillant à temps plein dans un restaurant.
+After many interviews, she got her first teaching job at a college uptown.
+Elle a décroché son premier poste d'enseignante dans un college réputé.
+She's living in a small apartment downtown with her girlfriend Mia.
+Elle vit dans un petit appartement en centre-ville avec sa petite amie Mia.
+She's living alone in an apartment downtown.  Her ex Mia moved out.
+Elle vit seule dans un appartement en centre-ville.  Son ex, Mia, a déménagé.
+Mia is easy-going and kind of lazy.  She considers herself to be a foodie.
+Mia est décontractée et un peu paresseuse. Elle se considère comme une fine bouche.
+She took a few classes but never got a diploma and has been unemployed for months.
+Elle a suivi quelques cours, mais n'a jamais obtenu de diplôme et est au chômage depuis des mois.
+Her parents are slowly giving up on her and stopped sending her money.
+Ses parents sont en train de perdre peu à peu espoir en elle et ont cessé de lui envoyer de l'argent.
+She's living in a small apartment downtown with her girlfriend PlayerName.
+Elle vit dans un petit appartement en centre-ville avec sa petite amie PlayerName.
+She broke up with PlayerName and did not give any news since then.
+Elle a rompu avec PlayerName et n'a plus donné de nouvelles depuis.
+She's living in a small apartment with her Dominant lover PlayerName.
+Elle vit dans un petit appartement avec son amante dominante, PlayerName.
+She's living in a small apartment with her submissive lover PlayerName.
+Elle vit dans un petit appartement avec son amante soumise, PlayerName.
+Evelyn is confident, strict and well-organized.  The definition of a workaholic.
+Evelyn est sûre d'elle, stricte et très organisée.  La définition même d'une accro au travail.
+She's been employed by the college for years and got promoted to director.
+Elle travaille à l'université depuis des années et a été promue au poste de directrice.
+Her job is to guide and train teachers.  She rules them with an iron fist.
+Son travail consiste à encadrer et à former des enseignants. Elle les dirige d'une main de fer.
+She doesn't have a partner or any children.  Her career always comes first.
+Elle n'a ni compagnon ni enfant.  Sa carrière passe toujours en premier.
+Teacher PlayerName is her Dominant, she controls her life outside of work.
+L'enseignante PlayerName est sa dominante ; c'est elle qui contrôle sa vie en dehors du travail.
+Teacher PlayerName became her personal submissive outside of work.
+L'enseignante PlayerName est devenue sa soumise personnelle en dehors du travail.
+Sidney is a short-tempered, impolite and rebellious college girl.
+Sidney est une étudiante colérique, impolie et rebelle.
+She's older than most students because she failed many classes.
+Elle est plus âgée que la plupart des étudiants car elle a échoué à de nombreux cours.
+Addicted to weed, she's been in detention more than anyone else.
+Accro à l'herbe, elle a passé plus de temps en détention que n'importe qui d'autre.
+She's known to pick fights with her college roommate Sarah.
+Elle est connue pour se disputer avec Sarah, sa colocataire à la fac.
+She submitted to PlayerName and will need lots of training.
+Elle s'est soumise à PlayerName et aura besoin de beaucoup d'entraînement.
+She's blackmailing PlayerName as her own personal bitch.
+Elle fait chanter PlayerName en le traitant de « salope » personnelle.
+She was kidnapped and enslaved by Evelyn for reeducation.
+Elle a été enlevée et réduite en esclavage par Evelyn à des fins de rééducation.
+Sarah is a lighthearted, adventurous and exuberant college girl.
+Sarah est une étudiante enjouée, aventureuse et exubérante.
+Her lack of focus and seriousness greatly affects her grades.
+Son manque de concentration et de sérieux affecte considérablement ses notes.
+She's often in detention for talking in class or texting on her phone.
+Elle est souvent en retenue pour avoir parlé en classe ou envoyé des SMS sur son téléphone.
+She's known to flirt a lot and was caught making up with students.
+Elle est connue pour flirter beaucoup et a été surprise en train de flirter avec des élèves.
+She surrendered her freedom to her Dominant teacher PlayerName.
+Elle a cédé sa liberté à son maître, PlayerName.
+She's taken her submissive teacher PlayerName as little sister.
+Elle a pris sa professeure soumise, PlayerName, comme petite sœur.
+Amanda is a kind-hearted, strong-willed and studious college girl.
+Amanda est une étudiante au cœur généreux, à la volonté de fer et studieuse.
+She's one of the youngest students, skipping a school year in the past.
+Elle fait partie des plus jeunes élèves ; elle a sauté une classe par le passé.
+She works hard on her homework and get great results on her exams.
+Elle travaille dur pour faire ses devoirs et obtient d'excellents résultats à ses examens.
+Her very close friend Sarah is the only bad influence on her grades.
+Sa très bonne amie Sarah est la seule à avoir une mauvaise influence sur ses notes.
+Samriddhi is a foreign student, the second daughter of a rich oligarch.
+Samriddhi est une étudiante étrangère, la deuxième fille d'un riche oligarque.
+She studies administration and economics to inherit her father empire.
+Elle étudie la gestion et l'économie afin de reprendre l'empire de son père.
+She's a good student but is known to bribe her way for better grades.
+C'est une bonne élève, mais elle est connue pour verser des pots-de-vin afin d'obtenir de meilleures notes.
+Since she's foreign and of noble descent, she doesn't have many friends.
+Comme elle est étrangère et issue d'une famille noble, elle n'a pas beaucoup d'amis.
+Yuki is a lonely and clumsy teacher.  Employed by the college for seven years.
+Yuki est une enseignante solitaire et maladroite.  Elle travaille à l'université depuis sept ans.
+She never got promoted because of her numerous blunders and addictions.
+Elle n'a jamais obtenu de promotion à cause de ses nombreuses bévues et de ses addictions.
+She's a recovering alcoholic and takes lots of pills for different problems.
+Elle est en voie de guérison après avoir souffert d'alcoolisme et prend beaucoup de médicaments pour divers problèmes.
+She dated other teachers in the past but now lives alone with her cats.
+Elle est sortie avec d'autres professeurs par le passé, mais vit désormais seule avec ses chats.
+Jane is a seasoned maid, working for the Bondage Club for two decades.
+Jane est une femme de ménage expérimentée, qui travaille pour le Bondage Club depuis deux décennies.
+She might look old and petite, but she's very talented with restraints.
+Elle a peut-être l'air âgée et menue, mais elle est très douée pour les liens.
+In the sorority, she's often called mom, because of her protective nature.
+Au sein de la sororité, on l'appelle souvent « maman », en raison de son instinct protecteur.
+She's not great with words or remembering names, calling everyone M'lady.
+Elle n'est pas très douée avec les mots ni pour retenir les noms, et elle appelle tout le monde « Madame ».
+Charlotte is Mia's little sister, she works in a country bar out of town.
+Charlotte est la petite sœur de Mia ; elle travaille dans un bar country en dehors de la ville.
+She's been unlucky in dating, getting only bad boys or one night stand.
+Elle n'a pas eu de chance en amour, ne tombant que sur des mauvais garçons ou des aventures d'un soir.
+She loves to party and getting drunk quickly.  She never refuses a beer.
+Elle adore faire la fête et se saouler rapidement.  Elle ne refuse jamais une bière.
+Mia and her are not very close, she mostly visit when she needs a bed.
+Mia et elle ne sont pas très proches ; elle vient surtout lui rendre visite quand elle a besoin d'un lit.

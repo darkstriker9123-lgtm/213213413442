@@ -1,0 +1,26 @@
+Back to menu
+返回菜单
+Boss Office
+老板办公室
+Class
+课堂
+Continue
+继续
+Empty slot
+空槽
+Exit game
+退出游戏
+Home
+家
+Select the saved game to load.
+选择要加载的已保存游戏。
+Select the slot(s) to save your progress.
+选择槽位保存你的进度。
+Week #
+第#周
+Enter a description, select the folder on the left and click on the slot to save.
+输入描述内容，选择左侧的文件夹，然后点击相应位置进行保存。
+Select the folder on the left and click on the saved game on the right to load it.
+请在左侧选择文件夹，然后点击右侧的存档文件以加载它。
+Description:
+描述：

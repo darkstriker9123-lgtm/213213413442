@@ -1,0 +1,494 @@
+(Her eyes widen.)|The hell?
+（她的眼睛瞪大。）|搞什么？
+(Her focus is on you.)|(You have her full attention.)
+（她专注于你。）|（你完全吸引了她的注意。）
+(She cloes her eyes.)|This is relaxing.
+（她闭上眼睛。）|这很放松。
+(She cowers in pain.)|(She cries a little.)
+（她因疼痛而畏缩。）|（她轻声哭泣。）
+(She doesn't react much.)|You can do better.
+（她反应不大。）|你能做得更好。
+(She focuses on you.)|I love you, hun.
+（她专注于你。）|我爱你，亲爱的。
+(She gets angry.)
+（她生气了。）
+(She gets attentive.)|(She stares at you.)
+（她变得专注。）|（她盯着你看。）
+(She gets more nervous.)|(Her stress is getting up.)
+（她更加紧张了。）|（她的压力在增加。）
+(She gulps and chokes.)|(Her eyes widen.)|(She lubricates it.)
+（她吞咽并哽咽。）|（她的眼睛瞪大。）|（她润滑了它。）
+(She gulps.)|Don't you dare!
+（她吞咽。）|你敢！
+(She inspects the cuffs.)|You're so kinky, hun.
+（她检查手铐。）|你真变态，亲爱的。
+(She looks at you.)|What are you doing?
+（她看着你。）|你在干什么？
+(She looks confused.)|I can't hear much now.
+（她看起来很困惑。）|我现在听不太清。
+(She shakes her head no.)|I'm not into pain.
+（她摇头表示不。）|我不喜欢疼痛。
+(She shivers.)|This looks secure.
+（她颤抖。）|这看起来很牢固。
+(She stares and trembles.)|This is wonderful.
+（她盯着并颤抖。）|这太美妙了。
+(She tries to endure.)|Fuck!  It really hurts!
+（她试图忍受。）|操！真的很痛！
+(She tries to get comfy.)
+（她试图让自己舒服。）
+(She whimpers.)|(She seems scared.)
+（她呜咽。）|（她看起来很害怕。）
+(She wiggles her feet.)|Such cold steel.
+（她扭动脚。）|这么冷的钢。
+(She's fully stressed out.)|(She's in panic mode.)
+（她完全压力过大。）|（她处于恐慌模式。）
+(She's very anxious.)|(She trembles without control.)
+（她非常焦虑。）|（她无法控制地颤抖。）
+(The music isn't great.)|(You wear the headset.)
+（音乐不太好。）|（你戴上耳机。）
+(You cuff your hands.)|(You handcuff yourself.)
+（你铐住自己的手。）|（你给自己上手铐。）
+(You gag yourself.)|(You lock the panel gag.)
+（你给自己塞口。）|（你锁上面板口塞。）
+(You whip her hard.)|Get that crop away!|Oooow!
+（你用力鞭打她。）|把那鞭子拿开！|哎哟！
+(You're getting close.)|(You tremble madly.)
+（你越来越接近。）|（你疯狂地颤抖。）
+ActionCaress
+抚摸
+ActionInsert
+插入
+ActionSlap
+拍打
+ActionTickle
+挠痒
+Arousal
+兴奋
+Be gentle.|(She closes her eyes.)
+轻点。（她闭上眼睛。）
+Be very careful.|Hun, this is too much.
+要非常小心。|亲爱的，这太过分了。
+Blush
+脸红
+Breast
+胸部
+Butt
+臀部
+Careful there.
+小心点。
+Come closer, hun.|(She winks at you.)
+靠近点，亲爱的。（她对你眨眼。）
+EEEEEEEAAAAHHH!|(She gets a strong orgasm.)|(She squirts on the bed.)
+啊啊啊啊！（她达到强烈的高潮。）|（她在床上喷射。）
+Eeeeh!  Hahaha!|(She laughs out loud.)
+哎！哈哈哈！（她大声笑。）
+Eeeeheheah!  Unfair!|(She laughs and thrashes.)
+哎嘿嘿！不公平！（她笑着挣扎。）
+Enough!  This is not fun.|(She gets really mad.)
+够了！这不好玩。（她真的很生气。）
+Exit
+退出
+FUUUUUUUUUCK!|(She gets a strong orgasm.)
+操！（她达到强烈的高潮。）
+Face
+脸
+Feet
+脚
+Fuck me, hun.|This is relaxing.|(She shakes her butt.)
+操我，亲爱的。|这很放松。（她摇晃臀部。）
+Fuck!  Don't gag me.|(She shakes her head no.)
+操！别给我塞口。（她摇头表示不。）
+Grope me sweetie.|You're so gentle.|(She shivers.)
+摸我，甜心。|你真温柔。（她颤抖。）
+Hahaoeehaha!|You're funny.
+哈哈哈！|你真有趣。
+Hey!  That's not fun!|(She seems to disapprove.)
+嘿！那不好玩！（她似乎不赞同。）
+Hey!|(She cringes.)
+嘿！（她畏缩。）
+How dare you?|(She whimpers and shakes.)
+你怎么敢？（她呜咽并颤抖。）
+Hun, stop it!|Aaaoow!|(She tries to dodge.)
+亲爱的，停下！|啊啊！（她试图躲避。）
+I love this gag.|(She adjusts her mouth.)|(She opens wide for it.)
+我爱这个口塞。（她调整嘴部。）|（她张大嘴迎接它。）
+I love your touch.|(She rocks her hips.)
+我爱你的触摸。（她摇晃臀部。）
+InventoryCrop
+鞭子
+InventoryHandcuffs
+手铐
+InventoryHeadset
+耳机
+InventoryPanelGag
+面板口塞
+InventoryStrapon
+假阳具
+It feels very good.|I love your touch.|(She moans slowly.)
+感觉很好。|我爱你的触摸。（她慢慢呻吟。）
+It stings!|Ow!  My feet!|(She tries to avoid it.)
+好痛！|哎哟！我的脚！（她试图避开。）
+Mmmmmh!|(You grope yourself.)|Oooooh!|(You caress slowly.)
+嗯嗯！（你摸自己。）|哦哦！（你慢慢抚摸。）
+Mmmmmh!|Thank you.
+嗯嗯！|谢谢。
+More pleasure, less pain.|(She shake a little.)
+多点快感，少点疼痛。（她微微颤抖。）
+Mouth
+嘴
+Music?  Now?|Are you sure about that?
+现在听音乐？|你确定吗？
+My headset!|Gimme that back.
+我的耳机！|还给我。
+NO REMOVE
+不可移除
+Ngn!|(You slap your breast.)
+嗯！（你拍打自己的胸部。）
+No!  No, no no!|(She shivers in pain.)
+不！不，不，不！（她因疼痛颤抖。）
+Oh god, yes!|Deeper!  Harder!|(She moans loudly.)
+哦天哪，是的！|更深！更用力！（她大声呻吟。）
+Oh shit!|(She stares at the cuffs.)
+哦，见鬼！（她盯着手铐。）
+Oh yeah!|(You close your eyes.)|So good.|(You masturbate slowly.)
+哦耶！（你闭上眼睛。）|太好了。（你慢慢自慰。）
+Oh yeah.|(She blushes.)
+哦耶。（她脸红。）
+Ooooaahaha!|(She rocks her feet happily.)
+哦哈哈！（她高兴地摇晃脚。）
+Ouch!|You bastard!
+哎哟！|你这混蛋！
+Ow!  Enough already!|Fuck that crop!
+哎！够了！|去他妈的鞭子！
+Ow!|(You slap yourself.)
+哎！（你拍打自己。）
+Ow!|Damn it!
+哎！|该死！
+Ow!|Hun!  Why?|(She jumps a little.)
+哎！|亲爱的！为什么？（她微微跳起。）
+Pussy
+阴部
+Remove
+移除
+Ribs
+肋骨
+Rock on!|(She bangs her head.)
+摇滚吧！（她甩头。）
+SHIT YEAH!|I'M CLOSE!
+操耶！|我快到了！
+Shit!|It stings!
+见鬼！|好痛！
+So naughty!|(She licks her lips.)
+真淘气！（她舔嘴唇。）
+Stop that!|Hey!
+停下！|嘿！
+Stress
+压力
+That's nice.|(She closes her eyes.)
+那很好。（她闭上眼睛。）
+Thigh
+大腿
+This is going too far.|(She seems uneasy.)
+这太过分了。（她似乎不安。）
+This is hot!|(She moans faster.)|Faster!  Harder!  More!
+这太性感了！（她更快地呻吟。）|更快！更用力！更多！
+This is not pleasant.|(She gasps from the pain.)
+这不愉快。（她因疼痛喘气。）
+This is too much!|Please stop.
+这太过分了！|请停下。
+This is too tight!
+这太紧了！
+Touch me more.|(She fidgets a little.)
+多摸我。（她微微扭动。）
+What a wild idea.|(She wiggles her butt.)
+多狂野的想法。（她扭动臀部。）
+What the fuck?|(She cowers from the slap.)
+搞什么？（她因拍打而畏缩。）
+What the fuck?|That's needed?
+搞什么？|这有必要吗？
+Woooah!|(She moans slowly.)
+哇！（她慢慢呻吟。）
+Wow!  This is intense!|(She breathes faster.)
+哇！这太激烈了！（她呼吸加快。）
+YEEEEEEAAAAAH!|(You get a strong orgasm.)
+耶啊啊！（你达到强烈的高潮。）
+YEEES!|(You finger yourself.)|oooOOOOoooh!|(You thrust in and out.)
+是的！（你用手指刺激自己。）|哦哦哦！（你进进出出。）
+You can use both holes.|This is so hot!|(She trembles.)
+你可以用两个洞。|这太性感了！（她颤抖。）
+Nothing defeats steel.|(Her eyes widen.)
+没有什么能战胜钢铁。|（她的眼睛睁大了。）
+Handcuffs
+手铐
+Shibari is a true art.|(She shivers in anticipation.)
+捆绑是一门真正的艺术。|（她因期待而浑身战栗。）
+Rope
+绳子
+Work material in bed?|(She opens wider.)
+床上还有工作资料？|（她张开嘴更大了些。）
+Panel Gag
+漫画段子
+Enjoy your gift, Mistress.|(She licks her lips.)
+“请尽情享受这份礼物吧，女主人。”|（她舔了舔嘴唇。）
+Ball Gag
+球形口塞
+Is that from a pupil?|Classical music please.
+这是学生写的吗？|请播放古典音乐。
+Headset
+耳机
+(She blushes red.)|Such a naughty toy.
+(她脸红了。)|真是个调皮的玩具。
+Plug Dildo
+肛塞
+Low Vibration
+低振动
+High Vibration
+高振动
+(She wiggles her butt.)|I love your caring touch.
+(她扭了扭屁股。)|我喜欢你那充满关怀的抚摸。
+Caress
+爱抚
+I'm not ticklish.|(She shakes her head no.)
+我不怕挠痒痒。|（她摇了摇头表示否定。）
+Tickle
+挠痒痒
+(You pull two fingers.)|(She stares at your fingers.)
+(你伸出两根手指。)|(她盯着你的手指。)
+Insert
+插入
+Shall you spank me?|(She takes a deep breath.)
+你要打我屁股吗？|（她深吸了一口气。）
+Slap
+一巴掌
+Is this from college?|(She takes a deep breath.)
+这是大学时期的事吗？|（她深吸了一口气。）
+Leather Crop
+皮制马鞭
+For students and directors?|(She bites her lips.)
+是针对学生和导演的吗？|（她咬了咬嘴唇。）
+Wooden Paddle
+木桨
+This isn't a great idea.|(She shakes her head no.)
+这主意不太好。|（她摇了摇头表示否定。）
+Strap-on
+假阳具
+End Session
+结束会话
+(You lock the cuffs.)|An interesting bondage.
+（你把手铐锁上了。）|一种有趣的捆绑。
+(You wrap her tight.)|Effective and sensual.
+(你紧紧地拥抱她。)|既有效又充满感性。
+(You lock the gag.)|(She adjusts her jaw.)
+(你扣紧了口塞。)|(她调整了一下下巴。)
+(You strap it tightly.)|(She chews on the ball.)
+(你把它系紧。)|(她啃着球。)
+(She looks dubious.)|(She relaxes a little.)
+(她看起来有些怀疑。)|(她稍微放松了一些。)
+(You insert the device.)|Oooooh!
+（你把设备插进去。）|哦——！
+(You caress her gently.)|(She moans softly.)|This feels nice.
+(你轻轻抚摸她。)|(她轻声呻吟。)|这种感觉真好。
+(She tries to be strong.)|(She whimpers silently.)|It also hurts emotionally.
+(她努力表现得坚强。)|(她默默地啜泣着。)|这在情感上也很痛苦。
+Careful now!|(She cringes hard.)|(She soaks the pain.)
+小心点！|（她猛地缩了一下。）|（她忍受着疼痛。）
+(She gulps and sucks.)|(She chokes on it.)|(She grumbles and licks.)|Mnngh!
+(她大口吞咽并吮吸。)|(她被噎住了。)|(她咕哝着，同时舔了舔。)|呜呜！
+(You explore her mouth.)|(She sucks your fingers.)|Aaauuugnm.
+(你探索她的嘴。)|(她吸吮你的手指。)|Aaauuugnm。
+(She seems annoyed.)|Pointless and futile.
+（她似乎有些不耐烦。）|毫无意义，徒劳无功。
+Take it slow please.|(She trembles a little.)|(She seems nervous.)
+请慢慢说好吗？|（她微微发抖。）|（她看起来有些紧张。）
+(She moans softly.)|(She closes her eyes.)|Such a tease.
+(她轻轻呻吟了一声。)|(她闭上了眼睛。)|真会吊人胃口。
+(She moans loudly.)|(She trembles madly.)|This is relentless!
+(她大声呻吟。)|(她疯狂地颤抖。)|这简直没完没了！
+(She shivers in bliss.)|Such wonderful hands.|(She enjoys your caresses.)
+(她因极乐而颤抖。)|这双手真美啊。|(她享受着你的爱抚。)
+(She jumps a little.)|(She takes a deep breath.)|Ow!|Hey!
+(她微微一跳。)|(她深吸一口气。)|哎哟！|喂！
+(She rocks her hips.)|(You trust in and out.)|Aaaooww!
+(她扭动臀部。)|(你时而靠近时而远离。)|啊——呜！
+It stings!|HEY!|(She tries to endure.)|(She clenches her fists.)
+好痛！|喂！|（她试图忍住。）|（她紧握双拳。）
+Stop it please.|It hurts quite bad.|(She doesn't enjoy.)
+拜托，别这样了。|这很疼。|（她并不喜欢这样。）
+Not your best move.|This is not proper.|(She seems annoyed.)
+这可不是你最好的做法。|这样做不太妥当。|（她看起来有些不悦。）
+(She seems bored.)|(She doesn't react.)|It shall not work.
+(她看起来很无聊。)|(她没有反应。)|这行不通。
+You have soft hands.|(She moans silently.)|(She slowly relaxes.)
+你的手很柔软。|（她默默地呻吟着。）|（她慢慢放松下来。）
+(You slap her hard.)|(She jumps suprised.)|Do I deserve that?|Aooow!
+(你狠狠地扇了她一巴掌。)|(她吓了一跳。)|我该挨这一巴掌吗？|哎哟！
+(She whimpers softly.)|(Her eyes widen.)|It really hurts!|Ouch!
+(她轻轻呜咽着。)|(她睁大了眼睛。)|真的好痛！|哎哟！
+This is not funny.|(She tries not to laugh.)|(She wiggles her feet.)
+这没什么好笑的。|（她努力不让自己笑出来。）|（她动了动脚。）
+(She tries to avoid it.)|(She sighs and endure.)|It strings so bad.|No!
+(她试图回避这个话题。)|(她叹了口气，忍了下来。)|这感觉太糟糕了。|不！
+(She struggle to keep balance.)|(She jumps as you hit.)|Spank your naughty director.|Oh yes!
+(她努力保持平衡。)|(你一打她就跳了起来。)|打你那个调皮的导演一巴掌吧。|哦，对！
+(She looks submissive.)|(She takes a deep breath.)
+(她看起来很顺从。)|(她深吸了一口气。)
+(She reached sub space.)|(She focuses on you.)
+(她进入了亚空间。)|(她将注意力集中在你身上。)
+(It looks a little intense.)|(She shivers rapidly.)
+(看起来有点紧张。)|(她身体不停地发抖。)
+(She looks stressed.)|(It's not going well.)
+(她看起来很紧张。)|(情况不太妙。)
+(She seems frenzied.)|(She's panicking.)
+(她看起来很狂躁。)|(她正惊慌失措。)
+(She's about to climax.)|(She's losing control.)
+(她即将达到高潮。)|(她正在失去控制。)
+(She gets a powerful orgasm.)|(She squirts and wets the bed.)
+(她达到了强烈的高潮。)|(她喷射出体液，弄湿了床。)
+(She inspects the cuffs.)|You're so strict, hun.
+(她检查了一下袖口。)|你真严格啊，亲爱的。
+(She winks and giggles.)|I love these ropes.
+（她眨了眨眼，咯咯地笑起来。）|我超爱这些绳子。
+You brought the gift?|(She smiles at you.)
+你带了礼物吗？|（她冲你笑了笑。）
+(She blushes a little.)|Where did you get that?
+（她脸微微一红。）|那东西你从哪儿弄来的？
+(She shivers.)|This looks too secure.
+（她打了个寒颤。）|这看起来太安全了。
+(She tests the ropes.)|That's nice shibari.|Comfier than steel.
+(她试了试绳子。)|这捆绑技法真不错。|比钢还舒服。
+(She wiggles her feet.)|You're a rope artist.|Soft and secure.
+(她晃动着脚。)|你真是个绳艺大师。|柔软又稳固。
+What a nice gift.|Aaaaah!|(She stretches her jaw.)
+真是个不错的礼物。|啊啊啊！|（她伸了伸下巴。）
+Wow!  So kinky!|(You slide it inside.)
+哇！真刺激！|（你把它滑进去。）
+Mmmmh, hun!|(Her hips trembles.)|(She moans softly.)
+嗯...亲爱的！|（她的臀部微微颤抖。）|（她轻声呻吟。）
+WOW!  YES HUN!|(Her body vibrates also.)|(She moans loudly.)
+哇！ 是的，亲爱的！|（她的身体也在颤抖。）|（她大声呻吟。）
+This is embarrassing.|(She whimpers a little.)|(She takes a deep breath.)
+这真让人尴尬。|（她轻声呜咽了一下。）|（她深吸了一口气。）
+Puppy Mittens
+小狗手套
+This is not necessary.|(She stares at the cuffs.)
+这并非必要。|（她盯着袖口。）
+No need to rope me.|(She shakes her head.)
+别把我扯进去。|（她摇了摇头。）
+This is too much!|(She gulps and shivers.)
+这也太过分了！|（她咽了口唾沫，浑身一颤。）
+What the bloody hell?|(She rolls her eyes up.)
+这到底是怎么回事啊？|（她翻了个白眼。）
+Music could be pleasant.|(She seems curious.)
+音乐可能很悦耳。|（她似乎很好奇。）
+What are you doing?|(She rocks her hips.)
+你在干什么？|（她扭动臀部。）
+This is weird.|(She lower her eyes.)|(She blushes.)
+这真奇怪。|（她低下了头。）|（她脸红了。）
+Pet
+宠物
+Don't you dare!|(Her eyes widen.)
+你敢！|（她睁大了眼睛。）
+I'm not a dog.|(She looks at your hand.)
+“我不是狗。”|（她看着你的手。）
+Scratch
+Scratch
+Please don't.|(She closes her eyes.)
+别这样。|（她闭上了眼睛。）
+No!  I'll be good!|(She seems scared.)
+“不！我会乖乖的！”|（她看起来很害怕。）
+This must be illegal.|(She trembles in fear.)
+这肯定是非法的。|（她因恐惧而瑟瑟发抖。）
+This must be a farce.|You are bloody serious?|(She wiggles her hands.)|(She whimpers and blushes.)
+这肯定是一场闹剧。|你他妈的当真了？|(她晃了晃手。)|(她呜咽着，脸红了。)
+This is too tight!|(She tugs on the cuffs.)
+这太紧了！|（她扯了扯袖口。）
+This is extreme!|(She tests the ropes.)
+这也太过分了！|（她试探着。）
+Why the ropes?|(She whimpers softly.)
+为什么会有绳子？|（她轻轻呜咽着。）
+You cannot be serious.|(She adjusts her jaw.)
+“你不会是认真的吧。”|（她调整了一下下巴。）
+This is not proper.|Is that a toy?|(She doesn't seem impresed.)
+这样不太合适。|那是玩具吗？|（她似乎并不觉得有什么了不起。）
+Put something good!|(She hums a song.)
+放点好听的！|（她哼着一首歌。）
+This feels alright.|Thank you, I guess.|(You play with her hair.)|(Her pigtails flap like ears.)
+这种感觉还不错。|谢谢，大概吧。|（你拨弄着她的头发。）|（她的双马尾像耳朵一样晃来晃去。）
+This feels alright.|Thank you, I guess.|(You pet her head slowly.)|(Her pigtails swing happily.)
+这感觉还不错。|谢谢，大概吧。|（你轻轻抚摸她的头。）|（她的双马尾开心地摇晃着。）
+I could learn to enjoy that.|It's weird but also fine.|(She seems to enjoy.)|(She shivers softly.)|(You scratch her head.)
+我或许能学会享受这种感觉。|虽然有点奇怪，但也挺好的。|(她似乎很享受。)|(她轻轻地打了个寒颤。)|(你摸了摸她的头。)
+Eeeeeh!  Be careful!|Ow!  It bloody strings!|(She jumps from the pain.)|(She cowers in pain.)
+哎呀！小心点！|哎哟！这该死的绳子！|（她因疼痛而跳了起来。）|（她因疼痛而缩成一团。）
+You have soft hands.|You take good care.|(She blushes a little.)|(She closes her eyes.)
+你的手很柔软。|你很会照顾自己。|（她微微脸红。）|（她闭上了眼睛。）
+What the bloody hell?|(She cries a little.)|(She looks away.)
+这到底是怎么回事？|（她轻声抽泣了一下。）|（她移开了视线。）
+I could learn to enjoy that.|It's weird but also fine.|(She seems to enjoy.)|(She shivers softly.)|(You scratch her neck.)
+我或许能学会享受这种感觉。|虽然有点奇怪，但也没什么不好。|(她似乎很享受。)|(她轻轻地打了个寒颤。)|(你挠了挠她的脖子。)
+Do not bother!|I'm not ticklish.|(She remains stoic.)
+别管我！|我不怕痒。|（她依然面不改色。）
+I could learn to enjoy that.|It's weird but also fine.|(She seems to enjoy.)|(She shivers softly.)|(You scratch her ribs.)
+我或许能学会享受这种感觉。|虽然有点奇怪，但也没什么不妥。|(她似乎很享受。)|(她轻轻地打了个寒颤。)|(你挠了挠她的肋骨。)
+What the bloody hell?|(She shakes and grumbles.)|(She looks away.)
+这到底是怎么回事啊？|（她浑身发抖，嘟囔着。）|（她把目光移开了。）
+Ow!  It bloody hurts!|(She jumps from the pain.)
+哎哟！ 这他妈的真疼！|（她因疼痛而跳了起来。）
+Thanks for the care.|(She seems to appreciate.)
+谢谢你的关心。|（她似乎很感激。）
+This feels bloody nice.|(She whimpers happily.)
+这感觉真他妈的棒。|（她幸福地呜咽着。）
+That's enough.|Please slow down.|(You went a little too far.)
+够了。|请慢点。|（你有点过分了。）
+(She looks at the cuffs.)|(She shivers.)
+(她看着袖口。)|(她打了个寒颤。)
+(She opens wide.)|Aaaaah!|What a nice gag.
+(她张大了嘴。)|啊——！|这堵嘴法真妙。
+(She nods and blushes.)|Mistress Sophie will approve.
+（她点点头，脸颊泛红。）|索菲夫人会赞同的。
+Medium Vibration
+中等振动
+(She stares and trembles.)|Please don't leave marks.
+（她目不转睛地盯着，身体在发抖。）|请别留下痕迹。
+(She wiggles her fingers.)|Gotta love the steel.
+(她晃了晃手指。)|真得爱死这钢材了。
+(She adjusts her jaw.)|(She hums a happy song.)
+(她调整了一下下巴。)|(她哼着一首欢快的歌。)
+(She rocks her hips.)|(She moans as it slides in.)
+(她扭动臀部。)|(当它滑进去时，她发出一声呻吟。)
+Mmmmh!|That's sweet.|You have a magical touch.|(She moans silently.)
+嗯...|真甜啊。|你这手真有魔力。|（她默默呻吟着。）
+Ow!|Gee!|(She jumps from the pain.)
+哎哟！|天哪！|（她因疼痛而跳了起来。）
+OOOOWW!|Gee!  Miss!|(She jumps from the pain.)|(She closes her eyes.)
+噢噢噢！|天哪！ 小姐！|（她因疼痛而跳了起来。）|（她闭上了眼睛。）
+Geeeeehahaha!|(She laughs out loud.)|(She thrashes and laughs.)|(She seems to enjoy it.)
+嘻嘻嘻哈哈！|（她放声大笑。）|（她一边扭动身体一边大笑。）|（她似乎乐在其中。）
+Mmmh, so good!|This feels nice.|(She moans silently.)
+嗯，真舒服！|这种感觉真好。|（她默默地呻吟着。）
+Gee!  So good!|(She moans louder.)|This feels great.|More!  More!
+天哪！太棒了！|（她呻吟得更响了。）|感觉真好。|再来！再来！
+OH YES! YES, YES!|(She screams in class.)|I need this so bad.|(Her body is shaking.)
+哦，是的！是的，是的！|（她在课堂上尖叫。）|我太需要这个了。|（她的身体在发抖。）
+(She gets in the sub mood.)|(Her focus shifts to you.)
+(她进入了一种低调的情绪。)|(她的注意力转向了你。)
+(She stares deeply at you.)|(She's in her sub space.)
+(她深情地凝视着你。)|(她正处于亚空间状态。)
+(She's having goosebumps.)|(Her stress is soaring.)
+(她起了一身鸡皮疙瘩。)|(她的压力急剧上升。)
+(She's anxious and stressed.)|(She shivers in fear.)
+(她感到焦虑和压力。)|(她因恐惧而发抖。)
+(She's freaking out.)|(She's panicking in class.)
+(她吓坏了。)|(她在课堂上惊慌失措。)
+Gee!  Oh yes!|I'm so aroused!
+天哪！哦，是的！|我好兴奋！
+(She gets a long orgasm.)|YEEEEEEESSS!
+（她经历了一次持久的高潮。）|耶——！
+Ropes in school?|(She shivers at the ropes.)
+学校里有绳子？|（她一看到绳子就打了个寒颤。）
+(She tests the ropes.)
+（她试探着。）
+This is extreme!
+这也太过分了！
+I'm safe in boots.
+穿上靴子我就很安全。
